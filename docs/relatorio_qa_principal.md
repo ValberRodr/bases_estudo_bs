@@ -97,3 +97,26 @@ Revisão feita a pedido do usuário, para que nenhuma tabela final exponha apena
 - Nenhuma associação de empresa foi tratada como definitiva por fuzzy matching isolado — todas ficam marcadas como candidatas, com confiança e fundamentação registradas.
 - Todo fallback de fonte primária indisponível foi explicitamente identificado e documentado (não houve substituição silenciosa).
 - Toda transformação está em código reproduzível (`scripts/01` a `scripts/06`).
+
+## 12. Reprocessamento do Consumidor.gov (2026-10-08)
+
+Status em 2026-10-08. A reextração de 26 períodos ausentes (`consumidor_gov_reextracao/`, ver seu
+`README_REEXTRACAO.md`) foi incorporada ao pipeline principal (`scripts/06_consumidor_gov_process.py`),
+não apenas deixada como um recorte paralelo:
+
+- Os 26 arquivos novos (`RAW/consumidor_gov/reextracao_*.csv`) não têm "Data Abertura"/"Ano
+  Abertura"/"Mês Abertura" — só "Data Finalização". O script 06 foi ajustado para calcular
+  `ano_mes` a partir de "Data Finalização" quando "Data Abertura" não existe, usando a mesma
+  detecção explícita de formato ISO/BR já validada em `scripts/07_consolidar_novos_e_recorte_auto.py`
+  (evita o bug de dia/mês invertido do `pd.to_datetime(format="mixed", dayfirst=True)`). Nova
+  coluna `fonte_ano_mes` registra, linha a linha, se o mês veio de "Data Abertura" ou do fallback.
+- Os 7 arquivos que já existiam duplicados na extração anterior (`finalizada2020-01` a `07`) **não**
+  foram reextraídos para `RAW/` — são os mesmos arquivos já presentes, evitando contagem dupla.
+- Resultado: `PROCESSED/consumidor_empresa_uf_mes.csv` passou de 182.488 para 310.059 linhas;
+  cobertura nacional sem reclamações caiu de 38 para 5 meses (2020-01 a 2020-05 — lacuna real da
+  fonte: esses arquivos não têm a coluna "Segmento de Mercado", impossível isolar seguros por este
+  método, não é um bug deste reprocessamento). Nomes fantasia distintos no segmento Seguros: 235
+  (antes 211); mapeados com candidato: 116; sem candidato: 119 (`QA/empresas_nao_mapeadas.csv`).
+- `SUPERBASE/superbase_uf_mes.csv` e `superbase_empresa_mes.csv` foram reconstruídos
+  (`scripts/23`, `24`, `26`) a partir do `consumidor_empresa_uf_mes.csv` atualizado. Validado
+  bit-a-bit que nenhuma coluna não-relacionada a `consumidor_*` mudou de valor.

@@ -15,8 +15,8 @@ data/
   superbase/        painéis cruzados (UF×mês, empresa×mês, nacional×mês) — a síntese de tudo
   dimensoes/         dim_uf.csv, dim_empresa.csv — tabelas de apoio (código↔nome, CNPJ, cadastro)
   susep/              prêmio/sinistro por seguradora × UF × mês
-  consumidor_gov/     reclamações do segmento "Seguros de Veículos", nível de registro, com UF,
-                       mês e seguradora (dado aberto, já anonimizado) — 2014-05 a 2026-08
+  consumidor_gov/     reclamações por seguradora × UF × mês (dado aberto, já anonimizado,
+                       candidato por nome de marca à seguradora) — 2014-05 a 2026-08
   senatran/           frota por UF × mês × tipo de veículo
   prf/                acidentes de trânsito por UF × mês
   sinesp/             roubo/furto de veículos por UF × mês (até 2022-12)
@@ -31,6 +31,7 @@ docs/
   relatorio_qa_dados_externos.md    QA do pipeline SENATRAN/AUTOSEG/SINESP/RENAEST/PRF/FENABRAVE
   fontes_principal.csv              proveniência (URL, timestamp, SHA-256) de cada arquivo-fonte
   fontes_dados_externos.csv         idem, para as fontes do segundo pipeline
+  empresas_nao_mapeadas.csv         marcas do Consumidor.gov sem seguradora candidata (ramo Auto)
 ```
 
 ## Por que cada base aparece só uma vez
@@ -38,9 +39,10 @@ docs/
 Cada pasta em `data/` contém a versão **mais consolidada** daquele tema — nunca um corte parcial
 que já esteja embutido em outro arquivo. Exemplos de decisões aplicadas na curadoria:
 
-- **Consumidor.gov**: só o recorte final "Seguros de Veículos", já consolidado entre a extração
-  original e a reextração de 26 períodos que estavam ausentes (ver `data/consumidor_gov/README.md`)
-  — não os 88+ arquivos mensais brutos, nem a concatenação de todos os setores do portal.
+- **Consumidor.gov**: só o recorte final por seguradora×UF×mês, já reconciliado com a reextração
+  de 26 períodos que estavam ausentes na extração original (ver seção de reprocessamento no
+  `docs/relatorio_qa_principal.md`) — não os 88+ arquivos mensais brutos, nem a concatenação de
+  todos os setores do portal.
 - **PRF**: só o agregado por UF×mês — não as ocorrências individuais (que são o insumo bruto do
   agregado).
 - **AUTOSEG**: `autoseg_semestre_geografia.csv` já é a fusão de prêmio+exposição+sinistro+
@@ -84,15 +86,12 @@ proveniência (URL, timestamp, hash SHA-256) de cada arquivo-fonte em `docs/font
 
 ## Limitações conhecidas
 
-- **Consumidor.gov está desatualizado dentro da SUPERBASE**: as colunas `consumidor_*` de
-  `superbase_uf_mes.csv`/`superbase_empresa_mes.csv` foram calculadas a partir da extração
-  original (cobertura até 2025-04). O arquivo `data/consumidor_gov/consumidor_gov_auto_completo.csv`
-  é mais completo (2014-05 a 2026-08, 26 períodos recuperados numa reextração posterior) e usa
-  nome de marca em vez do `empresa_id`/CNPJ da SUSEP — os dois **não foram reconciliados entre si**.
-  Para números de reclamação por seguradora e período, prefira recalcular a partir do arquivo
-  completo em vez de usar as colunas `consumidor_*` da SUPERBASE.
-- Consumidor.gov → seguradora é candidato por nome de marca (não confirmado por CNPJ para ~90 das
-  211 marcas) — tratar `consumidor_n_reclamacoes` como proxy, não contagem exata.
+- Consumidor.gov → seguradora é candidato por nome de marca (não confirmado por CNPJ para 119 das
+  235 marcas — lista em `docs/empresas_nao_mapeadas.csv`) — tratar `consumidor_n_reclamacoes`
+  como proxy, não contagem exata.
+- Consumidor.gov tem uma lacuna real em 2020-01 a 2020-05: os arquivos-fonte desses meses não têm
+  a coluna "Segmento de Mercado", tornando impossível isolar reclamações de seguros por este
+  método (não é um problema de processamento, é ausência na fonte).
 - SINESP para em 2022-12; AUTOSEG para em 2020-S2; Emplacamentos (FENABRAVE) não tem recorte por UF.
 - `uf_aproximada` do AUTOSEG é derivada de texto oficial da SUSEP, não é uma partição exata de UF.
 - `susep_sinistralidade` pode ter outliers extremos em células UF×mês de baixo volume (denominador

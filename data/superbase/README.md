@@ -39,7 +39,7 @@ Grade completa (todas as UF, todos os meses do período) — células sem dado r
 
 Fontes que só existem em nível nacional (sem UF): `emplacamentos_novos_*` (Fenabrave, por categoria de veículo — **nunca chamado de "novos_seguros"**), `ipca_numero_indice_nacional`, `trends_nacional_*`.
 
-## 3. `superbase_empresa_mes.csv` — painel empresa × mês (10.742 linhas, 117 seguradoras)
+## 3. `superbase_empresa_mes.csv` — painel empresa × mês (11.306 linhas, 117 seguradoras)
 
 Agregado **nacionalmente** (soma entre todas as UF) por seguradora: `susep_premio_direto`, `susep_sinistro_direto`, `susep_sinistralidade`, `susep_n_uf_atuacao`, `consumidor_n_reclamacoes`, `consumidor_reclamacoes_por_milhao_premio`. Atributos cadastrais de `dim_empresa.csv` (CNPJ, situação cadastral, `mapping_status`, `grupo_cnpj_id`) anexados como colunas repetidas — são atributos da empresa, não uma série temporal. **Não é uma grade completa**: só existem linhas para (empresa, mês) onde havia dado real em pelo menos uma das duas fontes.
 
@@ -56,6 +56,20 @@ Métricas do Reclame Aqui (janelas móveis: 6 meses, 12 meses, 2025, 2024, últi
 ## Limitações herdadas das bases granulares (ver `QA/relatorio_qa.md` e `dados_externos/99_qa/relatorio_qa.md` para detalhe completo)
 
 - `uf_aproximada` do AUTOSEG é derivada de texto oficial da SUSEP, não uma partição exata de UF.
-- Consumidor.gov → empresa é candidato por nome de marca, não confirmado por CNPJ (105 de 211 nomes fantasia continuam sem mapeamento).
+- Consumidor.gov → empresa é candidato por nome de marca, não confirmado por CNPJ (119 de 235 nomes fantasia continuam sem mapeamento — ver `QA/empresas_nao_mapeadas.csv`).
 - SINESP para em 2022-12; AUTOSEG para em 2020-S2; Emplacamentos-Fenabrave não tem UF.
+- Consumidor.gov tem uma lacuna real (não reprocessável) em 2020-01 a 2020-05: os arquivos-fonte desses meses não têm a coluna "Segmento de Mercado", então é impossível isolar reclamações de seguros neles por este método.
 - `sinistralidade` pode ter outliers extremos em células UF×mês de baixo volume (denominador pequeno) — real, não erro de processamento; recomenda-se ponderar por volume em qualquer agregação nacional.
+
+## Reprocessamento de 2026-10-08 (Consumidor.gov)
+
+`consumidor_empresa_uf_mes.csv` foi reprocessado para incorporar 26 períodos recuperados numa
+reextração (ver `consumidor_gov_reextracao/README_REEXTRACAO.md`) que antes ficavam ausentes por
+falha de DNS na fonte original e falta de snapshot no Wayback Machine. Esses 26 arquivos não têm
+"Data Abertura" (só "Data Finalização") — `scripts/06_consumidor_gov_process.py` foi ajustado para
+calcular `ano_mes` a partir de "Data Finalização" quando "Data Abertura" não existe (coluna
+`fonte_ano_mes` registra qual data foi usada, linha a linha, sem substituição silenciosa). Efeito:
+cobertura nacional sem reclamações caiu de 38 para 5 meses (2020-01 a 2020-05, lacuna real da
+fonte, não deste reprocessamento); total de reclamações mapeadas subiu de 182.488 para 310.059
+linhas. Nenhuma outra coluna da SUPERBASE foi recalculada ou alterada neste reprocessamento
+(confirmado bit-a-bit contra a versão anterior).
