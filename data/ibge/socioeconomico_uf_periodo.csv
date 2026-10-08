@@ -1,0 +1,1775 @@
+indicador,tipo_periodo,periodo_label,uf_codigo_ibge,uf_nome,valor
+populacao,anual,2016,11,Rondônia,1787279.0
+populacao,anual,2017,11,Rondônia,1805788.0
+populacao,anual,2018,11,Rondônia,1757589.0
+populacao,anual,2019,11,Rondônia,1777225.0
+populacao,anual,2020,11,Rondônia,1796460.0
+populacao,anual,2021,11,Rondônia,1815278.0
+populacao,anual,2024,11,Rondônia,1746227.0
+populacao,anual,2025,11,Rondônia,1751950.0
+populacao,anual,2026,11,Rondônia,1757338.0
+populacao,anual,2016,12,Acre,816687.0
+populacao,anual,2017,12,Acre,829619.0
+populacao,anual,2018,12,Acre,869265.0
+populacao,anual,2019,12,Acre,881935.0
+populacao,anual,2020,12,Acre,894470.0
+populacao,anual,2021,12,Acre,906876.0
+populacao,anual,2024,12,Acre,880631.0
+populacao,anual,2025,12,Acre,884372.0
+populacao,anual,2026,12,Acre,887794.0
+populacao,anual,2016,13,Amazonas,4001667.0
+populacao,anual,2017,13,Amazonas,4063614.0
+populacao,anual,2018,13,Amazonas,4080611.0
+populacao,anual,2019,13,Amazonas,4144597.0
+populacao,anual,2020,13,Amazonas,4207714.0
+populacao,anual,2021,13,Amazonas,4269995.0
+populacao,anual,2024,13,Amazonas,4281209.0
+populacao,anual,2025,13,Amazonas,4321616.0
+populacao,anual,2026,13,Amazonas,4360926.0
+populacao,anual,2016,14,Roraima,514229.0
+populacao,anual,2017,14,Roraima,522636.0
+populacao,anual,2018,14,Roraima,576568.0
+populacao,anual,2019,14,Roraima,605761.0
+populacao,anual,2020,14,Roraima,631181.0
+populacao,anual,2021,14,Roraima,652713.0
+populacao,anual,2024,14,Roraima,716793.0
+populacao,anual,2025,14,Roraima,738772.0
+populacao,anual,2026,14,Roraima,761012.0
+populacao,anual,2016,15,Pará,8272724.0
+populacao,anual,2017,15,Pará,8366628.0
+populacao,anual,2018,15,Pará,8513497.0
+populacao,anual,2019,15,Pará,8602865.0
+populacao,anual,2020,15,Pará,8690745.0
+populacao,anual,2021,15,Pará,8777124.0
+populacao,anual,2024,15,Pará,8664306.0
+populacao,anual,2025,15,Pará,8711196.0
+populacao,anual,2026,15,Pará,8756324.0
+populacao,anual,2016,16,Amapá,782295.0
+populacao,anual,2017,16,Amapá,797722.0
+populacao,anual,2018,16,Amapá,829494.0
+populacao,anual,2019,16,Amapá,845731.0
+populacao,anual,2020,16,Amapá,861773.0
+populacao,anual,2021,16,Amapá,877613.0
+populacao,anual,2024,16,Amapá,802837.0
+populacao,anual,2025,16,Amapá,806517.0
+populacao,anual,2026,16,Amapá,809953.0
+populacao,anual,2016,17,Tocantins,1532902.0
+populacao,anual,2017,17,Tocantins,1550194.0
+populacao,anual,2018,17,Tocantins,1555229.0
+populacao,anual,2019,17,Tocantins,1572866.0
+populacao,anual,2020,17,Tocantins,1590248.0
+populacao,anual,2021,17,Tocantins,1607363.0
+populacao,anual,2024,17,Tocantins,1577342.0
+populacao,anual,2025,17,Tocantins,1586859.0
+populacao,anual,2026,17,Tocantins,1595994.0
+populacao,anual,2016,21,Maranhão,6954036.0
+populacao,anual,2017,21,Maranhão,7000229.0
+populacao,anual,2018,21,Maranhão,7035055.0
+populacao,anual,2019,21,Maranhão,7075181.0
+populacao,anual,2020,21,Maranhão,7114598.0
+populacao,anual,2021,21,Maranhão,7153262.0
+populacao,anual,2024,21,Maranhão,7010960.0
+populacao,anual,2025,21,Maranhão,7018211.0
+populacao,anual,2026,21,Maranhão,7024557.0
+populacao,anual,2016,22,Piauí,3212180.0
+populacao,anual,2017,22,Piauí,3219257.0
+populacao,anual,2018,22,Piauí,3264531.0
+populacao,anual,2019,22,Piauí,3273227.0
+populacao,anual,2020,22,Piauí,3281480.0
+populacao,anual,2021,22,Piauí,3289290.0
+populacao,anual,2024,22,Piauí,3375646.0
+populacao,anual,2025,22,Piauí,3384547.0
+populacao,anual,2026,22,Piauí,3392617.0
+populacao,anual,2016,23,Ceará,8963663.0
+populacao,anual,2017,23,Ceará,9020460.0
+populacao,anual,2018,23,Ceará,9075649.0
+populacao,anual,2019,23,Ceará,9132078.0
+populacao,anual,2020,23,Ceará,9187103.0
+populacao,anual,2021,23,Ceará,9240580.0
+populacao,anual,2024,23,Ceará,9233656.0
+populacao,anual,2025,23,Ceará,9268836.0
+populacao,anual,2026,23,Ceará,9302211.0
+populacao,anual,2016,24,Rio Grande do Norte,3474998.0
+populacao,anual,2017,24,Rio Grande do Norte,3507003.0
+populacao,anual,2018,24,Rio Grande do Norte,3479010.0
+populacao,anual,2019,24,Rio Grande do Norte,3506853.0
+populacao,anual,2020,24,Rio Grande do Norte,3534165.0
+populacao,anual,2021,24,Rio Grande do Norte,3560903.0
+populacao,anual,2024,24,Rio Grande do Norte,3446071.0
+populacao,anual,2025,24,Rio Grande do Norte,3455236.0
+populacao,anual,2026,24,Rio Grande do Norte,3463737.0
+populacao,anual,2016,25,Paraíba,3999415.0
+populacao,anual,2017,25,Paraíba,4025558.0
+populacao,anual,2018,25,Paraíba,3996496.0
+populacao,anual,2019,25,Paraíba,4018127.0
+populacao,anual,2020,25,Paraíba,4039277.0
+populacao,anual,2021,25,Paraíba,4059905.0
+populacao,anual,2024,25,Paraíba,4145040.0
+populacao,anual,2025,25,Paraíba,4164468.0
+populacao,anual,2026,25,Paraíba,4182828.0
+populacao,anual,2016,26,Pernambuco,9410336.0
+populacao,anual,2017,26,Pernambuco,9473266.0
+populacao,anual,2018,26,Pernambuco,9496294.0
+populacao,anual,2019,26,Pernambuco,9557071.0
+populacao,anual,2020,26,Pernambuco,9616621.0
+populacao,anual,2021,26,Pernambuco,9674793.0
+populacao,anual,2024,26,Pernambuco,9539029.0
+populacao,anual,2025,26,Pernambuco,9562007.0
+populacao,anual,2026,26,Pernambuco,9583176.0
+populacao,anual,2016,27,Alagoas,3358963.0
+populacao,anual,2017,27,Alagoas,3375823.0
+populacao,anual,2018,27,Alagoas,3322820.0
+populacao,anual,2019,27,Alagoas,3337357.0
+populacao,anual,2020,27,Alagoas,3351543.0
+populacao,anual,2021,27,Alagoas,3365351.0
+populacao,anual,2024,27,Alagoas,3220104.0
+populacao,anual,2025,27,Alagoas,3220848.0
+populacao,anual,2026,27,Alagoas,3221128.0
+populacao,anual,2016,28,Sergipe,2265779.0
+populacao,anual,2017,28,Sergipe,2288116.0
+populacao,anual,2018,28,Sergipe,2278308.0
+populacao,anual,2019,28,Sergipe,2298696.0
+populacao,anual,2020,28,Sergipe,2318822.0
+populacao,anual,2021,28,Sergipe,2338474.0
+populacao,anual,2024,28,Sergipe,2291077.0
+populacao,anual,2025,28,Sergipe,2299425.0
+populacao,anual,2026,28,Sergipe,2307255.0
+populacao,anual,2016,29,Bahia,15276566.0
+populacao,anual,2017,29,Bahia,15344447.0
+populacao,anual,2018,29,Bahia,14812617.0
+populacao,anual,2019,29,Bahia,14873064.0
+populacao,anual,2020,29,Bahia,14930634.0
+populacao,anual,2021,29,Bahia,14985284.0
+populacao,anual,2024,29,Bahia,14850513.0
+populacao,anual,2025,29,Bahia,14870907.0
+populacao,anual,2026,29,Bahia,14889472.0
+populacao,anual,2016,31,Minas Gerais,20997560.0
+populacao,anual,2017,31,Minas Gerais,21119536.0
+populacao,anual,2018,31,Minas Gerais,21040662.0
+populacao,anual,2019,31,Minas Gerais,21168791.0
+populacao,anual,2020,31,Minas Gerais,21292666.0
+populacao,anual,2021,31,Minas Gerais,21411923.0
+populacao,anual,2024,31,Minas Gerais,21322691.0
+populacao,anual,2025,31,Minas Gerais,21393441.0
+populacao,anual,2026,31,Minas Gerais,21460311.0
+populacao,anual,2016,32,Espírito Santo,3973697.0
+populacao,anual,2017,32,Espírito Santo,4016356.0
+populacao,anual,2018,32,Espírito Santo,3972388.0
+populacao,anual,2019,32,Espírito Santo,4018650.0
+populacao,anual,2020,32,Espírito Santo,4064052.0
+populacao,anual,2021,32,Espírito Santo,4108508.0
+populacao,anual,2024,32,Espírito Santo,4102129.0
+populacao,anual,2025,32,Espírito Santo,4126854.0
+populacao,anual,2026,32,Espírito Santo,4150692.0
+populacao,anual,2016,33,Rio de Janeiro,16635996.0
+populacao,anual,2017,33,Rio de Janeiro,16718956.0
+populacao,anual,2018,33,Rio de Janeiro,17159960.0
+populacao,anual,2019,33,Rio de Janeiro,17264943.0
+populacao,anual,2020,33,Rio de Janeiro,17366189.0
+populacao,anual,2021,33,Rio de Janeiro,17463349.0
+populacao,anual,2024,33,Rio de Janeiro,17219679.0
+populacao,anual,2025,33,Rio de Janeiro,17223547.0
+populacao,anual,2026,33,Rio de Janeiro,17225410.0
+populacao,anual,2016,35,São Paulo,44749699.0
+populacao,anual,2017,35,São Paulo,45094866.0
+populacao,anual,2018,35,São Paulo,45538936.0
+populacao,anual,2019,35,São Paulo,45919049.0
+populacao,anual,2020,35,São Paulo,46289333.0
+populacao,anual,2021,35,São Paulo,46649132.0
+populacao,anual,2024,35,São Paulo,45973194.0
+populacao,anual,2025,35,São Paulo,46081801.0
+populacao,anual,2026,35,São Paulo,46179008.0
+populacao,anual,2016,41,Paraná,11242720.0
+populacao,anual,2017,41,Paraná,11320892.0
+populacao,anual,2018,41,Paraná,11348937.0
+populacao,anual,2019,41,Paraná,11433957.0
+populacao,anual,2020,41,Paraná,11516840.0
+populacao,anual,2021,41,Paraná,11597484.0
+populacao,anual,2024,41,Paraná,11824665.0
+populacao,anual,2025,41,Paraná,11890517.0
+populacao,anual,2026,41,Paraná,11952456.0
+populacao,anual,2016,42,Santa Catarina,6910553.0
+populacao,anual,2017,42,Santa Catarina,7001161.0
+populacao,anual,2018,42,Santa Catarina,7075494.0
+populacao,anual,2019,42,Santa Catarina,7164788.0
+populacao,anual,2020,42,Santa Catarina,7252502.0
+populacao,anual,2021,42,Santa Catarina,7338473.0
+populacao,anual,2024,42,Santa Catarina,8058441.0
+populacao,anual,2025,42,Santa Catarina,8187029.0
+populacao,anual,2026,42,Santa Catarina,8312759.0
+populacao,anual,2016,43,Rio Grande do Sul,11286500.0
+populacao,anual,2017,43,Rio Grande do Sul,11322895.0
+populacao,anual,2018,43,Rio Grande do Sul,11329605.0
+populacao,anual,2019,43,Rio Grande do Sul,11377239.0
+populacao,anual,2020,43,Rio Grande do Sul,11422973.0
+populacao,anual,2021,43,Rio Grande do Sul,11466630.0
+populacao,anual,2024,43,Rio Grande do Sul,11229915.0
+populacao,anual,2025,43,Rio Grande do Sul,11233263.0
+populacao,anual,2026,43,Rio Grande do Sul,11233317.0
+populacao,anual,2016,50,Mato Grosso do Sul,2682386.0
+populacao,anual,2017,50,Mato Grosso do Sul,2713147.0
+populacao,anual,2018,50,Mato Grosso do Sul,2748023.0
+populacao,anual,2019,50,Mato Grosso do Sul,2778986.0
+populacao,anual,2020,50,Mato Grosso do Sul,2809394.0
+populacao,anual,2021,50,Mato Grosso do Sul,2839188.0
+populacao,anual,2024,50,Mato Grosso do Sul,2901895.0
+populacao,anual,2025,50,Mato Grosso do Sul,2924631.0
+populacao,anual,2026,50,Mato Grosso do Sul,2946317.0
+populacao,anual,2016,51,Mato Grosso,3305531.0
+populacao,anual,2017,51,Mato Grosso,3344544.0
+populacao,anual,2018,51,Mato Grosso,3441998.0
+populacao,anual,2019,51,Mato Grosso,3484466.0
+populacao,anual,2020,51,Mato Grosso,3526220.0
+populacao,anual,2021,51,Mato Grosso,3567234.0
+populacao,anual,2024,51,Mato Grosso,3836399.0
+populacao,anual,2025,51,Mato Grosso,3893659.0
+populacao,anual,2026,51,Mato Grosso,3950330.0
+populacao,anual,2016,52,Goiás,6695855.0
+populacao,anual,2017,52,Goiás,6778772.0
+populacao,anual,2018,52,Goiás,6921161.0
+populacao,anual,2019,52,Goiás,7018354.0
+populacao,anual,2020,52,Goiás,7113540.0
+populacao,anual,2021,52,Goiás,7206589.0
+populacao,anual,2024,52,Goiás,7350483.0
+populacao,anual,2025,52,Goiás,7423629.0
+populacao,anual,2026,52,Goiás,7495033.0
+populacao,anual,2016,53,Distrito Federal,2977216.0
+populacao,anual,2017,53,Distrito Federal,3039444.0
+populacao,anual,2018,53,Distrito Federal,2974703.0
+populacao,anual,2019,53,Distrito Federal,3015268.0
+populacao,anual,2020,53,Distrito Federal,3055149.0
+populacao,anual,2021,53,Distrito Federal,3094325.0
+populacao,anual,2024,53,Distrito Federal,2982818.0
+populacao,anual,2025,53,Distrito Federal,2996899.0
+populacao,anual,2026,53,Distrito Federal,3009996.0
+taxa_desocupacao,trimestral,2016T1,11,Rondônia,7.6
+taxa_desocupacao,trimestral,2016T2,11,Rondônia,7.9
+taxa_desocupacao,trimestral,2016T3,11,Rondônia,8.5
+taxa_desocupacao,trimestral,2016T4,11,Rondônia,8.0
+taxa_desocupacao,trimestral,2017T1,11,Rondônia,8.1
+taxa_desocupacao,trimestral,2017T2,11,Rondônia,9.1
+taxa_desocupacao,trimestral,2017T3,11,Rondônia,8.2
+taxa_desocupacao,trimestral,2017T4,11,Rondônia,7.6
+taxa_desocupacao,trimestral,2018T1,11,Rondônia,10.5
+taxa_desocupacao,trimestral,2018T2,11,Rondônia,8.3
+taxa_desocupacao,trimestral,2018T3,11,Rondônia,8.8
+taxa_desocupacao,trimestral,2018T4,11,Rondônia,9.1
+taxa_desocupacao,trimestral,2019T1,11,Rondônia,9.1
+taxa_desocupacao,trimestral,2019T2,11,Rondônia,6.8
+taxa_desocupacao,trimestral,2019T3,11,Rondônia,8.3
+taxa_desocupacao,trimestral,2019T4,11,Rondônia,8.2
+taxa_desocupacao,trimestral,2020T1,11,Rondônia,8.5
+taxa_desocupacao,trimestral,2020T2,11,Rondônia,11.0
+taxa_desocupacao,trimestral,2020T3,11,Rondônia,11.7
+taxa_desocupacao,trimestral,2020T4,11,Rondônia,11.1
+taxa_desocupacao,trimestral,2021T1,11,Rondônia,11.3
+taxa_desocupacao,trimestral,2021T2,11,Rondônia,9.8
+taxa_desocupacao,trimestral,2021T3,11,Rondônia,7.7
+taxa_desocupacao,trimestral,2021T4,11,Rondônia,6.8
+taxa_desocupacao,trimestral,2022T1,11,Rondônia,6.8
+taxa_desocupacao,trimestral,2022T2,11,Rondônia,5.7
+taxa_desocupacao,trimestral,2022T3,11,Rondônia,3.9
+taxa_desocupacao,trimestral,2022T4,11,Rondônia,3.1
+taxa_desocupacao,trimestral,2023T1,11,Rondônia,3.1
+taxa_desocupacao,trimestral,2023T2,11,Rondônia,2.3
+taxa_desocupacao,trimestral,2023T3,11,Rondônia,2.3
+taxa_desocupacao,trimestral,2023T4,11,Rondônia,3.7
+taxa_desocupacao,trimestral,2024T1,11,Rondônia,3.7
+taxa_desocupacao,trimestral,2024T2,11,Rondônia,3.2
+taxa_desocupacao,trimestral,2024T3,11,Rondônia,2.1
+taxa_desocupacao,trimestral,2024T4,11,Rondônia,2.8
+taxa_desocupacao,trimestral,2025T1,11,Rondônia,3.1
+taxa_desocupacao,trimestral,2025T2,11,Rondônia,2.3
+taxa_desocupacao,trimestral,2025T3,11,Rondônia,2.6
+taxa_desocupacao,trimestral,2025T4,11,Rondônia,2.6
+taxa_desocupacao,trimestral,2026T1,11,Rondônia,3.7
+taxa_desocupacao,trimestral,2026T2,11,Rondônia,2.6
+taxa_desocupacao,trimestral,2016T1,12,Acre,8.8
+taxa_desocupacao,trimestral,2016T2,12,Acre,11.1
+taxa_desocupacao,trimestral,2016T3,12,Acre,12.2
+taxa_desocupacao,trimestral,2016T4,12,Acre,11.7
+taxa_desocupacao,trimestral,2017T1,12,Acre,15.9
+taxa_desocupacao,trimestral,2017T2,12,Acre,15.0
+taxa_desocupacao,trimestral,2017T3,12,Acre,13.7
+taxa_desocupacao,trimestral,2017T4,12,Acre,12.3
+taxa_desocupacao,trimestral,2018T1,12,Acre,14.6
+taxa_desocupacao,trimestral,2018T2,12,Acre,13.7
+taxa_desocupacao,trimestral,2018T3,12,Acre,13.3
+taxa_desocupacao,trimestral,2018T4,12,Acre,13.3
+taxa_desocupacao,trimestral,2019T1,12,Acre,18.2
+taxa_desocupacao,trimestral,2019T2,12,Acre,13.8
+taxa_desocupacao,trimestral,2019T3,12,Acre,13.1
+taxa_desocupacao,trimestral,2019T4,12,Acre,13.8
+taxa_desocupacao,trimestral,2020T1,12,Acre,13.7
+taxa_desocupacao,trimestral,2020T2,12,Acre,14.4
+taxa_desocupacao,trimestral,2020T3,12,Acre,17.2
+taxa_desocupacao,trimestral,2020T4,12,Acre,15.7
+taxa_desocupacao,trimestral,2021T1,12,Acre,17.9
+taxa_desocupacao,trimestral,2021T2,12,Acre,16.3
+taxa_desocupacao,trimestral,2021T3,12,Acre,13.8
+taxa_desocupacao,trimestral,2021T4,12,Acre,13.2
+taxa_desocupacao,trimestral,2022T1,12,Acre,14.7
+taxa_desocupacao,trimestral,2022T2,12,Acre,11.8
+taxa_desocupacao,trimestral,2022T3,12,Acre,10.0
+taxa_desocupacao,trimestral,2022T4,12,Acre,9.8
+taxa_desocupacao,trimestral,2023T1,12,Acre,9.7
+taxa_desocupacao,trimestral,2023T2,12,Acre,9.2
+taxa_desocupacao,trimestral,2023T3,12,Acre,6.2
+taxa_desocupacao,trimestral,2023T4,12,Acre,6.7
+taxa_desocupacao,trimestral,2024T1,12,Acre,8.9
+taxa_desocupacao,trimestral,2024T2,12,Acre,7.2
+taxa_desocupacao,trimestral,2024T3,12,Acre,7.4
+taxa_desocupacao,trimestral,2024T4,12,Acre,7.3
+taxa_desocupacao,trimestral,2025T1,12,Acre,8.2
+taxa_desocupacao,trimestral,2025T2,12,Acre,7.3
+taxa_desocupacao,trimestral,2025T3,12,Acre,7.4
+taxa_desocupacao,trimestral,2025T4,12,Acre,6.4
+taxa_desocupacao,trimestral,2026T1,12,Acre,8.2
+taxa_desocupacao,trimestral,2026T2,12,Acre,6.6
+taxa_desocupacao,trimestral,2016T1,13,Amazonas,13.0
+taxa_desocupacao,trimestral,2016T2,13,Amazonas,13.5
+taxa_desocupacao,trimestral,2016T3,13,Amazonas,13.8
+taxa_desocupacao,trimestral,2016T4,13,Amazonas,15.1
+taxa_desocupacao,trimestral,2017T1,13,Amazonas,18.0
+taxa_desocupacao,trimestral,2017T2,13,Amazonas,15.6
+taxa_desocupacao,trimestral,2017T3,13,Amazonas,16.3
+taxa_desocupacao,trimestral,2017T4,13,Amazonas,13.6
+taxa_desocupacao,trimestral,2018T1,13,Amazonas,14.0
+taxa_desocupacao,trimestral,2018T2,13,Amazonas,14.3
+taxa_desocupacao,trimestral,2018T3,13,Amazonas,13.2
+taxa_desocupacao,trimestral,2018T4,13,Amazonas,14.6
+taxa_desocupacao,trimestral,2019T1,13,Amazonas,16.1
+taxa_desocupacao,trimestral,2019T2,13,Amazonas,14.0
+taxa_desocupacao,trimestral,2019T3,13,Amazonas,13.5
+taxa_desocupacao,trimestral,2019T4,13,Amazonas,13.1
+taxa_desocupacao,trimestral,2020T1,13,Amazonas,14.7
+taxa_desocupacao,trimestral,2020T2,13,Amazonas,16.6
+taxa_desocupacao,trimestral,2020T3,13,Amazonas,16.9
+taxa_desocupacao,trimestral,2020T4,13,Amazonas,15.7
+taxa_desocupacao,trimestral,2021T1,13,Amazonas,17.7
+taxa_desocupacao,trimestral,2021T2,13,Amazonas,15.8
+taxa_desocupacao,trimestral,2021T3,13,Amazonas,13.5
+taxa_desocupacao,trimestral,2021T4,13,Amazonas,13.1
+taxa_desocupacao,trimestral,2022T1,13,Amazonas,13.1
+taxa_desocupacao,trimestral,2022T2,13,Amazonas,10.5
+taxa_desocupacao,trimestral,2022T3,13,Amazonas,9.4
+taxa_desocupacao,trimestral,2022T4,13,Amazonas,10.1
+taxa_desocupacao,trimestral,2023T1,13,Amazonas,10.5
+taxa_desocupacao,trimestral,2023T2,13,Amazonas,9.7
+taxa_desocupacao,trimestral,2023T3,13,Amazonas,9.6
+taxa_desocupacao,trimestral,2023T4,13,Amazonas,8.8
+taxa_desocupacao,trimestral,2024T1,13,Amazonas,9.8
+taxa_desocupacao,trimestral,2024T2,13,Amazonas,8.0
+taxa_desocupacao,trimestral,2024T3,13,Amazonas,8.2
+taxa_desocupacao,trimestral,2024T4,13,Amazonas,8.3
+taxa_desocupacao,trimestral,2025T1,13,Amazonas,10.0
+taxa_desocupacao,trimestral,2025T2,13,Amazonas,7.7
+taxa_desocupacao,trimestral,2025T3,13,Amazonas,7.6
+taxa_desocupacao,trimestral,2025T4,13,Amazonas,7.3
+taxa_desocupacao,trimestral,2026T1,13,Amazonas,8.3
+taxa_desocupacao,trimestral,2026T2,13,Amazonas,7.5
+taxa_desocupacao,trimestral,2016T1,14,Roraima,8.4
+taxa_desocupacao,trimestral,2016T2,14,Roraima,8.1
+taxa_desocupacao,trimestral,2016T3,14,Roraima,9.9
+taxa_desocupacao,trimestral,2016T4,14,Roraima,9.3
+taxa_desocupacao,trimestral,2017T1,14,Roraima,10.4
+taxa_desocupacao,trimestral,2017T2,14,Roraima,10.9
+taxa_desocupacao,trimestral,2017T3,14,Roraima,9.2
+taxa_desocupacao,trimestral,2017T4,14,Roraima,9.6
+taxa_desocupacao,trimestral,2018T1,14,Roraima,10.5
+taxa_desocupacao,trimestral,2018T2,14,Roraima,11.5
+taxa_desocupacao,trimestral,2018T3,14,Roraima,13.6
+taxa_desocupacao,trimestral,2018T4,14,Roraima,14.2
+taxa_desocupacao,trimestral,2019T1,14,Roraima,15.3
+taxa_desocupacao,trimestral,2019T2,14,Roraima,15.1
+taxa_desocupacao,trimestral,2019T3,14,Roraima,15.0
+taxa_desocupacao,trimestral,2019T4,14,Roraima,15.0
+taxa_desocupacao,trimestral,2020T1,14,Roraima,16.7
+taxa_desocupacao,trimestral,2020T2,14,Roraima,16.9
+taxa_desocupacao,trimestral,2020T3,14,Roraima,19.0
+taxa_desocupacao,trimestral,2020T4,14,Roraima,14.5
+taxa_desocupacao,trimestral,2021T1,14,Roraima,14.4
+taxa_desocupacao,trimestral,2021T2,14,Roraima,14.1
+taxa_desocupacao,trimestral,2021T3,14,Roraima,10.6
+taxa_desocupacao,trimestral,2021T4,14,Roraima,9.2
+taxa_desocupacao,trimestral,2022T1,14,Roraima,8.8
+taxa_desocupacao,trimestral,2022T2,14,Roraima,6.2
+taxa_desocupacao,trimestral,2022T3,14,Roraima,4.9
+taxa_desocupacao,trimestral,2022T4,14,Roraima,4.6
+taxa_desocupacao,trimestral,2023T1,14,Roraima,6.7
+taxa_desocupacao,trimestral,2023T2,14,Roraima,5.1
+taxa_desocupacao,trimestral,2023T3,14,Roraima,7.7
+taxa_desocupacao,trimestral,2023T4,14,Roraima,7.1
+taxa_desocupacao,trimestral,2024T1,14,Roraima,7.7
+taxa_desocupacao,trimestral,2024T2,14,Roraima,7.1
+taxa_desocupacao,trimestral,2024T3,14,Roraima,6.2
+taxa_desocupacao,trimestral,2024T4,14,Roraima,6.6
+taxa_desocupacao,trimestral,2025T1,14,Roraima,7.5
+taxa_desocupacao,trimestral,2025T2,14,Roraima,5.9
+taxa_desocupacao,trimestral,2025T3,14,Roraima,4.7
+taxa_desocupacao,trimestral,2025T4,14,Roraima,4.7
+taxa_desocupacao,trimestral,2026T1,14,Roraima,5.7
+taxa_desocupacao,trimestral,2026T2,14,Roraima,5.0
+taxa_desocupacao,trimestral,2016T1,15,Pará,10.1
+taxa_desocupacao,trimestral,2016T2,15,Pará,10.9
+taxa_desocupacao,trimestral,2016T3,15,Pará,11.1
+taxa_desocupacao,trimestral,2016T4,15,Pará,12.9
+taxa_desocupacao,trimestral,2017T1,15,Pará,13.9
+taxa_desocupacao,trimestral,2017T2,15,Pará,11.5
+taxa_desocupacao,trimestral,2017T3,15,Pará,11.1
+taxa_desocupacao,trimestral,2017T4,15,Pará,10.7
+taxa_desocupacao,trimestral,2018T1,15,Pará,12.2
+taxa_desocupacao,trimestral,2018T2,15,Pará,11.3
+taxa_desocupacao,trimestral,2018T3,15,Pará,11.0
+taxa_desocupacao,trimestral,2018T4,15,Pará,10.3
+taxa_desocupacao,trimestral,2019T1,15,Pará,11.6
+taxa_desocupacao,trimestral,2019T2,15,Pará,11.3
+taxa_desocupacao,trimestral,2019T3,15,Pará,11.3
+taxa_desocupacao,trimestral,2019T4,15,Pará,9.2
+taxa_desocupacao,trimestral,2020T1,15,Pará,10.7
+taxa_desocupacao,trimestral,2020T2,15,Pará,9.3
+taxa_desocupacao,trimestral,2020T3,15,Pará,11.1
+taxa_desocupacao,trimestral,2020T4,15,Pará,10.9
+taxa_desocupacao,trimestral,2021T1,15,Pará,13.8
+taxa_desocupacao,trimestral,2021T2,15,Pará,13.5
+taxa_desocupacao,trimestral,2021T3,15,Pará,11.8
+taxa_desocupacao,trimestral,2021T4,15,Pará,10.9
+taxa_desocupacao,trimestral,2022T1,15,Pará,12.1
+taxa_desocupacao,trimestral,2022T2,15,Pará,9.1
+taxa_desocupacao,trimestral,2022T3,15,Pará,8.8
+taxa_desocupacao,trimestral,2022T4,15,Pará,8.2
+taxa_desocupacao,trimestral,2023T1,15,Pará,9.8
+taxa_desocupacao,trimestral,2023T2,15,Pará,8.5
+taxa_desocupacao,trimestral,2023T3,15,Pará,8.0
+taxa_desocupacao,trimestral,2023T4,15,Pará,7.8
+taxa_desocupacao,trimestral,2024T1,15,Pará,8.5
+taxa_desocupacao,trimestral,2024T2,15,Pará,7.4
+taxa_desocupacao,trimestral,2024T3,15,Pará,6.9
+taxa_desocupacao,trimestral,2024T4,15,Pará,7.2
+taxa_desocupacao,trimestral,2025T1,15,Pará,8.7
+taxa_desocupacao,trimestral,2025T2,15,Pará,6.9
+taxa_desocupacao,trimestral,2025T3,15,Pará,6.5
+taxa_desocupacao,trimestral,2025T4,15,Pará,5.8
+taxa_desocupacao,trimestral,2026T1,15,Pará,7.0
+taxa_desocupacao,trimestral,2026T2,15,Pará,6.2
+taxa_desocupacao,trimestral,2016T1,16,Amapá,14.8
+taxa_desocupacao,trimestral,2016T2,16,Amapá,16.2
+taxa_desocupacao,trimestral,2016T3,16,Amapá,15.1
+taxa_desocupacao,trimestral,2016T4,16,Amapá,17.0
+taxa_desocupacao,trimestral,2017T1,16,Amapá,18.8
+taxa_desocupacao,trimestral,2017T2,16,Amapá,17.6
+taxa_desocupacao,trimestral,2017T3,16,Amapá,17.0
+taxa_desocupacao,trimestral,2017T4,16,Amapá,18.9
+taxa_desocupacao,trimestral,2018T1,16,Amapá,21.6
+taxa_desocupacao,trimestral,2018T2,16,Amapá,21.6
+taxa_desocupacao,trimestral,2018T3,16,Amapá,18.4
+taxa_desocupacao,trimestral,2018T4,16,Amapá,19.8
+taxa_desocupacao,trimestral,2019T1,16,Amapá,20.3
+taxa_desocupacao,trimestral,2019T2,16,Amapá,17.2
+taxa_desocupacao,trimestral,2019T3,16,Amapá,16.9
+taxa_desocupacao,trimestral,2019T4,16,Amapá,15.8
+taxa_desocupacao,trimestral,2020T1,16,Amapá,17.4
+taxa_desocupacao,trimestral,2020T2,16,Amapá,11.3
+taxa_desocupacao,trimestral,2020T3,16,Amapá,15.3
+taxa_desocupacao,trimestral,2020T4,16,Amapá,15.9
+taxa_desocupacao,trimestral,2021T1,16,Amapá,15.3
+taxa_desocupacao,trimestral,2021T2,16,Amapá,16.1
+taxa_desocupacao,trimestral,2021T3,16,Amapá,17.4
+taxa_desocupacao,trimestral,2021T4,16,Amapá,17.4
+taxa_desocupacao,trimestral,2022T1,16,Amapá,14.3
+taxa_desocupacao,trimestral,2022T2,16,Amapá,11.4
+taxa_desocupacao,trimestral,2022T3,16,Amapá,10.8
+taxa_desocupacao,trimestral,2022T4,16,Amapá,13.4
+taxa_desocupacao,trimestral,2023T1,16,Amapá,12.2
+taxa_desocupacao,trimestral,2023T2,16,Amapá,12.3
+taxa_desocupacao,trimestral,2023T3,16,Amapá,12.4
+taxa_desocupacao,trimestral,2023T4,16,Amapá,14.1
+taxa_desocupacao,trimestral,2024T1,16,Amapá,10.9
+taxa_desocupacao,trimestral,2024T2,16,Amapá,8.9
+taxa_desocupacao,trimestral,2024T3,16,Amapá,8.3
+taxa_desocupacao,trimestral,2024T4,16,Amapá,8.7
+taxa_desocupacao,trimestral,2025T1,16,Amapá,8.6
+taxa_desocupacao,trimestral,2025T2,16,Amapá,6.9
+taxa_desocupacao,trimestral,2025T3,16,Amapá,8.7
+taxa_desocupacao,trimestral,2025T4,16,Amapá,8.4
+taxa_desocupacao,trimestral,2026T1,16,Amapá,10.0
+taxa_desocupacao,trimestral,2026T2,16,Amapá,9.8
+taxa_desocupacao,trimestral,2016T1,17,Tocantins,10.8
+taxa_desocupacao,trimestral,2016T2,17,Tocantins,11.2
+taxa_desocupacao,trimestral,2016T3,17,Tocantins,10.8
+taxa_desocupacao,trimestral,2016T4,17,Tocantins,13.2
+taxa_desocupacao,trimestral,2017T1,17,Tocantins,12.7
+taxa_desocupacao,trimestral,2017T2,17,Tocantins,11.7
+taxa_desocupacao,trimestral,2017T3,17,Tocantins,11.9
+taxa_desocupacao,trimestral,2017T4,17,Tocantins,10.6
+taxa_desocupacao,trimestral,2018T1,17,Tocantins,11.1
+taxa_desocupacao,trimestral,2018T2,17,Tocantins,11.4
+taxa_desocupacao,trimestral,2018T3,17,Tocantins,9.9
+taxa_desocupacao,trimestral,2018T4,17,Tocantins,10.5
+taxa_desocupacao,trimestral,2019T1,17,Tocantins,12.5
+taxa_desocupacao,trimestral,2019T2,17,Tocantins,11.5
+taxa_desocupacao,trimestral,2019T3,17,Tocantins,10.6
+taxa_desocupacao,trimestral,2019T4,17,Tocantins,9.3
+taxa_desocupacao,trimestral,2020T1,17,Tocantins,11.5
+taxa_desocupacao,trimestral,2020T2,17,Tocantins,12.8
+taxa_desocupacao,trimestral,2020T3,17,Tocantins,12.6
+taxa_desocupacao,trimestral,2020T4,17,Tocantins,11.3
+taxa_desocupacao,trimestral,2021T1,17,Tocantins,17.1
+taxa_desocupacao,trimestral,2021T2,17,Tocantins,15.9
+taxa_desocupacao,trimestral,2021T3,17,Tocantins,10.8
+taxa_desocupacao,trimestral,2021T4,17,Tocantins,9.6
+taxa_desocupacao,trimestral,2022T1,17,Tocantins,9.3
+taxa_desocupacao,trimestral,2022T2,17,Tocantins,5.5
+taxa_desocupacao,trimestral,2022T3,17,Tocantins,5.6
+taxa_desocupacao,trimestral,2022T4,17,Tocantins,5.2
+taxa_desocupacao,trimestral,2023T1,17,Tocantins,6.9
+taxa_desocupacao,trimestral,2023T2,17,Tocantins,6.5
+taxa_desocupacao,trimestral,2023T3,17,Tocantins,5.3
+taxa_desocupacao,trimestral,2023T4,17,Tocantins,5.8
+taxa_desocupacao,trimestral,2024T1,17,Tocantins,6.1
+taxa_desocupacao,trimestral,2024T2,17,Tocantins,4.3
+taxa_desocupacao,trimestral,2024T3,17,Tocantins,5.1
+taxa_desocupacao,trimestral,2024T4,17,Tocantins,5.1
+taxa_desocupacao,trimestral,2025T1,17,Tocantins,6.4
+taxa_desocupacao,trimestral,2025T2,17,Tocantins,5.3
+taxa_desocupacao,trimestral,2025T3,17,Tocantins,3.8
+taxa_desocupacao,trimestral,2025T4,17,Tocantins,4.0
+taxa_desocupacao,trimestral,2026T1,17,Tocantins,5.6
+taxa_desocupacao,trimestral,2026T2,17,Tocantins,4.1
+taxa_desocupacao,trimestral,2016T1,21,Maranhão,11.2
+taxa_desocupacao,trimestral,2016T2,21,Maranhão,12.1
+taxa_desocupacao,trimestral,2016T3,21,Maranhão,12.1
+taxa_desocupacao,trimestral,2016T4,21,Maranhão,13.2
+taxa_desocupacao,trimestral,2017T1,21,Maranhão,15.2
+taxa_desocupacao,trimestral,2017T2,21,Maranhão,14.8
+taxa_desocupacao,trimestral,2017T3,21,Maranhão,14.6
+taxa_desocupacao,trimestral,2017T4,21,Maranhão,13.5
+taxa_desocupacao,trimestral,2018T1,21,Maranhão,15.9
+taxa_desocupacao,trimestral,2018T2,21,Maranhão,14.5
+taxa_desocupacao,trimestral,2018T3,21,Maranhão,14.1
+taxa_desocupacao,trimestral,2018T4,21,Maranhão,14.4
+taxa_desocupacao,trimestral,2019T1,21,Maranhão,16.7
+taxa_desocupacao,trimestral,2019T2,21,Maranhão,15.0
+taxa_desocupacao,trimestral,2019T3,21,Maranhão,14.4
+taxa_desocupacao,trimestral,2019T4,21,Maranhão,12.5
+taxa_desocupacao,trimestral,2020T1,21,Maranhão,16.5
+taxa_desocupacao,trimestral,2020T2,21,Maranhão,16.7
+taxa_desocupacao,trimestral,2020T3,21,Maranhão,17.5
+taxa_desocupacao,trimestral,2020T4,21,Maranhão,14.8
+taxa_desocupacao,trimestral,2021T1,21,Maranhão,17.6
+taxa_desocupacao,trimestral,2021T2,21,Maranhão,17.8
+taxa_desocupacao,trimestral,2021T3,21,Maranhão,15.3
+taxa_desocupacao,trimestral,2021T4,21,Maranhão,13.6
+taxa_desocupacao,trimestral,2022T1,21,Maranhão,13.2
+taxa_desocupacao,trimestral,2022T2,21,Maranhão,10.8
+taxa_desocupacao,trimestral,2022T3,21,Maranhão,9.6
+taxa_desocupacao,trimestral,2022T4,21,Maranhão,8.4
+taxa_desocupacao,trimestral,2023T1,21,Maranhão,10.0
+taxa_desocupacao,trimestral,2023T2,21,Maranhão,8.9
+taxa_desocupacao,trimestral,2023T3,21,Maranhão,6.8
+taxa_desocupacao,trimestral,2023T4,21,Maranhão,7.2
+taxa_desocupacao,trimestral,2024T1,21,Maranhão,8.5
+taxa_desocupacao,trimestral,2024T2,21,Maranhão,7.3
+taxa_desocupacao,trimestral,2024T3,21,Maranhão,7.6
+taxa_desocupacao,trimestral,2024T4,21,Maranhão,6.9
+taxa_desocupacao,trimestral,2025T1,21,Maranhão,8.1
+taxa_desocupacao,trimestral,2025T2,21,Maranhão,6.6
+taxa_desocupacao,trimestral,2025T3,21,Maranhão,6.1
+taxa_desocupacao,trimestral,2025T4,21,Maranhão,5.6
+taxa_desocupacao,trimestral,2026T1,21,Maranhão,6.9
+taxa_desocupacao,trimestral,2026T2,21,Maranhão,6.0
+taxa_desocupacao,trimestral,2016T1,22,Piauí,9.6
+taxa_desocupacao,trimestral,2016T2,22,Piauí,10.1
+taxa_desocupacao,trimestral,2016T3,22,Piauí,9.6
+taxa_desocupacao,trimestral,2016T4,22,Piauí,8.9
+taxa_desocupacao,trimestral,2017T1,22,Piauí,12.8
+taxa_desocupacao,trimestral,2017T2,22,Piauí,13.6
+taxa_desocupacao,trimestral,2017T3,22,Piauí,12.2
+taxa_desocupacao,trimestral,2017T4,22,Piauí,13.4
+taxa_desocupacao,trimestral,2018T1,22,Piauí,13.3
+taxa_desocupacao,trimestral,2018T2,22,Piauí,13.5
+taxa_desocupacao,trimestral,2018T3,22,Piauí,12.5
+taxa_desocupacao,trimestral,2018T4,22,Piauí,12.4
+taxa_desocupacao,trimestral,2019T1,22,Piauí,12.9
+taxa_desocupacao,trimestral,2019T2,22,Piauí,13.0
+taxa_desocupacao,trimestral,2019T3,22,Piauí,12.9
+taxa_desocupacao,trimestral,2019T4,22,Piauí,13.3
+taxa_desocupacao,trimestral,2020T1,22,Piauí,14.2
+taxa_desocupacao,trimestral,2020T2,22,Piauí,13.3
+taxa_desocupacao,trimestral,2020T3,22,Piauí,13.3
+taxa_desocupacao,trimestral,2020T4,22,Piauí,12.3
+taxa_desocupacao,trimestral,2021T1,22,Piauí,15.2
+taxa_desocupacao,trimestral,2021T2,22,Piauí,15.4
+taxa_desocupacao,trimestral,2021T3,22,Piauí,12.0
+taxa_desocupacao,trimestral,2021T4,22,Piauí,11.9
+taxa_desocupacao,trimestral,2022T1,22,Piauí,12.4
+taxa_desocupacao,trimestral,2022T2,22,Piauí,9.4
+taxa_desocupacao,trimestral,2022T3,22,Piauí,9.3
+taxa_desocupacao,trimestral,2022T4,22,Piauí,9.5
+taxa_desocupacao,trimestral,2023T1,22,Piauí,11.1
+taxa_desocupacao,trimestral,2023T2,22,Piauí,9.7
+taxa_desocupacao,trimestral,2023T3,22,Piauí,9.9
+taxa_desocupacao,trimestral,2023T4,22,Piauí,10.6
+taxa_desocupacao,trimestral,2024T1,22,Piauí,10.0
+taxa_desocupacao,trimestral,2024T2,22,Piauí,7.6
+taxa_desocupacao,trimestral,2024T3,22,Piauí,8.0
+taxa_desocupacao,trimestral,2024T4,22,Piauí,7.5
+taxa_desocupacao,trimestral,2025T1,22,Piauí,10.2
+taxa_desocupacao,trimestral,2025T2,22,Piauí,8.5
+taxa_desocupacao,trimestral,2025T3,22,Piauí,7.5
+taxa_desocupacao,trimestral,2025T4,22,Piauí,8.0
+taxa_desocupacao,trimestral,2026T1,22,Piauí,8.9
+taxa_desocupacao,trimestral,2026T2,22,Piauí,8.3
+taxa_desocupacao,trimestral,2016T1,23,Ceará,10.9
+taxa_desocupacao,trimestral,2016T2,23,Ceará,11.6
+taxa_desocupacao,trimestral,2016T3,23,Ceará,13.3
+taxa_desocupacao,trimestral,2016T4,23,Ceará,12.6
+taxa_desocupacao,trimestral,2017T1,23,Ceará,14.5
+taxa_desocupacao,trimestral,2017T2,23,Ceará,13.3
+taxa_desocupacao,trimestral,2017T3,23,Ceará,11.9
+taxa_desocupacao,trimestral,2017T4,23,Ceará,11.2
+taxa_desocupacao,trimestral,2018T1,23,Ceará,12.9
+taxa_desocupacao,trimestral,2018T2,23,Ceará,11.8
+taxa_desocupacao,trimestral,2018T3,23,Ceará,10.7
+taxa_desocupacao,trimestral,2018T4,23,Ceará,10.2
+taxa_desocupacao,trimestral,2019T1,23,Ceará,11.6
+taxa_desocupacao,trimestral,2019T2,23,Ceará,11.0
+taxa_desocupacao,trimestral,2019T3,23,Ceará,11.4
+taxa_desocupacao,trimestral,2019T4,23,Ceará,10.3
+taxa_desocupacao,trimestral,2020T1,23,Ceará,12.4
+taxa_desocupacao,trimestral,2020T2,23,Ceará,12.3
+taxa_desocupacao,trimestral,2020T3,23,Ceará,14.2
+taxa_desocupacao,trimestral,2020T4,23,Ceará,14.4
+taxa_desocupacao,trimestral,2021T1,23,Ceará,15.1
+taxa_desocupacao,trimestral,2021T2,23,Ceará,15.1
+taxa_desocupacao,trimestral,2021T3,23,Ceará,12.5
+taxa_desocupacao,trimestral,2021T4,23,Ceará,11.1
+taxa_desocupacao,trimestral,2022T1,23,Ceará,11.1
+taxa_desocupacao,trimestral,2022T2,23,Ceará,10.4
+taxa_desocupacao,trimestral,2022T3,23,Ceará,8.6
+taxa_desocupacao,trimestral,2022T4,23,Ceará,7.8
+taxa_desocupacao,trimestral,2023T1,23,Ceará,9.6
+taxa_desocupacao,trimestral,2023T2,23,Ceará,8.6
+taxa_desocupacao,trimestral,2023T3,23,Ceará,9.2
+taxa_desocupacao,trimestral,2023T4,23,Ceará,8.8
+taxa_desocupacao,trimestral,2024T1,23,Ceará,8.7
+taxa_desocupacao,trimestral,2024T2,23,Ceará,7.5
+taxa_desocupacao,trimestral,2024T3,23,Ceará,6.7
+taxa_desocupacao,trimestral,2024T4,23,Ceará,6.5
+taxa_desocupacao,trimestral,2025T1,23,Ceará,8.0
+taxa_desocupacao,trimestral,2025T2,23,Ceará,6.6
+taxa_desocupacao,trimestral,2025T3,23,Ceará,6.4
+taxa_desocupacao,trimestral,2025T4,23,Ceará,5.0
+taxa_desocupacao,trimestral,2026T1,23,Ceará,7.3
+taxa_desocupacao,trimestral,2026T2,23,Ceará,6.6
+taxa_desocupacao,trimestral,2016T1,24,Rio Grande do Norte,14.5
+taxa_desocupacao,trimestral,2016T2,24,Rio Grande do Norte,13.6
+taxa_desocupacao,trimestral,2016T3,24,Rio Grande do Norte,14.3
+taxa_desocupacao,trimestral,2016T4,24,Rio Grande do Norte,14.7
+taxa_desocupacao,trimestral,2017T1,24,Rio Grande do Norte,16.5
+taxa_desocupacao,trimestral,2017T2,24,Rio Grande do Norte,15.8
+taxa_desocupacao,trimestral,2017T3,24,Rio Grande do Norte,13.9
+taxa_desocupacao,trimestral,2017T4,24,Rio Grande do Norte,12.4
+taxa_desocupacao,trimestral,2018T1,24,Rio Grande do Norte,15.1
+taxa_desocupacao,trimestral,2018T2,24,Rio Grande do Norte,13.3
+taxa_desocupacao,trimestral,2018T3,24,Rio Grande do Norte,13.0
+taxa_desocupacao,trimestral,2018T4,24,Rio Grande do Norte,13.5
+taxa_desocupacao,trimestral,2019T1,24,Rio Grande do Norte,14.1
+taxa_desocupacao,trimestral,2019T2,24,Rio Grande do Norte,12.7
+taxa_desocupacao,trimestral,2019T3,24,Rio Grande do Norte,13.7
+taxa_desocupacao,trimestral,2019T4,24,Rio Grande do Norte,12.9
+taxa_desocupacao,trimestral,2020T1,24,Rio Grande do Norte,15.7
+taxa_desocupacao,trimestral,2020T2,24,Rio Grande do Norte,15.2
+taxa_desocupacao,trimestral,2020T3,24,Rio Grande do Norte,17.8
+taxa_desocupacao,trimestral,2020T4,24,Rio Grande do Norte,15.6
+taxa_desocupacao,trimestral,2021T1,24,Rio Grande do Norte,15.4
+taxa_desocupacao,trimestral,2021T2,24,Rio Grande do Norte,16.3
+taxa_desocupacao,trimestral,2021T3,24,Rio Grande do Norte,14.9
+taxa_desocupacao,trimestral,2021T4,24,Rio Grande do Norte,12.8
+taxa_desocupacao,trimestral,2022T1,24,Rio Grande do Norte,14.2
+taxa_desocupacao,trimestral,2022T2,24,Rio Grande do Norte,12.0
+taxa_desocupacao,trimestral,2022T3,24,Rio Grande do Norte,10.5
+taxa_desocupacao,trimestral,2022T4,24,Rio Grande do Norte,10.0
+taxa_desocupacao,trimestral,2023T1,24,Rio Grande do Norte,12.3
+taxa_desocupacao,trimestral,2023T2,24,Rio Grande do Norte,10.3
+taxa_desocupacao,trimestral,2023T3,24,Rio Grande do Norte,10.1
+taxa_desocupacao,trimestral,2023T4,24,Rio Grande do Norte,8.5
+taxa_desocupacao,trimestral,2024T1,24,Rio Grande do Norte,9.8
+taxa_desocupacao,trimestral,2024T2,24,Rio Grande do Norte,9.2
+taxa_desocupacao,trimestral,2024T3,24,Rio Grande do Norte,8.9
+taxa_desocupacao,trimestral,2024T4,24,Rio Grande do Norte,8.7
+taxa_desocupacao,trimestral,2025T1,24,Rio Grande do Norte,9.9
+taxa_desocupacao,trimestral,2025T2,24,Rio Grande do Norte,7.5
+taxa_desocupacao,trimestral,2025T3,24,Rio Grande do Norte,7.5
+taxa_desocupacao,trimestral,2025T4,24,Rio Grande do Norte,6.7
+taxa_desocupacao,trimestral,2026T1,24,Rio Grande do Norte,7.6
+taxa_desocupacao,trimestral,2026T2,24,Rio Grande do Norte,5.6
+taxa_desocupacao,trimestral,2016T1,25,Paraíba,10.3
+taxa_desocupacao,trimestral,2016T2,25,Paraíba,11.0
+taxa_desocupacao,trimestral,2016T3,25,Paraíba,13.0
+taxa_desocupacao,trimestral,2016T4,25,Paraíba,12.1
+taxa_desocupacao,trimestral,2017T1,25,Paraíba,13.4
+taxa_desocupacao,trimestral,2017T2,25,Paraíba,11.5
+taxa_desocupacao,trimestral,2017T3,25,Paraíba,10.9
+taxa_desocupacao,trimestral,2017T4,25,Paraíba,10.2
+taxa_desocupacao,trimestral,2018T1,25,Paraíba,11.9
+taxa_desocupacao,trimestral,2018T2,25,Paraíba,11.1
+taxa_desocupacao,trimestral,2018T3,25,Paraíba,11.0
+taxa_desocupacao,trimestral,2018T4,25,Paraíba,11.2
+taxa_desocupacao,trimestral,2019T1,25,Paraíba,11.2
+taxa_desocupacao,trimestral,2019T2,25,Paraíba,12.2
+taxa_desocupacao,trimestral,2019T3,25,Paraíba,11.4
+taxa_desocupacao,trimestral,2019T4,25,Paraíba,12.2
+taxa_desocupacao,trimestral,2020T1,25,Paraíba,13.9
+taxa_desocupacao,trimestral,2020T2,25,Paraíba,13.2
+taxa_desocupacao,trimestral,2020T3,25,Paraíba,17.4
+taxa_desocupacao,trimestral,2020T4,25,Paraíba,15.7
+taxa_desocupacao,trimestral,2021T1,25,Paraíba,16.2
+taxa_desocupacao,trimestral,2021T2,25,Paraíba,15.5
+taxa_desocupacao,trimestral,2021T3,25,Paraíba,14.5
+taxa_desocupacao,trimestral,2021T4,25,Paraíba,13.0
+taxa_desocupacao,trimestral,2022T1,25,Paraíba,14.3
+taxa_desocupacao,trimestral,2022T2,25,Paraíba,12.3
+taxa_desocupacao,trimestral,2022T3,25,Paraíba,10.9
+taxa_desocupacao,trimestral,2022T4,25,Paraíba,10.3
+taxa_desocupacao,trimestral,2023T1,25,Paraíba,11.1
+taxa_desocupacao,trimestral,2023T2,25,Paraíba,10.4
+taxa_desocupacao,trimestral,2023T3,25,Paraíba,9.3
+taxa_desocupacao,trimestral,2023T4,25,Paraíba,9.6
+taxa_desocupacao,trimestral,2024T1,25,Paraíba,9.9
+taxa_desocupacao,trimestral,2024T2,25,Paraíba,8.7
+taxa_desocupacao,trimestral,2024T3,25,Paraíba,7.8
+taxa_desocupacao,trimestral,2024T4,25,Paraíba,8.5
+taxa_desocupacao,trimestral,2025T1,25,Paraíba,8.7
+taxa_desocupacao,trimestral,2025T2,25,Paraíba,7.0
+taxa_desocupacao,trimestral,2025T3,25,Paraíba,7.0
+taxa_desocupacao,trimestral,2025T4,25,Paraíba,5.7
+taxa_desocupacao,trimestral,2026T1,25,Paraíba,7.0
+taxa_desocupacao,trimestral,2026T2,25,Paraíba,5.4
+taxa_desocupacao,trimestral,2016T1,26,Pernambuco,13.4
+taxa_desocupacao,trimestral,2016T2,26,Pernambuco,14.2
+taxa_desocupacao,trimestral,2016T3,26,Pernambuco,15.5
+taxa_desocupacao,trimestral,2016T4,26,Pernambuco,15.9
+taxa_desocupacao,trimestral,2017T1,26,Pernambuco,17.3
+taxa_desocupacao,trimestral,2017T2,26,Pernambuco,19.0
+taxa_desocupacao,trimestral,2017T3,26,Pernambuco,18.1
+taxa_desocupacao,trimestral,2017T4,26,Pernambuco,17.0
+taxa_desocupacao,trimestral,2018T1,26,Pernambuco,17.9
+taxa_desocupacao,trimestral,2018T2,26,Pernambuco,17.1
+taxa_desocupacao,trimestral,2018T3,26,Pernambuco,17.0
+taxa_desocupacao,trimestral,2018T4,26,Pernambuco,15.6
+taxa_desocupacao,trimestral,2019T1,26,Pernambuco,16.3
+taxa_desocupacao,trimestral,2019T2,26,Pernambuco,16.1
+taxa_desocupacao,trimestral,2019T3,26,Pernambuco,16.0
+taxa_desocupacao,trimestral,2019T4,26,Pernambuco,14.2
+taxa_desocupacao,trimestral,2020T1,26,Pernambuco,14.8
+taxa_desocupacao,trimestral,2020T2,26,Pernambuco,15.4
+taxa_desocupacao,trimestral,2020T3,26,Pernambuco,19.3
+taxa_desocupacao,trimestral,2020T4,26,Pernambuco,19.4
+taxa_desocupacao,trimestral,2021T1,26,Pernambuco,21.4
+taxa_desocupacao,trimestral,2021T2,26,Pernambuco,21.8
+taxa_desocupacao,trimestral,2021T3,26,Pernambuco,19.3
+taxa_desocupacao,trimestral,2021T4,26,Pernambuco,17.2
+taxa_desocupacao,trimestral,2022T1,26,Pernambuco,17.1
+taxa_desocupacao,trimestral,2022T2,26,Pernambuco,13.6
+taxa_desocupacao,trimestral,2022T3,26,Pernambuco,14.0
+taxa_desocupacao,trimestral,2022T4,26,Pernambuco,12.3
+taxa_desocupacao,trimestral,2023T1,26,Pernambuco,14.1
+taxa_desocupacao,trimestral,2023T2,26,Pernambuco,14.2
+taxa_desocupacao,trimestral,2023T3,26,Pernambuco,13.3
+taxa_desocupacao,trimestral,2023T4,26,Pernambuco,12.0
+taxa_desocupacao,trimestral,2024T1,26,Pernambuco,12.4
+taxa_desocupacao,trimestral,2024T2,26,Pernambuco,11.6
+taxa_desocupacao,trimestral,2024T3,26,Pernambuco,10.6
+taxa_desocupacao,trimestral,2024T4,26,Pernambuco,10.3
+taxa_desocupacao,trimestral,2025T1,26,Pernambuco,11.6
+taxa_desocupacao,trimestral,2025T2,26,Pernambuco,10.4
+taxa_desocupacao,trimestral,2025T3,26,Pernambuco,10.0
+taxa_desocupacao,trimestral,2025T4,26,Pernambuco,8.8
+taxa_desocupacao,trimestral,2026T1,26,Pernambuco,9.2
+taxa_desocupacao,trimestral,2026T2,26,Pernambuco,8.3
+taxa_desocupacao,trimestral,2016T1,27,Alagoas,12.9
+taxa_desocupacao,trimestral,2016T2,27,Alagoas,14.1
+taxa_desocupacao,trimestral,2016T3,27,Alagoas,14.9
+taxa_desocupacao,trimestral,2016T4,27,Alagoas,15.0
+taxa_desocupacao,trimestral,2017T1,27,Alagoas,17.7
+taxa_desocupacao,trimestral,2017T2,27,Alagoas,18.0
+taxa_desocupacao,trimestral,2017T3,27,Alagoas,16.1
+taxa_desocupacao,trimestral,2017T4,27,Alagoas,15.8
+taxa_desocupacao,trimestral,2018T1,27,Alagoas,17.9
+taxa_desocupacao,trimestral,2018T2,27,Alagoas,17.7
+taxa_desocupacao,trimestral,2018T3,27,Alagoas,17.4
+taxa_desocupacao,trimestral,2018T4,27,Alagoas,16.1
+taxa_desocupacao,trimestral,2019T1,27,Alagoas,16.2
+taxa_desocupacao,trimestral,2019T2,27,Alagoas,14.9
+taxa_desocupacao,trimestral,2019T3,27,Alagoas,15.6
+taxa_desocupacao,trimestral,2019T4,27,Alagoas,13.7
+taxa_desocupacao,trimestral,2020T1,27,Alagoas,16.8
+taxa_desocupacao,trimestral,2020T2,27,Alagoas,18.2
+taxa_desocupacao,trimestral,2020T3,27,Alagoas,20.5
+taxa_desocupacao,trimestral,2020T4,27,Alagoas,20.7
+taxa_desocupacao,trimestral,2021T1,27,Alagoas,20.3
+taxa_desocupacao,trimestral,2021T2,27,Alagoas,19.2
+taxa_desocupacao,trimestral,2021T3,27,Alagoas,17.2
+taxa_desocupacao,trimestral,2021T4,27,Alagoas,14.6
+taxa_desocupacao,trimestral,2022T1,27,Alagoas,14.2
+taxa_desocupacao,trimestral,2022T2,27,Alagoas,11.2
+taxa_desocupacao,trimestral,2022T3,27,Alagoas,10.2
+taxa_desocupacao,trimestral,2022T4,27,Alagoas,9.4
+taxa_desocupacao,trimestral,2023T1,27,Alagoas,10.6
+taxa_desocupacao,trimestral,2023T2,27,Alagoas,9.7
+taxa_desocupacao,trimestral,2023T3,27,Alagoas,9.0
+taxa_desocupacao,trimestral,2023T4,27,Alagoas,8.9
+taxa_desocupacao,trimestral,2024T1,27,Alagoas,9.9
+taxa_desocupacao,trimestral,2024T2,27,Alagoas,8.2
+taxa_desocupacao,trimestral,2024T3,27,Alagoas,7.8
+taxa_desocupacao,trimestral,2024T4,27,Alagoas,8.1
+taxa_desocupacao,trimestral,2025T1,27,Alagoas,9.0
+taxa_desocupacao,trimestral,2025T2,27,Alagoas,7.5
+taxa_desocupacao,trimestral,2025T3,27,Alagoas,7.7
+taxa_desocupacao,trimestral,2025T4,27,Alagoas,8.0
+taxa_desocupacao,trimestral,2026T1,27,Alagoas,9.2
+taxa_desocupacao,trimestral,2026T2,27,Alagoas,7.9
+taxa_desocupacao,trimestral,2016T1,28,Sergipe,11.6
+taxa_desocupacao,trimestral,2016T2,28,Sergipe,12.9
+taxa_desocupacao,trimestral,2016T3,28,Sergipe,14.5
+taxa_desocupacao,trimestral,2016T4,28,Sergipe,15.2
+taxa_desocupacao,trimestral,2017T1,28,Sergipe,16.3
+taxa_desocupacao,trimestral,2017T2,28,Sergipe,14.3
+taxa_desocupacao,trimestral,2017T3,28,Sergipe,13.9
+taxa_desocupacao,trimestral,2017T4,28,Sergipe,13.7
+taxa_desocupacao,trimestral,2018T1,28,Sergipe,17.3
+taxa_desocupacao,trimestral,2018T2,28,Sergipe,17.1
+taxa_desocupacao,trimestral,2018T3,28,Sergipe,17.7
+taxa_desocupacao,trimestral,2018T4,28,Sergipe,15.2
+taxa_desocupacao,trimestral,2019T1,28,Sergipe,15.6
+taxa_desocupacao,trimestral,2019T2,28,Sergipe,15.5
+taxa_desocupacao,trimestral,2019T3,28,Sergipe,14.8
+taxa_desocupacao,trimestral,2019T4,28,Sergipe,15.1
+taxa_desocupacao,trimestral,2020T1,28,Sergipe,15.9
+taxa_desocupacao,trimestral,2020T2,28,Sergipe,20.4
+taxa_desocupacao,trimestral,2020T3,28,Sergipe,20.8
+taxa_desocupacao,trimestral,2020T4,28,Sergipe,18.3
+taxa_desocupacao,trimestral,2021T1,28,Sergipe,20.7
+taxa_desocupacao,trimestral,2021T2,28,Sergipe,19.5
+taxa_desocupacao,trimestral,2021T3,28,Sergipe,17.2
+taxa_desocupacao,trimestral,2021T4,28,Sergipe,14.7
+taxa_desocupacao,trimestral,2022T1,28,Sergipe,15.1
+taxa_desocupacao,trimestral,2022T2,28,Sergipe,12.9
+taxa_desocupacao,trimestral,2022T3,28,Sergipe,12.2
+taxa_desocupacao,trimestral,2022T4,28,Sergipe,12.0
+taxa_desocupacao,trimestral,2023T1,28,Sergipe,12.0
+taxa_desocupacao,trimestral,2023T2,28,Sergipe,10.3
+taxa_desocupacao,trimestral,2023T3,28,Sergipe,9.9
+taxa_desocupacao,trimestral,2023T4,28,Sergipe,11.3
+taxa_desocupacao,trimestral,2024T1,28,Sergipe,10.0
+taxa_desocupacao,trimestral,2024T2,28,Sergipe,9.2
+taxa_desocupacao,trimestral,2024T3,28,Sergipe,8.4
+taxa_desocupacao,trimestral,2024T4,28,Sergipe,8.4
+taxa_desocupacao,trimestral,2025T1,28,Sergipe,9.3
+taxa_desocupacao,trimestral,2025T2,28,Sergipe,8.1
+taxa_desocupacao,trimestral,2025T3,28,Sergipe,7.7
+taxa_desocupacao,trimestral,2025T4,28,Sergipe,7.5
+taxa_desocupacao,trimestral,2026T1,28,Sergipe,8.6
+taxa_desocupacao,trimestral,2026T2,28,Sergipe,7.9
+taxa_desocupacao,trimestral,2016T1,29,Bahia,15.7
+taxa_desocupacao,trimestral,2016T2,29,Bahia,15.6
+taxa_desocupacao,trimestral,2016T3,29,Bahia,16.0
+taxa_desocupacao,trimestral,2016T4,29,Bahia,16.7
+taxa_desocupacao,trimestral,2017T1,29,Bahia,18.7
+taxa_desocupacao,trimestral,2017T2,29,Bahia,17.6
+taxa_desocupacao,trimestral,2017T3,29,Bahia,16.8
+taxa_desocupacao,trimestral,2017T4,29,Bahia,15.1
+taxa_desocupacao,trimestral,2018T1,29,Bahia,18.1
+taxa_desocupacao,trimestral,2018T2,29,Bahia,16.7
+taxa_desocupacao,trimestral,2018T3,29,Bahia,16.4
+taxa_desocupacao,trimestral,2018T4,29,Bahia,17.7
+taxa_desocupacao,trimestral,2019T1,29,Bahia,18.5
+taxa_desocupacao,trimestral,2019T2,29,Bahia,17.5
+taxa_desocupacao,trimestral,2019T3,29,Bahia,17.0
+taxa_desocupacao,trimestral,2019T4,29,Bahia,16.6
+taxa_desocupacao,trimestral,2020T1,29,Bahia,18.9
+taxa_desocupacao,trimestral,2020T2,29,Bahia,20.4
+taxa_desocupacao,trimestral,2020T3,29,Bahia,21.0
+taxa_desocupacao,trimestral,2020T4,29,Bahia,20.6
+taxa_desocupacao,trimestral,2021T1,29,Bahia,21.7
+taxa_desocupacao,trimestral,2021T2,29,Bahia,20.2
+taxa_desocupacao,trimestral,2021T3,29,Bahia,18.8
+taxa_desocupacao,trimestral,2021T4,29,Bahia,17.3
+taxa_desocupacao,trimestral,2022T1,29,Bahia,17.5
+taxa_desocupacao,trimestral,2022T2,29,Bahia,15.4
+taxa_desocupacao,trimestral,2022T3,29,Bahia,15.0
+taxa_desocupacao,trimestral,2022T4,29,Bahia,13.5
+taxa_desocupacao,trimestral,2023T1,29,Bahia,14.4
+taxa_desocupacao,trimestral,2023T2,29,Bahia,13.3
+taxa_desocupacao,trimestral,2023T3,29,Bahia,13.3
+taxa_desocupacao,trimestral,2023T4,29,Bahia,12.7
+taxa_desocupacao,trimestral,2024T1,29,Bahia,14.0
+taxa_desocupacao,trimestral,2024T2,29,Bahia,11.0
+taxa_desocupacao,trimestral,2024T3,29,Bahia,9.7
+taxa_desocupacao,trimestral,2024T4,29,Bahia,10.0
+taxa_desocupacao,trimestral,2025T1,29,Bahia,11.1
+taxa_desocupacao,trimestral,2025T2,29,Bahia,9.1
+taxa_desocupacao,trimestral,2025T3,29,Bahia,8.5
+taxa_desocupacao,trimestral,2025T4,29,Bahia,8.0
+taxa_desocupacao,trimestral,2026T1,29,Bahia,9.2
+taxa_desocupacao,trimestral,2026T2,29,Bahia,9.1
+taxa_desocupacao,trimestral,2016T1,31,Minas Gerais,11.3
+taxa_desocupacao,trimestral,2016T2,31,Minas Gerais,11.0
+taxa_desocupacao,trimestral,2016T3,31,Minas Gerais,11.3
+taxa_desocupacao,trimestral,2016T4,31,Minas Gerais,11.2
+taxa_desocupacao,trimestral,2017T1,31,Minas Gerais,13.8
+taxa_desocupacao,trimestral,2017T2,31,Minas Gerais,12.2
+taxa_desocupacao,trimestral,2017T3,31,Minas Gerais,12.3
+taxa_desocupacao,trimestral,2017T4,31,Minas Gerais,10.7
+taxa_desocupacao,trimestral,2018T1,31,Minas Gerais,12.7
+taxa_desocupacao,trimestral,2018T2,31,Minas Gerais,10.9
+taxa_desocupacao,trimestral,2018T3,31,Minas Gerais,9.8
+taxa_desocupacao,trimestral,2018T4,31,Minas Gerais,9.7
+taxa_desocupacao,trimestral,2019T1,31,Minas Gerais,11.3
+taxa_desocupacao,trimestral,2019T2,31,Minas Gerais,9.6
+taxa_desocupacao,trimestral,2019T3,31,Minas Gerais,10.0
+taxa_desocupacao,trimestral,2019T4,31,Minas Gerais,9.6
+taxa_desocupacao,trimestral,2020T1,31,Minas Gerais,11.7
+taxa_desocupacao,trimestral,2020T2,31,Minas Gerais,13.2
+taxa_desocupacao,trimestral,2020T3,31,Minas Gerais,13.6
+taxa_desocupacao,trimestral,2020T4,31,Minas Gerais,12.5
+taxa_desocupacao,trimestral,2021T1,31,Minas Gerais,14.0
+taxa_desocupacao,trimestral,2021T2,31,Minas Gerais,12.7
+taxa_desocupacao,trimestral,2021T3,31,Minas Gerais,10.7
+taxa_desocupacao,trimestral,2021T4,31,Minas Gerais,9.5
+taxa_desocupacao,trimestral,2022T1,31,Minas Gerais,9.3
+taxa_desocupacao,trimestral,2022T2,31,Minas Gerais,7.3
+taxa_desocupacao,trimestral,2022T3,31,Minas Gerais,6.3
+taxa_desocupacao,trimestral,2022T4,31,Minas Gerais,5.8
+taxa_desocupacao,trimestral,2023T1,31,Minas Gerais,6.8
+taxa_desocupacao,trimestral,2023T2,31,Minas Gerais,5.8
+taxa_desocupacao,trimestral,2023T3,31,Minas Gerais,6.0
+taxa_desocupacao,trimestral,2023T4,31,Minas Gerais,5.7
+taxa_desocupacao,trimestral,2024T1,31,Minas Gerais,6.3
+taxa_desocupacao,trimestral,2024T2,31,Minas Gerais,5.3
+taxa_desocupacao,trimestral,2024T3,31,Minas Gerais,5.0
+taxa_desocupacao,trimestral,2024T4,31,Minas Gerais,4.3
+taxa_desocupacao,trimestral,2025T1,31,Minas Gerais,5.7
+taxa_desocupacao,trimestral,2025T2,31,Minas Gerais,4.0
+taxa_desocupacao,trimestral,2025T3,31,Minas Gerais,4.1
+taxa_desocupacao,trimestral,2025T4,31,Minas Gerais,3.8
+taxa_desocupacao,trimestral,2026T1,31,Minas Gerais,5.0
+taxa_desocupacao,trimestral,2026T2,31,Minas Gerais,3.8
+taxa_desocupacao,trimestral,2016T1,32,Espírito Santo,11.2
+taxa_desocupacao,trimestral,2016T2,32,Espírito Santo,11.6
+taxa_desocupacao,trimestral,2016T3,32,Espírito Santo,12.9
+taxa_desocupacao,trimestral,2016T4,32,Espírito Santo,13.8
+taxa_desocupacao,trimestral,2017T1,32,Espírito Santo,14.7
+taxa_desocupacao,trimestral,2017T2,32,Espírito Santo,13.5
+taxa_desocupacao,trimestral,2017T3,32,Espírito Santo,13.2
+taxa_desocupacao,trimestral,2017T4,32,Espírito Santo,11.8
+taxa_desocupacao,trimestral,2018T1,32,Espírito Santo,12.7
+taxa_desocupacao,trimestral,2018T2,32,Espírito Santo,12.2
+taxa_desocupacao,trimestral,2018T3,32,Espírito Santo,11.4
+taxa_desocupacao,trimestral,2018T4,32,Espírito Santo,10.4
+taxa_desocupacao,trimestral,2019T1,32,Espírito Santo,12.4
+taxa_desocupacao,trimestral,2019T2,32,Espírito Santo,11.0
+taxa_desocupacao,trimestral,2019T3,32,Espírito Santo,10.8
+taxa_desocupacao,trimestral,2019T4,32,Espírito Santo,10.5
+taxa_desocupacao,trimestral,2020T1,32,Espírito Santo,11.3
+taxa_desocupacao,trimestral,2020T2,32,Espírito Santo,12.6
+taxa_desocupacao,trimestral,2020T3,32,Espírito Santo,14.2
+taxa_desocupacao,trimestral,2020T4,32,Espírito Santo,13.5
+taxa_desocupacao,trimestral,2021T1,32,Espírito Santo,13.2
+taxa_desocupacao,trimestral,2021T2,32,Espírito Santo,11.6
+taxa_desocupacao,trimestral,2021T3,32,Espírito Santo,10.0
+taxa_desocupacao,trimestral,2021T4,32,Espírito Santo,9.9
+taxa_desocupacao,trimestral,2022T1,32,Espírito Santo,9.3
+taxa_desocupacao,trimestral,2022T2,32,Espírito Santo,8.0
+taxa_desocupacao,trimestral,2022T3,32,Espírito Santo,7.3
+taxa_desocupacao,trimestral,2022T4,32,Espírito Santo,7.3
+taxa_desocupacao,trimestral,2023T1,32,Espírito Santo,7.0
+taxa_desocupacao,trimestral,2023T2,32,Espírito Santo,6.4
+taxa_desocupacao,trimestral,2023T3,32,Espírito Santo,5.6
+taxa_desocupacao,trimestral,2023T4,32,Espírito Santo,5.3
+taxa_desocupacao,trimestral,2024T1,32,Espírito Santo,5.9
+taxa_desocupacao,trimestral,2024T2,32,Espírito Santo,4.5
+taxa_desocupacao,trimestral,2024T3,32,Espírito Santo,4.1
+taxa_desocupacao,trimestral,2024T4,32,Espírito Santo,4.0
+taxa_desocupacao,trimestral,2025T1,32,Espírito Santo,4.0
+taxa_desocupacao,trimestral,2025T2,32,Espírito Santo,3.1
+taxa_desocupacao,trimestral,2025T3,32,Espírito Santo,2.6
+taxa_desocupacao,trimestral,2025T4,32,Espírito Santo,2.4
+taxa_desocupacao,trimestral,2026T1,32,Espírito Santo,3.2
+taxa_desocupacao,trimestral,2026T2,32,Espírito Santo,2.3
+taxa_desocupacao,trimestral,2016T1,33,Rio de Janeiro,10.2
+taxa_desocupacao,trimestral,2016T2,33,Rio de Janeiro,11.5
+taxa_desocupacao,trimestral,2016T3,33,Rio de Janeiro,12.2
+taxa_desocupacao,trimestral,2016T4,33,Rio de Janeiro,13.6
+taxa_desocupacao,trimestral,2017T1,33,Rio de Janeiro,14.6
+taxa_desocupacao,trimestral,2017T2,33,Rio de Janeiro,15.8
+taxa_desocupacao,trimestral,2017T3,33,Rio de Janeiro,14.6
+taxa_desocupacao,trimestral,2017T4,33,Rio de Janeiro,15.2
+taxa_desocupacao,trimestral,2018T1,33,Rio de Janeiro,15.1
+taxa_desocupacao,trimestral,2018T2,33,Rio de Janeiro,15.5
+taxa_desocupacao,trimestral,2018T3,33,Rio de Janeiro,14.7
+taxa_desocupacao,trimestral,2018T4,33,Rio de Janeiro,14.9
+taxa_desocupacao,trimestral,2019T1,33,Rio de Janeiro,15.4
+taxa_desocupacao,trimestral,2019T2,33,Rio de Janeiro,15.2
+taxa_desocupacao,trimestral,2019T3,33,Rio de Janeiro,14.6
+taxa_desocupacao,trimestral,2019T4,33,Rio de Janeiro,13.8
+taxa_desocupacao,trimestral,2020T1,33,Rio de Janeiro,14.7
+taxa_desocupacao,trimestral,2020T2,33,Rio de Janeiro,16.7
+taxa_desocupacao,trimestral,2020T3,33,Rio de Janeiro,19.3
+taxa_desocupacao,trimestral,2020T4,33,Rio de Janeiro,19.6
+taxa_desocupacao,trimestral,2021T1,33,Rio de Janeiro,19.7
+taxa_desocupacao,trimestral,2021T2,33,Rio de Janeiro,17.9
+taxa_desocupacao,trimestral,2021T3,33,Rio de Janeiro,15.9
+taxa_desocupacao,trimestral,2021T4,33,Rio de Janeiro,14.2
+taxa_desocupacao,trimestral,2022T1,33,Rio de Janeiro,14.9
+taxa_desocupacao,trimestral,2022T2,33,Rio de Janeiro,12.6
+taxa_desocupacao,trimestral,2022T3,33,Rio de Janeiro,12.3
+taxa_desocupacao,trimestral,2022T4,33,Rio de Janeiro,11.4
+taxa_desocupacao,trimestral,2023T1,33,Rio de Janeiro,11.7
+taxa_desocupacao,trimestral,2023T2,33,Rio de Janeiro,11.3
+taxa_desocupacao,trimestral,2023T3,33,Rio de Janeiro,10.9
+taxa_desocupacao,trimestral,2023T4,33,Rio de Janeiro,10.1
+taxa_desocupacao,trimestral,2024T1,33,Rio de Janeiro,10.3
+taxa_desocupacao,trimestral,2024T2,33,Rio de Janeiro,9.7
+taxa_desocupacao,trimestral,2024T3,33,Rio de Janeiro,8.6
+taxa_desocupacao,trimestral,2024T4,33,Rio de Janeiro,8.2
+taxa_desocupacao,trimestral,2025T1,33,Rio de Janeiro,9.3
+taxa_desocupacao,trimestral,2025T2,33,Rio de Janeiro,8.1
+taxa_desocupacao,trimestral,2025T3,33,Rio de Janeiro,7.5
+taxa_desocupacao,trimestral,2025T4,33,Rio de Janeiro,6.9
+taxa_desocupacao,trimestral,2026T1,33,Rio de Janeiro,7.3
+taxa_desocupacao,trimestral,2026T2,33,Rio de Janeiro,7.1
+taxa_desocupacao,trimestral,2016T1,35,São Paulo,12.2
+taxa_desocupacao,trimestral,2016T2,35,São Paulo,12.3
+taxa_desocupacao,trimestral,2016T3,35,São Paulo,12.9
+taxa_desocupacao,trimestral,2016T4,35,São Paulo,12.5
+taxa_desocupacao,trimestral,2017T1,35,São Paulo,14.4
+taxa_desocupacao,trimestral,2017T2,35,São Paulo,13.6
+taxa_desocupacao,trimestral,2017T3,35,São Paulo,13.3
+taxa_desocupacao,trimestral,2017T4,35,São Paulo,12.8
+taxa_desocupacao,trimestral,2018T1,35,São Paulo,14.1
+taxa_desocupacao,trimestral,2018T2,35,São Paulo,13.8
+taxa_desocupacao,trimestral,2018T3,35,São Paulo,13.3
+taxa_desocupacao,trimestral,2018T4,35,São Paulo,12.6
+taxa_desocupacao,trimestral,2019T1,35,São Paulo,13.6
+taxa_desocupacao,trimestral,2019T2,35,São Paulo,12.9
+taxa_desocupacao,trimestral,2019T3,35,São Paulo,12.2
+taxa_desocupacao,trimestral,2019T4,35,São Paulo,11.6
+taxa_desocupacao,trimestral,2020T1,35,São Paulo,12.3
+taxa_desocupacao,trimestral,2020T2,35,São Paulo,13.9
+taxa_desocupacao,trimestral,2020T3,35,São Paulo,15.4
+taxa_desocupacao,trimestral,2020T4,35,São Paulo,14.8
+taxa_desocupacao,trimestral,2021T1,35,São Paulo,14.7
+taxa_desocupacao,trimestral,2021T2,35,São Paulo,14.6
+taxa_desocupacao,trimestral,2021T3,35,São Paulo,13.4
+taxa_desocupacao,trimestral,2021T4,35,São Paulo,11.2
+taxa_desocupacao,trimestral,2022T1,35,São Paulo,10.8
+taxa_desocupacao,trimestral,2022T2,35,São Paulo,9.2
+taxa_desocupacao,trimestral,2022T3,35,São Paulo,8.7
+taxa_desocupacao,trimestral,2022T4,35,São Paulo,7.7
+taxa_desocupacao,trimestral,2023T1,35,São Paulo,8.5
+taxa_desocupacao,trimestral,2023T2,35,São Paulo,7.8
+taxa_desocupacao,trimestral,2023T3,35,São Paulo,7.2
+taxa_desocupacao,trimestral,2023T4,35,São Paulo,6.9
+taxa_desocupacao,trimestral,2024T1,35,São Paulo,7.4
+taxa_desocupacao,trimestral,2024T2,35,São Paulo,6.4
+taxa_desocupacao,trimestral,2024T3,35,São Paulo,6.1
+taxa_desocupacao,trimestral,2024T4,35,São Paulo,5.9
+taxa_desocupacao,trimestral,2025T1,35,São Paulo,6.3
+taxa_desocupacao,trimestral,2025T2,35,São Paulo,5.1
+taxa_desocupacao,trimestral,2025T3,35,São Paulo,5.2
+taxa_desocupacao,trimestral,2025T4,35,São Paulo,4.7
+taxa_desocupacao,trimestral,2026T1,35,São Paulo,6.0
+taxa_desocupacao,trimestral,2026T2,35,São Paulo,5.4
+taxa_desocupacao,trimestral,2016T1,41,Paraná,8.1
+taxa_desocupacao,trimestral,2016T2,41,Paraná,8.2
+taxa_desocupacao,trimestral,2016T3,41,Paraná,8.6
+taxa_desocupacao,trimestral,2016T4,41,Paraná,8.2
+taxa_desocupacao,trimestral,2017T1,41,Paraná,10.4
+taxa_desocupacao,trimestral,2017T2,41,Paraná,8.9
+taxa_desocupacao,trimestral,2017T3,41,Paraná,8.5
+taxa_desocupacao,trimestral,2017T4,41,Paraná,8.3
+taxa_desocupacao,trimestral,2018T1,41,Paraná,9.7
+taxa_desocupacao,trimestral,2018T2,41,Paraná,9.1
+taxa_desocupacao,trimestral,2018T3,41,Paraná,8.7
+taxa_desocupacao,trimestral,2018T4,41,Paraná,7.9
+taxa_desocupacao,trimestral,2019T1,41,Paraná,9.0
+taxa_desocupacao,trimestral,2019T2,41,Paraná,9.1
+taxa_desocupacao,trimestral,2019T3,41,Paraná,9.1
+taxa_desocupacao,trimestral,2019T4,41,Paraná,7.4
+taxa_desocupacao,trimestral,2020T1,41,Paraná,8.0
+taxa_desocupacao,trimestral,2020T2,41,Paraná,9.6
+taxa_desocupacao,trimestral,2020T3,41,Paraná,10.5
+taxa_desocupacao,trimestral,2020T4,41,Paraná,10.1
+taxa_desocupacao,trimestral,2021T1,41,Paraná,9.4
+taxa_desocupacao,trimestral,2021T2,41,Paraná,9.1
+taxa_desocupacao,trimestral,2021T3,41,Paraná,8.0
+taxa_desocupacao,trimestral,2021T4,41,Paraná,7.0
+taxa_desocupacao,trimestral,2022T1,41,Paraná,6.8
+taxa_desocupacao,trimestral,2022T2,41,Paraná,6.1
+taxa_desocupacao,trimestral,2022T3,41,Paraná,5.3
+taxa_desocupacao,trimestral,2022T4,41,Paraná,5.2
+taxa_desocupacao,trimestral,2023T1,41,Paraná,5.4
+taxa_desocupacao,trimestral,2023T2,41,Paraná,4.9
+taxa_desocupacao,trimestral,2023T3,41,Paraná,4.6
+taxa_desocupacao,trimestral,2023T4,41,Paraná,4.7
+taxa_desocupacao,trimestral,2024T1,41,Paraná,4.8
+taxa_desocupacao,trimestral,2024T2,41,Paraná,4.4
+taxa_desocupacao,trimestral,2024T3,41,Paraná,4.0
+taxa_desocupacao,trimestral,2024T4,41,Paraná,3.2
+taxa_desocupacao,trimestral,2025T1,41,Paraná,4.0
+taxa_desocupacao,trimestral,2025T2,41,Paraná,3.8
+taxa_desocupacao,trimestral,2025T3,41,Paraná,3.5
+taxa_desocupacao,trimestral,2025T4,41,Paraná,3.2
+taxa_desocupacao,trimestral,2026T1,41,Paraná,3.5
+taxa_desocupacao,trimestral,2026T2,41,Paraná,3.1
+taxa_desocupacao,trimestral,2016T1,42,Santa Catarina,6.1
+taxa_desocupacao,trimestral,2016T2,42,Santa Catarina,6.8
+taxa_desocupacao,trimestral,2016T3,42,Santa Catarina,6.4
+taxa_desocupacao,trimestral,2016T4,42,Santa Catarina,6.2
+taxa_desocupacao,trimestral,2017T1,42,Santa Catarina,7.9
+taxa_desocupacao,trimestral,2017T2,42,Santa Catarina,7.5
+taxa_desocupacao,trimestral,2017T3,42,Santa Catarina,6.8
+taxa_desocupacao,trimestral,2017T4,42,Santa Catarina,6.4
+taxa_desocupacao,trimestral,2018T1,42,Santa Catarina,6.6
+taxa_desocupacao,trimestral,2018T2,42,Santa Catarina,6.6
+taxa_desocupacao,trimestral,2018T3,42,Santa Catarina,6.2
+taxa_desocupacao,trimestral,2018T4,42,Santa Catarina,6.4
+taxa_desocupacao,trimestral,2019T1,42,Santa Catarina,7.3
+taxa_desocupacao,trimestral,2019T2,42,Santa Catarina,6.1
+taxa_desocupacao,trimestral,2019T3,42,Santa Catarina,5.8
+taxa_desocupacao,trimestral,2019T4,42,Santa Catarina,5.5
+taxa_desocupacao,trimestral,2020T1,42,Santa Catarina,5.8
+taxa_desocupacao,trimestral,2020T2,42,Santa Catarina,7.2
+taxa_desocupacao,trimestral,2020T3,42,Santa Catarina,6.7
+taxa_desocupacao,trimestral,2020T4,42,Santa Catarina,5.4
+taxa_desocupacao,trimestral,2021T1,42,Santa Catarina,6.4
+taxa_desocupacao,trimestral,2021T2,42,Santa Catarina,5.9
+taxa_desocupacao,trimestral,2021T3,42,Santa Catarina,5.3
+taxa_desocupacao,trimestral,2021T4,42,Santa Catarina,4.4
+taxa_desocupacao,trimestral,2022T1,42,Santa Catarina,4.6
+taxa_desocupacao,trimestral,2022T2,42,Santa Catarina,4.0
+taxa_desocupacao,trimestral,2022T3,42,Santa Catarina,3.8
+taxa_desocupacao,trimestral,2022T4,42,Santa Catarina,3.3
+taxa_desocupacao,trimestral,2023T1,42,Santa Catarina,3.9
+taxa_desocupacao,trimestral,2023T2,42,Santa Catarina,3.5
+taxa_desocupacao,trimestral,2023T3,42,Santa Catarina,3.6
+taxa_desocupacao,trimestral,2023T4,42,Santa Catarina,3.2
+taxa_desocupacao,trimestral,2024T1,42,Santa Catarina,3.9
+taxa_desocupacao,trimestral,2024T2,42,Santa Catarina,3.2
+taxa_desocupacao,trimestral,2024T3,42,Santa Catarina,2.8
+taxa_desocupacao,trimestral,2024T4,42,Santa Catarina,2.7
+taxa_desocupacao,trimestral,2025T1,42,Santa Catarina,3.0
+taxa_desocupacao,trimestral,2025T2,42,Santa Catarina,2.2
+taxa_desocupacao,trimestral,2025T3,42,Santa Catarina,2.3
+taxa_desocupacao,trimestral,2025T4,42,Santa Catarina,2.2
+taxa_desocupacao,trimestral,2026T1,42,Santa Catarina,2.7
+taxa_desocupacao,trimestral,2026T2,42,Santa Catarina,2.1
+taxa_desocupacao,trimestral,2016T1,43,Rio Grande do Sul,7.6
+taxa_desocupacao,trimestral,2016T2,43,Rio Grande do Sul,8.9
+taxa_desocupacao,trimestral,2016T3,43,Rio Grande do Sul,8.3
+taxa_desocupacao,trimestral,2016T4,43,Rio Grande do Sul,8.4
+taxa_desocupacao,trimestral,2017T1,43,Rio Grande do Sul,9.2
+taxa_desocupacao,trimestral,2017T2,43,Rio Grande do Sul,8.6
+taxa_desocupacao,trimestral,2017T3,43,Rio Grande do Sul,8.2
+taxa_desocupacao,trimestral,2017T4,43,Rio Grande do Sul,8.1
+taxa_desocupacao,trimestral,2018T1,43,Rio Grande do Sul,8.6
+taxa_desocupacao,trimestral,2018T2,43,Rio Grande do Sul,8.4
+taxa_desocupacao,trimestral,2018T3,43,Rio Grande do Sul,8.3
+taxa_desocupacao,trimestral,2018T4,43,Rio Grande do Sul,7.5
+taxa_desocupacao,trimestral,2019T1,43,Rio Grande do Sul,8.1
+taxa_desocupacao,trimestral,2019T2,43,Rio Grande do Sul,8.3
+taxa_desocupacao,trimestral,2019T3,43,Rio Grande do Sul,8.9
+taxa_desocupacao,trimestral,2019T4,43,Rio Grande do Sul,7.3
+taxa_desocupacao,trimestral,2020T1,43,Rio Grande do Sul,8.5
+taxa_desocupacao,trimestral,2020T2,43,Rio Grande do Sul,9.7
+taxa_desocupacao,trimestral,2020T3,43,Rio Grande do Sul,10.5
+taxa_desocupacao,trimestral,2020T4,43,Rio Grande do Sul,8.6
+taxa_desocupacao,trimestral,2021T1,43,Rio Grande do Sul,9.5
+taxa_desocupacao,trimestral,2021T2,43,Rio Grande do Sul,8.8
+taxa_desocupacao,trimestral,2021T3,43,Rio Grande do Sul,8.4
+taxa_desocupacao,trimestral,2021T4,43,Rio Grande do Sul,8.1
+taxa_desocupacao,trimestral,2022T1,43,Rio Grande do Sul,7.4
+taxa_desocupacao,trimestral,2022T2,43,Rio Grande do Sul,6.3
+taxa_desocupacao,trimestral,2022T3,43,Rio Grande do Sul,6.0
+taxa_desocupacao,trimestral,2022T4,43,Rio Grande do Sul,4.6
+taxa_desocupacao,trimestral,2023T1,43,Rio Grande do Sul,5.4
+taxa_desocupacao,trimestral,2023T2,43,Rio Grande do Sul,5.3
+taxa_desocupacao,trimestral,2023T3,43,Rio Grande do Sul,5.4
+taxa_desocupacao,trimestral,2023T4,43,Rio Grande do Sul,5.2
+taxa_desocupacao,trimestral,2024T1,43,Rio Grande do Sul,5.8
+taxa_desocupacao,trimestral,2024T2,43,Rio Grande do Sul,5.9
+taxa_desocupacao,trimestral,2024T3,43,Rio Grande do Sul,5.1
+taxa_desocupacao,trimestral,2024T4,43,Rio Grande do Sul,4.5
+taxa_desocupacao,trimestral,2025T1,43,Rio Grande do Sul,5.3
+taxa_desocupacao,trimestral,2025T2,43,Rio Grande do Sul,4.3
+taxa_desocupacao,trimestral,2025T3,43,Rio Grande do Sul,4.1
+taxa_desocupacao,trimestral,2025T4,43,Rio Grande do Sul,3.7
+taxa_desocupacao,trimestral,2026T1,43,Rio Grande do Sul,4.0
+taxa_desocupacao,trimestral,2026T2,43,Rio Grande do Sul,4.2
+taxa_desocupacao,trimestral,2016T1,50,Mato Grosso do Sul,7.8
+taxa_desocupacao,trimestral,2016T2,50,Mato Grosso do Sul,7.0
+taxa_desocupacao,trimestral,2016T3,50,Mato Grosso do Sul,7.7
+taxa_desocupacao,trimestral,2016T4,50,Mato Grosso do Sul,8.2
+taxa_desocupacao,trimestral,2017T1,50,Mato Grosso do Sul,9.9
+taxa_desocupacao,trimestral,2017T2,50,Mato Grosso do Sul,9.0
+taxa_desocupacao,trimestral,2017T3,50,Mato Grosso do Sul,8.0
+taxa_desocupacao,trimestral,2017T4,50,Mato Grosso do Sul,7.4
+taxa_desocupacao,trimestral,2018T1,50,Mato Grosso do Sul,8.5
+taxa_desocupacao,trimestral,2018T2,50,Mato Grosso do Sul,7.7
+taxa_desocupacao,trimestral,2018T3,50,Mato Grosso do Sul,7.3
+taxa_desocupacao,trimestral,2018T4,50,Mato Grosso do Sul,7.0
+taxa_desocupacao,trimestral,2019T1,50,Mato Grosso do Sul,9.6
+taxa_desocupacao,trimestral,2019T2,50,Mato Grosso do Sul,8.4
+taxa_desocupacao,trimestral,2019T3,50,Mato Grosso do Sul,7.7
+taxa_desocupacao,trimestral,2019T4,50,Mato Grosso do Sul,6.7
+taxa_desocupacao,trimestral,2020T1,50,Mato Grosso do Sul,7.9
+taxa_desocupacao,trimestral,2020T2,50,Mato Grosso do Sul,11.6
+taxa_desocupacao,trimestral,2020T3,50,Mato Grosso do Sul,11.9
+taxa_desocupacao,trimestral,2020T4,50,Mato Grosso do Sul,9.6
+taxa_desocupacao,trimestral,2021T1,50,Mato Grosso do Sul,10.6
+taxa_desocupacao,trimestral,2021T2,50,Mato Grosso do Sul,9.9
+taxa_desocupacao,trimestral,2021T3,50,Mato Grosso do Sul,7.7
+taxa_desocupacao,trimestral,2021T4,50,Mato Grosso do Sul,6.5
+taxa_desocupacao,trimestral,2022T1,50,Mato Grosso do Sul,6.5
+taxa_desocupacao,trimestral,2022T2,50,Mato Grosso do Sul,5.2
+taxa_desocupacao,trimestral,2022T3,50,Mato Grosso do Sul,5.1
+taxa_desocupacao,trimestral,2022T4,50,Mato Grosso do Sul,3.3
+taxa_desocupacao,trimestral,2023T1,50,Mato Grosso do Sul,4.8
+taxa_desocupacao,trimestral,2023T2,50,Mato Grosso do Sul,4.1
+taxa_desocupacao,trimestral,2023T3,50,Mato Grosso do Sul,4.0
+taxa_desocupacao,trimestral,2023T4,50,Mato Grosso do Sul,4.1
+taxa_desocupacao,trimestral,2024T1,50,Mato Grosso do Sul,5.0
+taxa_desocupacao,trimestral,2024T2,50,Mato Grosso do Sul,3.8
+taxa_desocupacao,trimestral,2024T3,50,Mato Grosso do Sul,3.4
+taxa_desocupacao,trimestral,2024T4,50,Mato Grosso do Sul,3.7
+taxa_desocupacao,trimestral,2025T1,50,Mato Grosso do Sul,4.0
+taxa_desocupacao,trimestral,2025T2,50,Mato Grosso do Sul,2.9
+taxa_desocupacao,trimestral,2025T3,50,Mato Grosso do Sul,2.9
+taxa_desocupacao,trimestral,2025T4,50,Mato Grosso do Sul,2.4
+taxa_desocupacao,trimestral,2026T1,50,Mato Grosso do Sul,3.8
+taxa_desocupacao,trimestral,2026T2,50,Mato Grosso do Sul,2.7
+taxa_desocupacao,trimestral,2016T1,51,Mato Grosso,9.3
+taxa_desocupacao,trimestral,2016T2,51,Mato Grosso,10.0
+taxa_desocupacao,trimestral,2016T3,51,Mato Grosso,9.1
+taxa_desocupacao,trimestral,2016T4,51,Mato Grosso,9.6
+taxa_desocupacao,trimestral,2017T1,51,Mato Grosso,10.6
+taxa_desocupacao,trimestral,2017T2,51,Mato Grosso,8.7
+taxa_desocupacao,trimestral,2017T3,51,Mato Grosso,9.5
+taxa_desocupacao,trimestral,2017T4,51,Mato Grosso,7.4
+taxa_desocupacao,trimestral,2018T1,51,Mato Grosso,9.5
+taxa_desocupacao,trimestral,2018T2,51,Mato Grosso,8.6
+taxa_desocupacao,trimestral,2018T3,51,Mato Grosso,6.8
+taxa_desocupacao,trimestral,2018T4,51,Mato Grosso,7.0
+taxa_desocupacao,trimestral,2019T1,51,Mato Grosso,9.2
+taxa_desocupacao,trimestral,2019T2,51,Mato Grosso,8.4
+taxa_desocupacao,trimestral,2019T3,51,Mato Grosso,8.0
+taxa_desocupacao,trimestral,2019T4,51,Mato Grosso,6.5
+taxa_desocupacao,trimestral,2020T1,51,Mato Grosso,8.6
+taxa_desocupacao,trimestral,2020T2,51,Mato Grosso,10.3
+taxa_desocupacao,trimestral,2020T3,51,Mato Grosso,10.2
+taxa_desocupacao,trimestral,2020T4,51,Mato Grosso,10.7
+taxa_desocupacao,trimestral,2021T1,51,Mato Grosso,10.2
+taxa_desocupacao,trimestral,2021T2,51,Mato Grosso,9.1
+taxa_desocupacao,trimestral,2021T3,51,Mato Grosso,6.7
+taxa_desocupacao,trimestral,2021T4,51,Mato Grosso,5.9
+taxa_desocupacao,trimestral,2022T1,51,Mato Grosso,5.3
+taxa_desocupacao,trimestral,2022T2,51,Mato Grosso,4.4
+taxa_desocupacao,trimestral,2022T3,51,Mato Grosso,3.9
+taxa_desocupacao,trimestral,2022T4,51,Mato Grosso,3.6
+taxa_desocupacao,trimestral,2023T1,51,Mato Grosso,4.5
+taxa_desocupacao,trimestral,2023T2,51,Mato Grosso,3.0
+taxa_desocupacao,trimestral,2023T3,51,Mato Grosso,2.5
+taxa_desocupacao,trimestral,2023T4,51,Mato Grosso,3.9
+taxa_desocupacao,trimestral,2024T1,51,Mato Grosso,3.8
+taxa_desocupacao,trimestral,2024T2,51,Mato Grosso,3.3
+taxa_desocupacao,trimestral,2024T3,51,Mato Grosso,2.3
+taxa_desocupacao,trimestral,2024T4,51,Mato Grosso,2.5
+taxa_desocupacao,trimestral,2025T1,51,Mato Grosso,3.5
+taxa_desocupacao,trimestral,2025T2,51,Mato Grosso,2.8
+taxa_desocupacao,trimestral,2025T3,51,Mato Grosso,2.3
+taxa_desocupacao,trimestral,2025T4,51,Mato Grosso,2.4
+taxa_desocupacao,trimestral,2026T1,51,Mato Grosso,3.1
+taxa_desocupacao,trimestral,2026T2,51,Mato Grosso,2.2
+taxa_desocupacao,trimestral,2016T1,52,Goiás,10.2
+taxa_desocupacao,trimestral,2016T2,52,Goiás,10.3
+taxa_desocupacao,trimestral,2016T3,52,Goiás,10.7
+taxa_desocupacao,trimestral,2016T4,52,Goiás,11.4
+taxa_desocupacao,trimestral,2017T1,52,Goiás,12.8
+taxa_desocupacao,trimestral,2017T2,52,Goiás,11.1
+taxa_desocupacao,trimestral,2017T3,52,Goiás,9.3
+taxa_desocupacao,trimestral,2017T4,52,Goiás,9.5
+taxa_desocupacao,trimestral,2018T1,52,Goiás,10.4
+taxa_desocupacao,trimestral,2018T2,52,Goiás,9.6
+taxa_desocupacao,trimestral,2018T3,52,Goiás,9.0
+taxa_desocupacao,trimestral,2018T4,52,Goiás,8.4
+taxa_desocupacao,trimestral,2019T1,52,Goiás,10.9
+taxa_desocupacao,trimestral,2019T2,52,Goiás,10.7
+taxa_desocupacao,trimestral,2019T3,52,Goiás,11.1
+taxa_desocupacao,trimestral,2019T4,52,Goiás,10.6
+taxa_desocupacao,trimestral,2020T1,52,Goiás,11.6
+taxa_desocupacao,trimestral,2020T2,52,Goiás,13.1
+taxa_desocupacao,trimestral,2020T3,52,Goiás,13.6
+taxa_desocupacao,trimestral,2020T4,52,Goiás,12.8
+taxa_desocupacao,trimestral,2021T1,52,Goiás,14.0
+taxa_desocupacao,trimestral,2021T2,52,Goiás,12.5
+taxa_desocupacao,trimestral,2021T3,52,Goiás,10.1
+taxa_desocupacao,trimestral,2021T4,52,Goiás,8.8
+taxa_desocupacao,trimestral,2022T1,52,Goiás,9.0
+taxa_desocupacao,trimestral,2022T2,52,Goiás,6.9
+taxa_desocupacao,trimestral,2022T3,52,Goiás,6.2
+taxa_desocupacao,trimestral,2022T4,52,Goiás,6.7
+taxa_desocupacao,trimestral,2023T1,52,Goiás,6.8
+taxa_desocupacao,trimestral,2023T2,52,Goiás,6.2
+taxa_desocupacao,trimestral,2023T3,52,Goiás,6.0
+taxa_desocupacao,trimestral,2023T4,52,Goiás,5.6
+taxa_desocupacao,trimestral,2024T1,52,Goiás,6.1
+taxa_desocupacao,trimestral,2024T2,52,Goiás,5.2
+taxa_desocupacao,trimestral,2024T3,52,Goiás,5.2
+taxa_desocupacao,trimestral,2024T4,52,Goiás,4.9
+taxa_desocupacao,trimestral,2025T1,52,Goiás,5.3
+taxa_desocupacao,trimestral,2025T2,52,Goiás,4.4
+taxa_desocupacao,trimestral,2025T3,52,Goiás,4.5
+taxa_desocupacao,trimestral,2025T4,52,Goiás,3.9
+taxa_desocupacao,trimestral,2026T1,52,Goiás,5.1
+taxa_desocupacao,trimestral,2026T2,52,Goiás,4.0
+taxa_desocupacao,trimestral,2016T1,53,Distrito Federal,11.3
+taxa_desocupacao,trimestral,2016T2,53,Distrito Federal,11.0
+taxa_desocupacao,trimestral,2016T3,53,Distrito Federal,12.1
+taxa_desocupacao,trimestral,2016T4,53,Distrito Federal,14.0
+taxa_desocupacao,trimestral,2017T1,53,Distrito Federal,14.3
+taxa_desocupacao,trimestral,2017T2,53,Distrito Federal,13.3
+taxa_desocupacao,trimestral,2017T3,53,Distrito Federal,12.3
+taxa_desocupacao,trimestral,2017T4,53,Distrito Federal,13.4
+taxa_desocupacao,trimestral,2018T1,53,Distrito Federal,14.1
+taxa_desocupacao,trimestral,2018T2,53,Distrito Federal,12.3
+taxa_desocupacao,trimestral,2018T3,53,Distrito Federal,12.7
+taxa_desocupacao,trimestral,2018T4,53,Distrito Federal,12.1
+taxa_desocupacao,trimestral,2019T1,53,Distrito Federal,14.2
+taxa_desocupacao,trimestral,2019T2,53,Distrito Federal,13.8
+taxa_desocupacao,trimestral,2019T3,53,Distrito Federal,13.2
+taxa_desocupacao,trimestral,2019T4,53,Distrito Federal,12.6
+taxa_desocupacao,trimestral,2020T1,53,Distrito Federal,13.6
+taxa_desocupacao,trimestral,2020T2,53,Distrito Federal,15.6
+taxa_desocupacao,trimestral,2020T3,53,Distrito Federal,15.7
+taxa_desocupacao,trimestral,2020T4,53,Distrito Federal,14.5
+taxa_desocupacao,trimestral,2021T1,53,Distrito Federal,15.0
+taxa_desocupacao,trimestral,2021T2,53,Distrito Federal,14.4
+taxa_desocupacao,trimestral,2021T3,53,Distrito Federal,14.6
+taxa_desocupacao,trimestral,2021T4,53,Distrito Federal,12.1
+taxa_desocupacao,trimestral,2022T1,53,Distrito Federal,12.6
+taxa_desocupacao,trimestral,2022T2,53,Distrito Federal,11.6
+taxa_desocupacao,trimestral,2022T3,53,Distrito Federal,11.0
+taxa_desocupacao,trimestral,2022T4,53,Distrito Federal,10.3
+taxa_desocupacao,trimestral,2023T1,53,Distrito Federal,12.0
+taxa_desocupacao,trimestral,2023T2,53,Distrito Federal,8.8
+taxa_desocupacao,trimestral,2023T3,53,Distrito Federal,8.9
+taxa_desocupacao,trimestral,2023T4,53,Distrito Federal,9.7
+taxa_desocupacao,trimestral,2024T1,53,Distrito Federal,9.6
+taxa_desocupacao,trimestral,2024T2,53,Distrito Federal,9.7
+taxa_desocupacao,trimestral,2024T3,53,Distrito Federal,8.9
+taxa_desocupacao,trimestral,2024T4,53,Distrito Federal,9.1
+taxa_desocupacao,trimestral,2025T1,53,Distrito Federal,9.2
+taxa_desocupacao,trimestral,2025T2,53,Distrito Federal,8.7
+taxa_desocupacao,trimestral,2025T3,53,Distrito Federal,8.0
+taxa_desocupacao,trimestral,2025T4,53,Distrito Federal,6.8
+taxa_desocupacao,trimestral,2026T1,53,Distrito Federal,7.1
+taxa_desocupacao,trimestral,2026T2,53,Distrito Federal,6.5
+renda_real_per_capita,anual,2016,11,Rondônia,861.0
+renda_real_per_capita,anual,2017,11,Rondônia,927.0
+renda_real_per_capita,anual,2018,11,Rondônia,1070.0
+renda_real_per_capita,anual,2019,11,Rondônia,1078.0
+renda_real_per_capita,anual,2020,11,Rondônia,1106.0
+renda_real_per_capita,anual,2021,11,Rondônia,1011.0
+renda_real_per_capita,anual,2022,11,Rondônia,1322.0
+renda_real_per_capita,anual,2023,11,Rondônia,1525.0
+renda_real_per_capita,anual,2024,11,Rondônia,1724.0
+renda_real_per_capita,anual,2025,11,Rondônia,1970.0
+renda_real_per_capita,anual,2016,12,Acre,724.0
+renda_real_per_capita,anual,2017,12,Acre,728.0
+renda_real_per_capita,anual,2018,12,Acre,856.0
+renda_real_per_capita,anual,2019,12,Acre,844.0
+renda_real_per_capita,anual,2020,12,Acre,879.0
+renda_real_per_capita,anual,2021,12,Acre,877.0
+renda_real_per_capita,anual,2022,12,Acre,1019.0
+renda_real_per_capita,anual,2023,12,Acre,1065.0
+renda_real_per_capita,anual,2024,12,Acre,1250.0
+renda_real_per_capita,anual,2025,12,Acre,1372.0
+renda_real_per_capita,anual,2016,13,Amazonas,705.0
+renda_real_per_capita,anual,2017,13,Amazonas,817.0
+renda_real_per_capita,anual,2018,13,Amazonas,761.0
+renda_real_per_capita,anual,2019,13,Amazonas,805.0
+renda_real_per_capita,anual,2020,13,Amazonas,828.0
+renda_real_per_capita,anual,2021,13,Amazonas,810.0
+renda_real_per_capita,anual,2022,13,Amazonas,948.0
+renda_real_per_capita,anual,2023,13,Amazonas,1165.0
+renda_real_per_capita,anual,2024,13,Amazonas,1237.0
+renda_real_per_capita,anual,2025,13,Amazonas,1450.0
+renda_real_per_capita,anual,2016,14,Roraima,1030.0
+renda_real_per_capita,anual,2017,14,Roraima,960.0
+renda_real_per_capita,anual,2018,14,Roraima,1173.0
+renda_real_per_capita,anual,2019,14,Roraima,1024.0
+renda_real_per_capita,anual,2020,14,Roraima,955.0
+renda_real_per_capita,anual,2021,14,Roraima,1040.0
+renda_real_per_capita,anual,2022,14,Roraima,1261.0
+renda_real_per_capita,anual,2023,14,Roraima,1452.0
+renda_real_per_capita,anual,2024,14,Roraima,1531.0
+renda_real_per_capita,anual,2025,14,Roraima,1870.0
+renda_real_per_capita,anual,2016,15,Pará,667.0
+renda_real_per_capita,anual,2017,15,Pará,691.0
+renda_real_per_capita,anual,2018,15,Pará,813.0
+renda_real_per_capita,anual,2019,15,Pará,763.0
+renda_real_per_capita,anual,2020,15,Pará,856.0
+renda_real_per_capita,anual,2021,15,Pará,822.0
+renda_real_per_capita,anual,2022,15,Pará,1052.0
+renda_real_per_capita,anual,2023,15,Pará,1262.0
+renda_real_per_capita,anual,2024,15,Pará,1322.0
+renda_real_per_capita,anual,2025,15,Pará,1435.0
+renda_real_per_capita,anual,2016,16,Amapá,844.0
+renda_real_per_capita,anual,2017,16,Amapá,875.0
+renda_real_per_capita,anual,2018,16,Amapá,821.0
+renda_real_per_capita,anual,2019,16,Amapá,844.0
+renda_real_per_capita,anual,2020,16,Amapá,858.0
+renda_real_per_capita,anual,2021,16,Amapá,853.0
+renda_real_per_capita,anual,2022,16,Amapá,1174.0
+renda_real_per_capita,anual,2023,16,Amapá,1509.0
+renda_real_per_capita,anual,2024,16,Amapá,1530.0
+renda_real_per_capita,anual,2025,16,Amapá,1675.0
+renda_real_per_capita,anual,2016,17,Tocantins,824.0
+renda_real_per_capita,anual,2017,17,Tocantins,898.0
+renda_real_per_capita,anual,2018,17,Tocantins,997.0
+renda_real_per_capita,anual,2019,17,Tocantins,1005.0
+renda_real_per_capita,anual,2020,17,Tocantins,1019.0
+renda_real_per_capita,anual,2021,17,Tocantins,1060.0
+renda_real_per_capita,anual,2022,17,Tocantins,1358.0
+renda_real_per_capita,anual,2023,17,Tocantins,1553.0
+renda_real_per_capita,anual,2024,17,Tocantins,1736.0
+renda_real_per_capita,anual,2025,17,Tocantins,1979.0
+renda_real_per_capita,anual,2016,21,Maranhão,554.0
+renda_real_per_capita,anual,2017,21,Maranhão,577.0
+renda_real_per_capita,anual,2018,21,Maranhão,585.0
+renda_real_per_capita,anual,2019,21,Maranhão,616.0
+renda_real_per_capita,anual,2020,21,Maranhão,663.0
+renda_real_per_capita,anual,2021,21,Maranhão,639.0
+renda_real_per_capita,anual,2022,21,Maranhão,830.0
+renda_real_per_capita,anual,2023,21,Maranhão,966.0
+renda_real_per_capita,anual,2024,21,Maranhão,1079.0
+renda_real_per_capita,anual,2025,21,Maranhão,1231.0
+renda_real_per_capita,anual,2016,22,Piauí,709.0
+renda_real_per_capita,anual,2017,22,Piauí,724.0
+renda_real_per_capita,anual,2018,22,Piauí,777.0
+renda_real_per_capita,anual,2019,22,Piauí,801.0
+renda_real_per_capita,anual,2020,22,Piauí,833.0
+renda_real_per_capita,anual,2021,22,Piauí,849.0
+renda_real_per_capita,anual,2022,22,Piauí,1092.0
+renda_real_per_capita,anual,2023,22,Piauí,1320.0
+renda_real_per_capita,anual,2024,22,Piauí,1351.0
+renda_real_per_capita,anual,2025,22,Piauí,1534.0
+renda_real_per_capita,anual,2016,23,Ceará,710.0
+renda_real_per_capita,anual,2017,23,Ceará,780.0
+renda_real_per_capita,anual,2018,23,Ceará,811.0
+renda_real_per_capita,anual,2019,23,Ceará,898.0
+renda_real_per_capita,anual,2020,23,Ceará,968.0
+renda_real_per_capita,anual,2021,23,Ceará,894.0
+renda_real_per_capita,anual,2022,23,Ceará,1026.0
+renda_real_per_capita,anual,2023,23,Ceará,1130.0
+renda_real_per_capita,anual,2024,23,Ceará,1202.0
+renda_real_per_capita,anual,2025,23,Ceará,1379.0
+renda_real_per_capita,anual,2016,24,Rio Grande do Norte,857.0
+renda_real_per_capita,anual,2017,24,Rio Grande do Norte,815.0
+renda_real_per_capita,anual,2018,24,Rio Grande do Norte,915.0
+renda_real_per_capita,anual,2019,24,Rio Grande do Norte,995.0
+renda_real_per_capita,anual,2020,24,Rio Grande do Norte,1045.0
+renda_real_per_capita,anual,2021,24,Rio Grande do Norte,1102.0
+renda_real_per_capita,anual,2022,24,Rio Grande do Norte,1217.0
+renda_real_per_capita,anual,2023,24,Rio Grande do Norte,1321.0
+renda_real_per_capita,anual,2024,24,Rio Grande do Norte,1552.0
+renda_real_per_capita,anual,2025,24,Rio Grande do Norte,1779.0
+renda_real_per_capita,anual,2016,25,Paraíba,751.0
+renda_real_per_capita,anual,2017,25,Paraíba,874.0
+renda_real_per_capita,anual,2018,25,Paraíba,854.0
+renda_real_per_capita,anual,2019,25,Paraíba,883.0
+renda_real_per_capita,anual,2020,25,Paraíba,867.0
+renda_real_per_capita,anual,2021,25,Paraíba,877.0
+renda_real_per_capita,anual,2022,25,Paraíba,1088.0
+renda_real_per_capita,anual,2023,25,Paraíba,1338.0
+renda_real_per_capita,anual,2024,25,Paraíba,1377.0
+renda_real_per_capita,anual,2025,25,Paraíba,1542.0
+renda_real_per_capita,anual,2016,26,Pernambuco,811.0
+renda_real_per_capita,anual,2017,26,Pernambuco,807.0
+renda_real_per_capita,anual,2018,26,Pernambuco,825.0
+renda_real_per_capita,anual,2019,26,Pernambuco,915.0
+renda_real_per_capita,anual,2020,26,Pernambuco,877.0
+renda_real_per_capita,anual,2021,26,Pernambuco,838.0
+renda_real_per_capita,anual,2022,26,Pernambuco,985.0
+renda_real_per_capita,anual,2023,26,Pernambuco,1098.0
+renda_real_per_capita,anual,2024,26,Pernambuco,1407.0
+renda_real_per_capita,anual,2025,26,Pernambuco,1568.0
+renda_real_per_capita,anual,2016,27,Alagoas,639.0
+renda_real_per_capita,anual,2017,27,Alagoas,634.0
+renda_real_per_capita,anual,2018,27,Alagoas,682.0
+renda_real_per_capita,anual,2019,27,Alagoas,707.0
+renda_real_per_capita,anual,2020,27,Alagoas,769.0
+renda_real_per_capita,anual,2021,27,Alagoas,762.0
+renda_real_per_capita,anual,2022,27,Alagoas,929.0
+renda_real_per_capita,anual,2023,27,Alagoas,1110.0
+renda_real_per_capita,anual,2024,27,Alagoas,1318.0
+renda_real_per_capita,anual,2025,27,Alagoas,1401.0
+renda_real_per_capita,anual,2016,28,Sergipe,836.0
+renda_real_per_capita,anual,2017,28,Sergipe,797.0
+renda_real_per_capita,anual,2018,28,Sergipe,859.0
+renda_real_per_capita,anual,2019,28,Sergipe,921.0
+renda_real_per_capita,anual,2020,28,Sergipe,983.0
+renda_real_per_capita,anual,2021,28,Sergipe,913.0
+renda_real_per_capita,anual,2022,28,Sergipe,1133.0
+renda_real_per_capita,anual,2023,28,Sergipe,1186.0
+renda_real_per_capita,anual,2024,28,Sergipe,1426.0
+renda_real_per_capita,anual,2025,28,Sergipe,1688.0
+renda_real_per_capita,anual,2016,29,Bahia,731.0
+renda_real_per_capita,anual,2017,29,Bahia,816.0
+renda_real_per_capita,anual,2018,29,Bahia,793.0
+renda_real_per_capita,anual,2019,29,Bahia,865.0
+renda_real_per_capita,anual,2020,29,Bahia,928.0
+renda_real_per_capita,anual,2021,29,Bahia,832.0
+renda_real_per_capita,anual,2022,29,Bahia,982.0
+renda_real_per_capita,anual,2023,29,Bahia,1110.0
+renda_real_per_capita,anual,2024,29,Bahia,1329.0
+renda_real_per_capita,anual,2025,29,Bahia,1452.0
+renda_real_per_capita,anual,2016,31,Minas Gerais,1096.0
+renda_real_per_capita,anual,2017,31,Minas Gerais,1177.0
+renda_real_per_capita,anual,2018,31,Minas Gerais,1237.0
+renda_real_per_capita,anual,2019,31,Minas Gerais,1289.0
+renda_real_per_capita,anual,2020,31,Minas Gerais,1286.0
+renda_real_per_capita,anual,2021,31,Minas Gerais,1306.0
+renda_real_per_capita,anual,2022,31,Minas Gerais,1500.0
+renda_real_per_capita,anual,2023,31,Minas Gerais,1857.0
+renda_real_per_capita,anual,2024,31,Minas Gerais,1952.0
+renda_real_per_capita,anual,2025,31,Minas Gerais,2289.0
+renda_real_per_capita,anual,2016,32,Espírito Santo,1103.0
+renda_real_per_capita,anual,2017,32,Espírito Santo,1141.0
+renda_real_per_capita,anual,2018,32,Espírito Santo,1237.0
+renda_real_per_capita,anual,2019,32,Espírito Santo,1381.0
+renda_real_per_capita,anual,2020,32,Espírito Santo,1309.0
+renda_real_per_capita,anual,2021,32,Espírito Santo,1272.0
+renda_real_per_capita,anual,2022,32,Espírito Santo,1646.0
+renda_real_per_capita,anual,2023,32,Espírito Santo,1866.0
+renda_real_per_capita,anual,2024,32,Espírito Santo,2054.0
+renda_real_per_capita,anual,2025,32,Espírito Santo,2209.0
+renda_real_per_capita,anual,2016,33,Rio de Janeiro,1372.0
+renda_real_per_capita,anual,2017,33,Rio de Janeiro,1389.0
+renda_real_per_capita,anual,2018,33,Rio de Janeiro,1600.0
+renda_real_per_capita,anual,2019,33,Rio de Janeiro,1754.0
+renda_real_per_capita,anual,2020,33,Rio de Janeiro,1665.0
+renda_real_per_capita,anual,2021,33,Rio de Janeiro,1689.0
+renda_real_per_capita,anual,2022,33,Rio de Janeiro,1930.0
+renda_real_per_capita,anual,2023,33,Rio de Janeiro,2305.0
+renda_real_per_capita,anual,2024,33,Rio de Janeiro,2431.0
+renda_real_per_capita,anual,2025,33,Rio de Janeiro,2732.0
+renda_real_per_capita,anual,2016,35,São Paulo,1614.0
+renda_real_per_capita,anual,2017,35,São Paulo,1601.0
+renda_real_per_capita,anual,2018,35,São Paulo,1773.0
+renda_real_per_capita,anual,2019,35,São Paulo,1833.0
+renda_real_per_capita,anual,2020,35,São Paulo,1780.0
+renda_real_per_capita,anual,2021,35,São Paulo,1814.0
+renda_real_per_capita,anual,2022,35,São Paulo,2064.0
+renda_real_per_capita,anual,2023,35,São Paulo,2408.0
+renda_real_per_capita,anual,2024,35,São Paulo,2582.0
+renda_real_per_capita,anual,2025,35,São Paulo,2862.0
+renda_real_per_capita,anual,2016,41,Paraná,1325.0
+renda_real_per_capita,anual,2017,41,Paraná,1393.0
+renda_real_per_capita,anual,2018,41,Paraná,1504.0
+renda_real_per_capita,anual,2019,41,Paraná,1538.0
+renda_real_per_capita,anual,2020,41,Paraná,1465.0
+renda_real_per_capita,anual,2021,41,Paraná,1523.0
+renda_real_per_capita,anual,2022,41,Paraná,1784.0
+renda_real_per_capita,anual,2023,41,Paraná,2025.0
+renda_real_per_capita,anual,2024,41,Paraná,2408.0
+renda_real_per_capita,anual,2025,41,Paraná,2687.0
+renda_real_per_capita,anual,2016,42,Santa Catarina,1388.0
+renda_real_per_capita,anual,2017,42,Santa Catarina,1525.0
+renda_real_per_capita,anual,2018,42,Santa Catarina,1574.0
+renda_real_per_capita,anual,2019,42,Santa Catarina,1677.0
+renda_real_per_capita,anual,2020,42,Santa Catarina,1599.0
+renda_real_per_capita,anual,2021,42,Santa Catarina,1689.0
+renda_real_per_capita,anual,2022,42,Santa Catarina,1959.0
+renda_real_per_capita,anual,2023,42,Santa Catarina,2226.0
+renda_real_per_capita,anual,2024,42,Santa Catarina,2552.0
+renda_real_per_capita,anual,2025,42,Santa Catarina,2752.0
+renda_real_per_capita,anual,2016,43,Rio Grande do Sul,1467.0
+renda_real_per_capita,anual,2017,43,Rio Grande do Sul,1550.0
+renda_real_per_capita,anual,2018,43,Rio Grande do Sul,1601.0
+renda_real_per_capita,anual,2019,43,Rio Grande do Sul,1747.0
+renda_real_per_capita,anual,2020,43,Rio Grande do Sul,1704.0
+renda_real_per_capita,anual,2021,43,Rio Grande do Sul,1765.0
+renda_real_per_capita,anual,2022,43,Rio Grande do Sul,2024.0
+renda_real_per_capita,anual,2023,43,Rio Grande do Sul,2246.0
+renda_real_per_capita,anual,2024,43,Rio Grande do Sul,2526.0
+renda_real_per_capita,anual,2025,43,Rio Grande do Sul,2772.0
+renda_real_per_capita,anual,2016,50,Mato Grosso do Sul,1214.0
+renda_real_per_capita,anual,2017,50,Mato Grosso do Sul,1231.0
+renda_real_per_capita,anual,2018,50,Mato Grosso do Sul,1373.0
+renda_real_per_capita,anual,2019,50,Mato Grosso do Sul,1444.0
+renda_real_per_capita,anual,2020,50,Mato Grosso do Sul,1424.0
+renda_real_per_capita,anual,2021,50,Mato Grosso do Sul,1441.0
+renda_real_per_capita,anual,2022,50,Mato Grosso do Sul,1799.0
+renda_real_per_capita,anual,2023,50,Mato Grosso do Sul,1993.0
+renda_real_per_capita,anual,2024,50,Mato Grosso do Sul,2114.0
+renda_real_per_capita,anual,2025,50,Mato Grosso do Sul,2369.0
+renda_real_per_capita,anual,2016,51,Mato Grosso,1094.0
+renda_real_per_capita,anual,2017,51,Mato Grosso,1193.0
+renda_real_per_capita,anual,2018,51,Mato Grosso,1323.0
+renda_real_per_capita,anual,2019,51,Mato Grosso,1324.0
+renda_real_per_capita,anual,2020,51,Mato Grosso,1342.0
+renda_real_per_capita,anual,2021,51,Mato Grosso,1326.0
+renda_real_per_capita,anual,2022,51,Mato Grosso,1624.0
+renda_real_per_capita,anual,2023,51,Mato Grosso,1956.0
+renda_real_per_capita,anual,2024,51,Mato Grosso,2245.0
+renda_real_per_capita,anual,2025,51,Mato Grosso,2297.0
+renda_real_per_capita,anual,2016,52,Goiás,1084.0
+renda_real_per_capita,anual,2017,52,Goiás,1205.0
+renda_real_per_capita,anual,2018,52,Goiás,1246.0
+renda_real_per_capita,anual,2019,52,Goiás,1248.0
+renda_real_per_capita,anual,2020,52,Goiás,1229.0
+renda_real_per_capita,anual,2021,52,Goiás,1266.0
+renda_real_per_capita,anual,2022,52,Goiás,1573.0
+renda_real_per_capita,anual,2023,52,Goiás,1959.0
+renda_real_per_capita,anual,2024,52,Goiás,2051.0
+renda_real_per_capita,anual,2025,52,Goiás,2378.0
+renda_real_per_capita,anual,2016,53,Distrito Federal,2196.0
+renda_real_per_capita,anual,2017,53,Distrito Federal,2353.0
+renda_real_per_capita,anual,2018,53,Distrito Federal,2349.0
+renda_real_per_capita,anual,2019,53,Distrito Federal,2512.0
+renda_real_per_capita,anual,2020,53,Distrito Federal,2384.0
+renda_real_per_capita,anual,2021,53,Distrito Federal,2485.0
+renda_real_per_capita,anual,2022,53,Distrito Federal,2797.0
+renda_real_per_capita,anual,2023,53,Distrito Federal,3212.0
+renda_real_per_capita,anual,2024,53,Distrito Federal,3281.0
+renda_real_per_capita,anual,2025,53,Distrito Federal,4401.0
+ipca_numero_indice,mensal,201601,,,4550.23
+ipca_numero_indice,mensal,201602,,,4591.18
+ipca_numero_indice,mensal,201603,,,4610.92
+ipca_numero_indice,mensal,201604,,,4639.05
+ipca_numero_indice,mensal,201605,,,4675.23
+ipca_numero_indice,mensal,201606,,,4691.59
+ipca_numero_indice,mensal,201607,,,4715.99
+ipca_numero_indice,mensal,201608,,,4736.74
+ipca_numero_indice,mensal,201609,,,4740.53
+ipca_numero_indice,mensal,201610,,,4752.86
+ipca_numero_indice,mensal,201611,,,4761.42
+ipca_numero_indice,mensal,201612,,,4775.7
+ipca_numero_indice,mensal,201701,,,4793.85
+ipca_numero_indice,mensal,201702,,,4809.67
+ipca_numero_indice,mensal,201703,,,4821.69
+ipca_numero_indice,mensal,201704,,,4828.44
+ipca_numero_indice,mensal,201705,,,4843.41
+ipca_numero_indice,mensal,201706,,,4832.27
+ipca_numero_indice,mensal,201707,,,4843.87
+ipca_numero_indice,mensal,201708,,,4853.07
+ipca_numero_indice,mensal,201709,,,4860.83
+ipca_numero_indice,mensal,201710,,,4881.25
+ipca_numero_indice,mensal,201711,,,4894.92
+ipca_numero_indice,mensal,201712,,,4916.46
+ipca_numero_indice,mensal,201801,,,4930.72
+ipca_numero_indice,mensal,201802,,,4946.5
+ipca_numero_indice,mensal,201803,,,4950.95
+ipca_numero_indice,mensal,201804,,,4961.84
+ipca_numero_indice,mensal,201805,,,4981.69
+ipca_numero_indice,mensal,201806,,,5044.46
+ipca_numero_indice,mensal,201807,,,5061.11
+ipca_numero_indice,mensal,201808,,,5056.56
+ipca_numero_indice,mensal,201809,,,5080.83
+ipca_numero_indice,mensal,201810,,,5103.69
+ipca_numero_indice,mensal,201811,,,5092.97
+ipca_numero_indice,mensal,201812,,,5100.61
+ipca_numero_indice,mensal,201901,,,5116.93
+ipca_numero_indice,mensal,201902,,,5138.93
+ipca_numero_indice,mensal,201903,,,5177.47
+ipca_numero_indice,mensal,201904,,,5206.98
+ipca_numero_indice,mensal,201905,,,5213.75
+ipca_numero_indice,mensal,201906,,,5214.27
+ipca_numero_indice,mensal,201907,,,5224.18
+ipca_numero_indice,mensal,201908,,,5229.93
+ipca_numero_indice,mensal,201909,,,5227.84
+ipca_numero_indice,mensal,201910,,,5233.07
+ipca_numero_indice,mensal,201911,,,5259.76
+ipca_numero_indice,mensal,201912,,,5320.25
+ipca_numero_indice,mensal,202001,,,5331.42
+ipca_numero_indice,mensal,202002,,,5344.75
+ipca_numero_indice,mensal,202003,,,5348.49
+ipca_numero_indice,mensal,202004,,,5331.91
+ipca_numero_indice,mensal,202005,,,5311.65
+ipca_numero_indice,mensal,202006,,,5325.46
+ipca_numero_indice,mensal,202007,,,5344.63
+ipca_numero_indice,mensal,202008,,,5357.46
+ipca_numero_indice,mensal,202009,,,5391.75
+ipca_numero_indice,mensal,202010,,,5438.12
+ipca_numero_indice,mensal,202011,,,5486.52
+ipca_numero_indice,mensal,202012,,,5560.59
+ipca_numero_indice,mensal,202101,,,5574.49
+ipca_numero_indice,mensal,202102,,,5622.43
+ipca_numero_indice,mensal,202103,,,5674.72
+ipca_numero_indice,mensal,202104,,,5692.31
+ipca_numero_indice,mensal,202105,,,5739.56
+ipca_numero_indice,mensal,202106,,,5769.98
+ipca_numero_indice,mensal,202107,,,5825.37
+ipca_numero_indice,mensal,202108,,,5876.05
+ipca_numero_indice,mensal,202109,,,5944.21
+ipca_numero_indice,mensal,202110,,,6018.51
+ipca_numero_indice,mensal,202111,,,6075.69
+ipca_numero_indice,mensal,202112,,,6120.04
+ipca_numero_indice,mensal,202201,,,6153.09
+ipca_numero_indice,mensal,202202,,,6215.24
+ipca_numero_indice,mensal,202203,,,6315.93
+ipca_numero_indice,mensal,202204,,,6382.88
+ipca_numero_indice,mensal,202205,,,6412.88
+ipca_numero_indice,mensal,202206,,,6455.85
+ipca_numero_indice,mensal,202207,,,6411.95
+ipca_numero_indice,mensal,202208,,,6388.87
+ipca_numero_indice,mensal,202209,,,6370.34
+ipca_numero_indice,mensal,202210,,,6407.93
+ipca_numero_indice,mensal,202211,,,6434.2
+ipca_numero_indice,mensal,202212,,,6474.09
+ipca_numero_indice,mensal,202301,,,6508.4
+ipca_numero_indice,mensal,202302,,,6563.07
+ipca_numero_indice,mensal,202303,,,6609.67
+ipca_numero_indice,mensal,202304,,,6649.99
+ipca_numero_indice,mensal,202305,,,6665.28
+ipca_numero_indice,mensal,202306,,,6659.95
+ipca_numero_indice,mensal,202307,,,6667.94
+ipca_numero_indice,mensal,202308,,,6683.28
+ipca_numero_indice,mensal,202309,,,6700.66
+ipca_numero_indice,mensal,202310,,,6716.74
+ipca_numero_indice,mensal,202311,,,6735.55
+ipca_numero_indice,mensal,202312,,,6773.27
+ipca_numero_indice,mensal,202401,,,6801.72
+ipca_numero_indice,mensal,202402,,,6858.17
+ipca_numero_indice,mensal,202403,,,6869.14
+ipca_numero_indice,mensal,202404,,,6895.24
+ipca_numero_indice,mensal,202405,,,6926.96
+ipca_numero_indice,mensal,202406,,,6941.51
+ipca_numero_indice,mensal,202407,,,6967.89
+ipca_numero_indice,mensal,202408,,,6966.5
+ipca_numero_indice,mensal,202409,,,6997.15
+ipca_numero_indice,mensal,202410,,,7036.33
+ipca_numero_indice,mensal,202411,,,7063.77
+ipca_numero_indice,mensal,202412,,,7100.5
+ipca_numero_indice,mensal,202501,,,7111.86
+ipca_numero_indice,mensal,202502,,,7205.03
+ipca_numero_indice,mensal,202503,,,7245.38
+ipca_numero_indice,mensal,202504,,,7276.54
+ipca_numero_indice,mensal,202505,,,7295.46
+ipca_numero_indice,mensal,202506,,,7312.97
+ipca_numero_indice,mensal,202507,,,7331.98
+ipca_numero_indice,mensal,202508,,,7323.91
+ipca_numero_indice,mensal,202509,,,7359.06
+ipca_numero_indice,mensal,202510,,,7365.68
+ipca_numero_indice,mensal,202511,,,7378.94
+ipca_numero_indice,mensal,202512,,,7403.29
+ipca_numero_indice,mensal,202601,,,7427.72
+ipca_numero_indice,mensal,202602,,,7479.71
+ipca_numero_indice,mensal,202603,,,7545.53
+ipca_numero_indice,mensal,202604,,,7596.09
+ipca_numero_indice,mensal,202605,,,7640.15
+ipca_numero_indice,mensal,202606,,,7652.37
+ipca_numero_indice,mensal,202607,,,7657.73

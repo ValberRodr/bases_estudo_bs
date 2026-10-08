@@ -1,0 +1,136 @@
+uf,termo,indice_regional,periodo_consulta
+DF,seguro auto,100.0,2016-01-01 a 2026-08-31
+SP,seguro auto,66.0,2016-01-01 a 2026-08-31
+RJ,seguro auto,51.0,2016-01-01 a 2026-08-31
+BA,seguro auto,39.0,2016-01-01 a 2026-08-31
+MT,seguro auto,32.0,2016-01-01 a 2026-08-31
+PE,seguro auto,32.0,2016-01-01 a 2026-08-31
+PR,seguro auto,32.0,2016-01-01 a 2026-08-31
+ES,seguro auto,31.0,2016-01-01 a 2026-08-31
+MG,seguro auto,31.0,2016-01-01 a 2026-08-31
+SC,seguro auto,28.0,2016-01-01 a 2026-08-31
+GO,seguro auto,28.0,2016-01-01 a 2026-08-31
+RS,seguro auto,27.0,2016-01-01 a 2026-08-31
+MS,seguro auto,25.0,2016-01-01 a 2026-08-31
+SE,seguro auto,24.0,2016-01-01 a 2026-08-31
+RN,seguro auto,24.0,2016-01-01 a 2026-08-31
+AL,seguro auto,24.0,2016-01-01 a 2026-08-31
+TO,seguro auto,22.0,2016-01-01 a 2026-08-31
+CE,seguro auto,21.0,2016-01-01 a 2026-08-31
+PB,seguro auto,19.0,2016-01-01 a 2026-08-31
+RO,seguro auto,18.0,2016-01-01 a 2026-08-31
+PI,seguro auto,15.0,2016-01-01 a 2026-08-31
+MA,seguro auto,13.0,2016-01-01 a 2026-08-31
+PA,seguro auto,13.0,2016-01-01 a 2026-08-31
+AM,seguro auto,12.0,2016-01-01 a 2026-08-31
+AC,seguro auto,12.0,2016-01-01 a 2026-08-31
+AP,seguro auto,10.0,2016-01-01 a 2026-08-31
+RR,seguro auto,10.0,2016-01-01 a 2026-08-31
+SP,seguro de carro,100.0,2016-01-01 a 2026-08-31
+DF,seguro de carro,96.0,2016-01-01 a 2026-08-31
+MG,seguro de carro,84.0,2016-01-01 a 2026-08-31
+RJ,seguro de carro,80.0,2016-01-01 a 2026-08-31
+BA,seguro de carro,77.0,2016-01-01 a 2026-08-31
+PR,seguro de carro,72.0,2016-01-01 a 2026-08-31
+ES,seguro de carro,72.0,2016-01-01 a 2026-08-31
+GO,seguro de carro,70.0,2016-01-01 a 2026-08-31
+SC,seguro de carro,66.0,2016-01-01 a 2026-08-31
+RS,seguro de carro,60.0,2016-01-01 a 2026-08-31
+MT,seguro de carro,58.0,2016-01-01 a 2026-08-31
+PE,seguro de carro,51.0,2016-01-01 a 2026-08-31
+MS,seguro de carro,50.0,2016-01-01 a 2026-08-31
+TO,seguro de carro,47.0,2016-01-01 a 2026-08-31
+SE,seguro de carro,45.0,2016-01-01 a 2026-08-31
+RO,seguro de carro,43.0,2016-01-01 a 2026-08-31
+RN,seguro de carro,41.0,2016-01-01 a 2026-08-31
+AL,seguro de carro,41.0,2016-01-01 a 2026-08-31
+CE,seguro de carro,38.0,2016-01-01 a 2026-08-31
+PB,seguro de carro,38.0,2016-01-01 a 2026-08-31
+PI,seguro de carro,34.0,2016-01-01 a 2026-08-31
+RR,seguro de carro,31.0,2016-01-01 a 2026-08-31
+AC,seguro de carro,29.0,2016-01-01 a 2026-08-31
+MA,seguro de carro,27.0,2016-01-01 a 2026-08-31
+AM,seguro de carro,27.0,2016-01-01 a 2026-08-31
+AP,seguro de carro,26.0,2016-01-01 a 2026-08-31
+PA,seguro de carro,25.0,2016-01-01 a 2026-08-31
+DF,cotação seguro auto,100.0,2016-01-01 a 2026-08-31
+SP,cotação seguro auto,77.0,2016-01-01 a 2026-08-31
+RJ,cotação seguro auto,59.0,2016-01-01 a 2026-08-31
+MT,cotação seguro auto,40.0,2016-01-01 a 2026-08-31
+PR,cotação seguro auto,37.0,2016-01-01 a 2026-08-31
+ES,cotação seguro auto,33.0,2016-01-01 a 2026-08-31
+MG,cotação seguro auto,33.0,2016-01-01 a 2026-08-31
+SC,cotação seguro auto,29.0,2016-01-01 a 2026-08-31
+BA,cotação seguro auto,29.0,2016-01-01 a 2026-08-31
+PE,cotação seguro auto,29.0,2016-01-01 a 2026-08-31
+SE,cotação seguro auto,29.0,2016-01-01 a 2026-08-31
+MS,cotação seguro auto,25.0,2016-01-01 a 2026-08-31
+RS,cotação seguro auto,25.0,2016-01-01 a 2026-08-31
+GO,cotação seguro auto,25.0,2016-01-01 a 2026-08-31
+RN,cotação seguro auto,25.0,2016-01-01 a 2026-08-31
+PB,cotação seguro auto,22.0,2016-01-01 a 2026-08-31
+AL,cotação seguro auto,22.0,2016-01-01 a 2026-08-31
+TO,cotação seguro auto,22.0,2016-01-01 a 2026-08-31
+RO,cotação seguro auto,18.0,2016-01-01 a 2026-08-31
+CE,cotação seguro auto,14.0,2016-01-01 a 2026-08-31
+PI,cotação seguro auto,11.0,2016-01-01 a 2026-08-31
+PA,cotação seguro auto,11.0,2016-01-01 a 2026-08-31
+MA,cotação seguro auto,11.0,2016-01-01 a 2026-08-31
+AM,cotação seguro auto,11.0,2016-01-01 a 2026-08-31
+RR,cotação seguro auto,,2016-01-01 a 2026-08-31
+AP,cotação seguro auto,,2016-01-01 a 2026-08-31
+AC,cotação seguro auto,,2016-01-01 a 2026-08-31
+SP,corretora de seguros,100.0,2016-01-01 a 2026-08-31
+PR,corretora de seguros,85.0,2016-01-01 a 2026-08-31
+SC,corretora de seguros,78.0,2016-01-01 a 2026-08-31
+DF,corretora de seguros,63.0,2016-01-01 a 2026-08-31
+RS,corretora de seguros,62.0,2016-01-01 a 2026-08-31
+GO,corretora de seguros,53.0,2016-01-01 a 2026-08-31
+MT,corretora de seguros,45.0,2016-01-01 a 2026-08-31
+RJ,corretora de seguros,45.0,2016-01-01 a 2026-08-31
+ES,corretora de seguros,43.0,2016-01-01 a 2026-08-31
+MG,corretora de seguros,41.0,2016-01-01 a 2026-08-31
+SE,corretora de seguros,35.0,2016-01-01 a 2026-08-31
+MS,corretora de seguros,30.0,2016-01-01 a 2026-08-31
+TO,corretora de seguros,30.0,2016-01-01 a 2026-08-31
+BA,corretora de seguros,28.0,2016-01-01 a 2026-08-31
+RO,corretora de seguros,26.0,2016-01-01 a 2026-08-31
+PE,corretora de seguros,26.0,2016-01-01 a 2026-08-31
+CE,corretora de seguros,24.0,2016-01-01 a 2026-08-31
+RN,corretora de seguros,23.0,2016-01-01 a 2026-08-31
+PB,corretora de seguros,19.0,2016-01-01 a 2026-08-31
+AL,corretora de seguros,19.0,2016-01-01 a 2026-08-31
+AM,corretora de seguros,17.0,2016-01-01 a 2026-08-31
+MA,corretora de seguros,16.0,2016-01-01 a 2026-08-31
+PA,corretora de seguros,14.0,2016-01-01 a 2026-08-31
+PI,corretora de seguros,13.0,2016-01-01 a 2026-08-31
+RR,corretora de seguros,12.0,2016-01-01 a 2026-08-31
+AC,corretora de seguros,12.0,2016-01-01 a 2026-08-31
+AP,corretora de seguros,9.0,2016-01-01 a 2026-08-31
+SP,seguros,100.0,2016-01-01 a 2026-08-31
+DF,seguros,87.0,2016-01-01 a 2026-08-31
+SC,seguros,79.0,2016-01-01 a 2026-08-31
+RS,seguros,76.0,2016-01-01 a 2026-08-31
+PR,seguros,71.0,2016-01-01 a 2026-08-31
+RJ,seguros,66.0,2016-01-01 a 2026-08-31
+MG,seguros,58.0,2016-01-01 a 2026-08-31
+ES,seguros,58.0,2016-01-01 a 2026-08-31
+MT,seguros,56.0,2016-01-01 a 2026-08-31
+GO,seguros,54.0,2016-01-01 a 2026-08-31
+BA,seguros,50.0,2016-01-01 a 2026-08-31
+SE,seguros,47.0,2016-01-01 a 2026-08-31
+MS,seguros,45.0,2016-01-01 a 2026-08-31
+PE,seguros,42.0,2016-01-01 a 2026-08-31
+TO,seguros,38.0,2016-01-01 a 2026-08-31
+RO,seguros,38.0,2016-01-01 a 2026-08-31
+RN,seguros,37.0,2016-01-01 a 2026-08-31
+PB,seguros,36.0,2016-01-01 a 2026-08-31
+AL,seguros,35.0,2016-01-01 a 2026-08-31
+CE,seguros,33.0,2016-01-01 a 2026-08-31
+PA,seguros,28.0,2016-01-01 a 2026-08-31
+AM,seguros,28.0,2016-01-01 a 2026-08-31
+MA,seguros,27.0,2016-01-01 a 2026-08-31
+PI,seguros,26.0,2016-01-01 a 2026-08-31
+AC,seguros,24.0,2016-01-01 a 2026-08-31
+RR,seguros,21.0,2016-01-01 a 2026-08-31
+AP,seguros,18.0,2016-01-01 a 2026-08-31

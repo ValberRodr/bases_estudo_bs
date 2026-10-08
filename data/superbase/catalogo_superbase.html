@@ -1,0 +1,607 @@
+<title>Catálogo SUPERBASE</title>
+<style>
+  :root {
+    --bg: #F3F5F2;
+    --surface: #FFFFFF;
+    --surface-2: #ECEFEA;
+    --text: #12201C;
+    --text-muted: #57655F;
+    --text-faint: #7C8B84;
+    --border: #DBE2DC;
+    --border-strong: #C2CCC5;
+    --accent: #0B5D52;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #E4EEEA;
+    --accent-soft-border: #BFDAD1;
+    --flag: #9A6117;
+    --flag-soft: #F5E8D2;
+    --flag-soft-border: #E3C892;
+    --warn: #9C3B33;
+    --warn-soft: #F6E3E0;
+    --code-bg: #EFF2ED;
+    --shadow: 0 1px 2px rgba(18,32,28,0.06), 0 6px 20px rgba(18,32,28,0.05);
+    --font-display: ui-serif, "New York", Charter, "Iowan Old Style", Georgia, "Times New Roman", serif;
+    --font-body: -apple-system, "SF Pro Text", ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0C1512;
+      --surface: #121C19;
+      --surface-2: #182420;
+      --text: #E6EEEA;
+      --text-muted: #9BAAA3;
+      --text-faint: #71827A;
+      --border: #253530;
+      --border-strong: #33463F;
+      --accent: #3EBBA0;
+      --accent-ink: #06110E;
+      --accent-soft: #16302A;
+      --accent-soft-border: #2A5449;
+      --flag: #E0AC5C;
+      --flag-soft: #33291A;
+      --flag-soft-border: #5A4726;
+      --warn: #E08A80;
+      --warn-soft: #38211E;
+      --code-bg: #17211E;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 10px 30px rgba(0,0,0,0.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0C1512;
+    --surface: #121C19;
+    --surface-2: #182420;
+    --text: #E6EEEA;
+    --text-muted: #9BAAA3;
+    --text-faint: #71827A;
+    --border: #253530;
+    --border-strong: #33463F;
+    --accent: #3EBBA0;
+    --accent-ink: #06110E;
+    --accent-soft: #16302A;
+    --accent-soft-border: #2A5449;
+    --flag: #E0AC5C;
+    --flag-soft: #33291A;
+    --flag-soft-border: #5A4726;
+    --warn: #E08A80;
+    --warn-soft: #38211E;
+    --code-bg: #17211E;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 10px 30px rgba(0,0,0,0.35);
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); }
+  h1, h2, h3 { font-family: var(--font-display); font-weight: 600; text-wrap: balance; letter-spacing: -0.01em; }
+  code, .mono { font-family: var(--font-mono); }
+
+  .shell {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+
+  /* ---------- Sidebar ---------- */
+  .sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 28px 20px 40px;
+    border-right: 1px solid var(--border);
+  }
+  .brand {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .brand .mark {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--accent);
+  }
+  .brand .sub { font-size: 12px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.08em; }
+  .sidebar .tagline { font-size: 13px; color: var(--text-muted); margin: 10px 0 22px; }
+
+  .search-box { position: relative; margin-bottom: 22px; }
+  .search-box input {
+    width: 100%;
+    padding: 9px 12px 9px 30px;
+    border-radius: 8px;
+    border: 1px solid var(--border-strong);
+    background: var(--surface);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 13.5px;
+  }
+  .search-box input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .search-box svg { position: absolute; left: 9px; top: 50%; transform: translateY(-50%); opacity: 0.55; }
+  #match-count { font-size: 11.5px; color: var(--text-faint); margin-top: 6px; min-height: 14px; }
+
+  nav.toc { display: flex; flex-direction: column; gap: 2px; }
+  nav.toc .group-label {
+    font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--text-faint); margin: 16px 0 6px;
+  }
+  nav.toc .group-label:first-child { margin-top: 0; }
+  nav.toc a {
+    display: flex; align-items: baseline; gap: 8px;
+    padding: 6px 8px; border-radius: 6px;
+    color: var(--text-muted); text-decoration: none; font-size: 13.5px;
+  }
+  nav.toc a:hover { background: var(--surface-2); color: var(--text); }
+  nav.toc a .n { font-family: var(--font-mono); font-size: 11px; color: var(--text-faint); }
+
+  /* ---------- Main ---------- */
+  main { padding: 44px 48px 120px; min-width: 0; }
+
+  .hero { margin-bottom: 40px; }
+  .hero .kicker {
+    font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--accent); font-weight: 600; margin-bottom: 10px;
+  }
+  .hero h1 { font-size: 34px; margin: 0 0 12px; }
+  .hero p.lede { font-size: 16.5px; color: var(--text-muted); max-width: 62ch; margin: 0; }
+
+  .stat-row { display: flex; gap: 14px; margin-top: 26px; flex-wrap: wrap; }
+  .stat {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 16px; min-width: 128px; box-shadow: var(--shadow);
+  }
+  .stat .v { font-family: var(--font-mono); font-size: 20px; font-weight: 600; }
+  .stat .l { font-size: 11.5px; color: var(--text-faint); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px; }
+
+  /* Architecture diagram */
+  .arch { margin: 40px 0 52px; }
+  .arch h2 { font-size: 15px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-faint); margin: 0 0 18px; font-family: var(--font-body); font-weight: 600; }
+  .arch-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .arch-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 18px; box-shadow: var(--shadow);
+  }
+  .arch-card .grain { font-family: var(--font-mono); font-size: 12.5px; color: var(--accent); font-weight: 600; }
+  .arch-card h3 { font-size: 17px; margin: 6px 0 8px; }
+  .arch-card p { font-size: 13.5px; color: var(--text-muted); margin: 0; }
+  .arch-note {
+    margin-top: 16px; font-size: 13px; color: var(--text-muted);
+    background: var(--accent-soft); border: 1px solid var(--accent-soft-border);
+    border-radius: 10px; padding: 12px 16px;
+  }
+
+  section.table-doc { margin-bottom: 64px; scroll-margin-top: 24px; }
+  .table-head {
+    border-bottom: 2px solid var(--text);
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+  }
+  .table-head .filename { font-family: var(--font-mono); font-size: 13px; color: var(--accent); margin-bottom: 6px; }
+  .table-head h2 { font-size: 26px; margin: 0 0 10px; }
+  .table-head p { font-size: 14.5px; color: var(--text-muted); max-width: 74ch; margin: 0 0 14px; }
+  .meta-pills { display: flex; gap: 8px; flex-wrap: wrap; }
+  .pill {
+    font-size: 12px; font-family: var(--font-mono);
+    background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 999px; padding: 4px 11px; color: var(--text-muted);
+  }
+  .pill b { color: var(--text); font-weight: 600; }
+
+  .callout {
+    font-size: 13.5px; border-radius: 10px; padding: 12px 16px; margin: 14px 0 20px;
+    border: 1px solid var(--flag-soft-border); background: var(--flag-soft); color: var(--text);
+  }
+  .callout b { color: var(--flag); }
+
+  table.dict { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.dict caption { caption-side: top; text-align: left; }
+  .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; }
+  table.dict th {
+    text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em;
+    color: var(--text-faint); font-weight: 600;
+    background: var(--surface-2); padding: 10px 14px; border-bottom: 1px solid var(--border);
+    position: sticky; top: 0;
+  }
+  table.dict td {
+    padding: 11px 14px; border-bottom: 1px solid var(--border);
+    vertical-align: top; background: var(--surface);
+  }
+  table.dict tr:last-child td { border-bottom: none; }
+  table.dict tr.hide { display: none; }
+  td.field { font-family: var(--font-mono); font-size: 12.8px; white-space: nowrap; color: var(--text); font-weight: 600; }
+  td.desc { color: var(--text-muted); max-width: 46ch; }
+  td.desc .en { color: var(--text-faint); }
+  td.src { white-space: nowrap; font-size: 12.5px; }
+  td.example { font-family: var(--font-mono); font-size: 12.3px; color: var(--text-muted); white-space: nowrap; }
+  td.miss { white-space: nowrap; }
+
+  .miss-bar { display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-mono); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+  .miss-track { width: 44px; height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; border: 1px solid var(--border); }
+  .miss-fill { height: 100%; background: var(--text-faint); }
+  .miss-fill.zero { background: var(--accent-soft-border); }
+  .miss-fill.warn { background: var(--warn); }
+
+  .tag { display: inline-block; font-size: 10.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; border-radius: 5px; padding: 2px 6px; margin-right: 4px; }
+  .tag.id { background: var(--surface-2); color: var(--text-muted); border: 1px solid var(--border); }
+  .tag.metric { background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent-soft-border); }
+  .tag.derived { background: #E9E4F5; color: #5B3FA6; border: 1px solid #D2C6EE; }
+  .tag.meta { background: var(--flag-soft); color: var(--flag); border: 1px solid var(--flag-soft-border); }
+  .tag.dim { background: var(--surface-2); color: var(--text-muted); border: 1px solid var(--border); }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .tag.derived { background: #241D38; color: #B9A3EE; border-color: #3B2F5C; }
+  }
+  :root[data-theme="dark"] .tag.derived { background: #241D38; color: #B9A3EE; border-color: #3B2F5C; }
+
+  .broadcast { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; color: var(--flag); font-weight: 600; margin-left: 6px; }
+
+  .glossary dl { display: grid; grid-template-columns: 200px 1fr; gap: 10px 20px; font-size: 14px; }
+  .glossary dt { font-family: var(--font-mono); font-weight: 600; color: var(--accent); }
+  .glossary dd { margin: 0; color: var(--text-muted); }
+
+  .limits ul { padding-left: 20px; font-size: 14.5px; color: var(--text-muted); }
+  .limits li { margin-bottom: 8px; }
+
+  footer.page-footer {
+    border-top: 1px solid var(--border); margin-top: 60px; padding-top: 24px;
+    font-size: 12.5px; color: var(--text-faint);
+  }
+
+  @media (max-width: 900px) {
+    .shell { grid-template-columns: 1fr; }
+    .sidebar { position: relative; height: auto; border-right: none; border-bottom: 1px solid var(--border); }
+    main { padding: 32px 20px 90px; }
+    .arch-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><span class="mark">SUPERBASE</span><span class="sub">Catálogo</span></div>
+    <p class="tagline">Seguro Auto Brasil, 2016&ndash;2026</p>
+
+    <div class="search-box">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="filter-input" placeholder="Buscar campo ou descrição…" autocomplete="off">
+      <div id="match-count"></div>
+    </div>
+
+    <nav class="toc">
+      <div class="group-label">Visão geral</div>
+      <a href="#overview">Arquitetura</a>
+      <a href="#glossario">Glossário</a>
+      <a href="#limitacoes">Limitações</a>
+
+      <div class="group-label">Tabelas de fato</div>
+      <a href="#uf-mes"><span class="n">62</span> superbase_uf_mes</a>
+      <a href="#nacional-mes"><span class="n">14</span> superbase_nacional_mes</a>
+      <a href="#empresa-mes"><span class="n">18</span> superbase_empresa_mes</a>
+
+      <div class="group-label">Tabelas de referência</div>
+      <a href="#ra-snapshot"><span class="n">25</span> dim_empresa_reclame_aqui</a>
+      <a href="#trends-regional"><span class="n">4</span> dim_uf_trends_regional</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="hero" id="overview">
+      <div class="kicker">Dicionário de dados</div>
+      <h1>Catálogo da SUPERBASE</h1>
+      <p class="lede">Documentação completa dos campos das 5 tabelas analíticas construídas a partir de 8 fontes públicas (SUSEP, SENATRAN, Consumidor.gov.br, SINESP, RENAEST, PRF, AUTOSEG, IBGE, Google Trends, Fenabrave e Reclame Aqui) para o estudo do mercado de seguro automóvel no Brasil.</p>
+      <div class="stat-row">
+        <div class="stat"><div class="v">5</div><div class="l">Tabelas</div></div>
+        <div class="stat"><div class="v">123</div><div class="l">Campos documentados</div></div>
+        <div class="stat"><div class="v">2016&ndash;26</div><div class="l">Período coberto</div></div>
+        <div class="stat"><div class="v">10</div><div class="l">Fontes originais</div></div>
+      </div>
+    </div>
+
+    <div class="arch">
+      <h2>Por que 5 tabelas, não uma</h2>
+      <div class="arch-grid">
+        <div class="arch-card">
+          <div class="grain">UF × MÊS</div>
+          <h3>superbase_uf_mes</h3>
+          <p>3.429 linhas &mdash; grade completa de 27 UF × 127 meses. A tabela principal: sinistralidade, frota, reclamações, criminalidade e indicadores socioeconômicos por estado.</p>
+        </div>
+        <div class="arch-card">
+          <div class="grain">NACIONAL × MÊS</div>
+          <h3>superbase_nacional_mes</h3>
+          <p>128 linhas &mdash; séries que só existem em nível país (emplacamentos Fenabrave não têm UF; ver Limitações).</p>
+        </div>
+        <div class="arch-card">
+          <div class="grain">EMPRESA × MÊS</div>
+          <h3>superbase_empresa_mes</h3>
+          <p>10.742 linhas &mdash; desempenho de cada uma das 117 seguradoras, agregado nacionalmente entre UFs.</p>
+        </div>
+      </div>
+      <div class="arch-note"><b>Duas tabelas ficam de fora do painel mensal</b> (Reclame Aqui e Trends regional) porque medem um único instante de coleta ou um período agregado fixo, não uma série que varie mês a mês &mdash; misturá-las ao painel fabricaria uma variação temporal que a fonte não tem.</div>
+    </div>
+
+    <!-- ============ superbase_uf_mes ============ -->
+    <section class="table-doc" id="uf-mes">
+      <div class="table-head">
+        <div class="filename">SUPERBASE/superbase_uf_mes.csv</div>
+        <h2>Painel UF × mês</h2>
+        <p>Grade completa: toda UF, todo mês de 2016-01 a 2026-07, mesmo quando uma fonte não cobre aquela célula (fica vazio, nunca zero). Chave: <code>uf</code> + <code>ano_mes</code>. Colunas com <span class="broadcast">↻ período maior</span> repetem um valor semestral/trimestral/anual/nacional em várias linhas &mdash; a coluna de referência ao lado mostra de qual período ele veio.</p>
+        <div class="meta-pills">
+          <span class="pill"><b>3.429</b> linhas</span>
+          <span class="pill"><b>62</b> colunas</span>
+          <span class="pill"><b>201601&ndash;202607</b></span>
+          <span class="pill">9 fontes</span>
+        </div>
+      </div>
+
+      <div class="table-scroll">
+      <table class="dict">
+        <thead><tr><th>Campo</th><th>Tipo</th><th>% ausente</th><th>Descrição</th><th>Fonte / unidade</th><th>Exemplo</th></tr></thead>
+        <tbody>
+          <tr><td class="field">uf</td><td><span class="tag id">id</span></td><td class="miss">—</td><td class="desc">Sigla da unidade federativa (chave de junção com todas as demais tabelas e com <code>dim_uf.csv</code>).</td><td class="src">texto, 2 letras</td><td class="example">AC</td></tr>
+          <tr><td class="field">ano_mes</td><td><span class="tag id">id</span></td><td class="miss">—</td><td class="desc">Ano e mês de referência no formato AAAAMM.</td><td class="src">inteiro</td><td class="example">201601</td></tr>
+
+          <tr><td class="field">susep_premio_direto</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Soma do prêmio direto de todas as seguradoras do ramo Automóvel (gracodigo=05, inclui DPVAT) atuando na UF/mês.</td><td class="src">SUSEP SES · R$ nominal</td><td class="example">3.718.489,55</td></tr>
+          <tr><td class="field">susep_premio_retido</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Soma do prêmio retido (após operações de resseguro/cosseguro).</td><td class="src">SUSEP SES · R$ nominal</td><td class="example">2.221.973,82</td></tr>
+          <tr><td class="field">susep_sinistro_direto</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Soma do sinistro direto pago/avisado.</td><td class="src">SUSEP SES · R$ nominal</td><td class="example">1.223.584,78</td></tr>
+          <tr><td class="field">susep_premio_retido_liquido</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Prêmio retido líquido de cancelamentos/restituições.</td><td class="src">SUSEP SES · R$ nominal</td><td class="example">2.221.973,82</td></tr>
+          <tr><td class="field">susep_n_seguradoras_ativas</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Quantidade de códigos SUSEP distintos que reportaram operação na UF/mês.</td><td class="src">SUSEP SES · contagem</td><td class="example">76</td></tr>
+
+          <tr><td class="field">frota_total</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Frota total registrada (todos os 21 tipos de veículo somados).</td><td class="src">SENATRAN RENAVAM · veículos</td><td class="example">240.694</td></tr>
+          <tr><td class="field">frota_automovel</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Frota do tipo Automóvel &mdash; denominador padrão dos indicadores por veículo abaixo.</td><td class="src">SENATRAN RENAVAM · veículos</td><td class="example">77.859</td></tr>
+          <tr><td class="field">frota_caminhao</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Frota do tipo Caminhão.</td><td class="src">SENATRAN RENAVAM · veículos</td><td class="example">6.862</td></tr>
+          <tr><td class="field">frota_motocicleta</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Frota do tipo Motocicleta.</td><td class="src">SENATRAN RENAVAM · veículos</td><td class="example">100.625</td></tr>
+          <tr><td class="field">frota_utilitario</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Frota do tipo Utilitário.</td><td class="src">SENATRAN RENAVAM · veículos</td><td class="example">1.054</td></tr>
+          <tr><td class="field">frota_onibus</td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Frota do tipo Ônibus.</td><td class="src">SENATRAN RENAVAM · veículos</td><td class="example">1.044</td></tr>
+
+          <tr><td class="field">consumidor_n_reclamacoes</td><td><span class="tag metric">métrica</span></td><td class="miss">36%</td><td class="desc">Reclamações no período atribuídas (por nome de marca, <b>candidato não confirmado por CNPJ</b>) a seguradoras do ramo auto.</td><td class="src">Consumidor.gov.br · contagem</td><td class="example">1</td></tr>
+          <tr><td class="field">consumidor_pct_respondida</td><td><span class="tag derived">derivado</span></td><td class="miss">36%</td><td class="desc">Fração das reclamações do mês marcadas como respondidas pela empresa.</td><td class="src">Consumidor.gov.br · 0&ndash;1</td><td class="example">1,0</td></tr>
+          <tr><td class="field">consumidor_pct_resolvida</td><td><span class="tag derived">derivado</span></td><td class="miss">36%</td><td class="desc">Fração avaliada pelo consumidor como "Resolvida".</td><td class="src">Consumidor.gov.br · 0&ndash;1</td><td class="example">1,0</td></tr>
+
+          <tr><td class="field">sinesp_roubo_veiculos</td><td><span class="tag metric">métrica</span></td><td class="miss">34%</td><td class="desc">Ocorrências de roubo de veículo. Fonte cobre só até 2022-12 (ver Limitações).</td><td class="src">SINESP/MJSP · contagem</td><td class="example">0</td></tr>
+          <tr><td class="field">sinesp_furto_veiculos</td><td><span class="tag metric">métrica</span></td><td class="miss">34%</td><td class="desc">Ocorrências de furto de veículo.</td><td class="src">SINESP/MJSP · contagem</td><td class="example">0</td></tr>
+          <tr><td class="field">sinesp_roubo_furto_veiculos</td><td><span class="tag derived">derivado</span></td><td class="miss">34%</td><td class="desc">Soma de roubo + furto.</td><td class="src">SINESP/MJSP · contagem</td><td class="example">0</td></tr>
+
+          <tr><td class="field">renaest_qtd_sinistros</td><td><span class="tag metric">métrica</span></td><td class="miss">30%</td><td class="desc">Registros de acidente de trânsito. Cobertura estadual desigual (ver Limitações).</td><td class="src">RENAEST · contagem</td><td class="example">287</td></tr>
+          <tr><td class="field">renaest_qtd_veiculos_envolvidos</td><td><span class="tag metric">métrica</span></td><td class="miss">30%</td><td class="desc">Soma de veículos envolvidos nos acidentes do mês.</td><td class="src">RENAEST · contagem</td><td class="example">623</td></tr>
+          <tr><td class="field">renaest_qtd_vitimas</td><td><span class="tag metric">métrica</span></td><td class="miss">30%</td><td class="desc">Total de registros de vítima (todas as gravidades).</td><td class="src">RENAEST · contagem</td><td class="example">584</td></tr>
+          <tr><td class="field">renaest_qtd_feridos</td><td><span class="tag metric">métrica</span></td><td class="miss">30%</td><td class="desc">Vítimas com gravidade LEVE ou GRAVE (exclui ilesos e óbitos).</td><td class="src">RENAEST · contagem</td><td class="example">62</td></tr>
+          <tr><td class="field">renaest_qtd_mortos</td><td><span class="tag metric">métrica</span></td><td class="miss">30%</td><td class="desc">Vítimas com gravidade ÓBITO.</td><td class="src">RENAEST · contagem</td><td class="example">0</td></tr>
+
+          <tr><td class="field">prf_qtd_acidentes</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Acidentes registrados em rodovias federais. Cobre 2016&ndash;2025 (2026 não publicado pela fonte).</td><td class="src">PRF · contagem</td><td class="example">25</td></tr>
+          <tr><td class="field">prf_pessoas</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Total de pessoas envolvidas.</td><td class="src">PRF · contagem</td><td class="example">67</td></tr>
+          <tr><td class="field">prf_mortos</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Vítimas fatais.</td><td class="src">PRF · contagem</td><td class="example">1</td></tr>
+          <tr><td class="field">prf_feridos_leves</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Feridos classificados como leves.</td><td class="src">PRF · contagem</td><td class="example">31</td></tr>
+          <tr><td class="field">prf_feridos_graves</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Feridos classificados como graves.</td><td class="src">PRF · contagem</td><td class="example">8</td></tr>
+          <tr><td class="field">prf_feridos</td><td><span class="tag derived">derivado</span></td><td class="miss">5,5%</td><td class="desc">Total de feridos (leves + graves), campo já somado pela PRF.</td><td class="src">PRF · contagem</td><td class="example">39</td></tr>
+          <tr><td class="field">prf_ilesos</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Pessoas envolvidas sem ferimento.</td><td class="src">PRF · contagem</td><td class="example">24</td></tr>
+          <tr><td class="field">prf_veiculos</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Veículos envolvidos.</td><td class="src">PRF · contagem</td><td class="example">40</td></tr>
+
+          <tr><td class="field">autoseg_semestre_ref<span class="broadcast">↻ semestral</span></td><td><span class="tag meta">metadado</span></td><td class="miss">53%</td><td class="desc">De qual semestre veio o valor AUTOSEG repetido nesta linha. AUTOSEG só tem banco de dados oficial 2016-S1 a 2020-S2.</td><td class="src">AUTOSEG/SUSEP · texto</td><td class="example">2016S1</td></tr>
+          <tr><td class="field">autoseg_exposicao_casco_semestre<span class="broadcast">↻ semestral</span></td><td><span class="tag metric">métrica</span></td><td class="miss">53%</td><td class="desc">Veículos-tempo expostos à cobertura CASCO no semestre (mesmo valor nos 6 meses). Geografia via <code>uf_aproximada</code>, não UF exata.</td><td class="src">AUTOSEG/SUSEP · veículos-ano</td><td class="example">6.473,88</td></tr>
+          <tr><td class="field">autoseg_premio_casco_semestre<span class="broadcast">↻ semestral</span></td><td><span class="tag metric">métrica</span></td><td class="miss">53%</td><td class="desc">Prêmio de CASCO no semestre.</td><td class="src">AUTOSEG/SUSEP · R$ nominal</td><td class="example">11.926.468,40</td></tr>
+          <tr><td class="field">autoseg_sinistros_casco_semestre<span class="broadcast">↻ semestral</span></td><td><span class="tag metric">métrica</span></td><td class="miss">53%</td><td class="desc">Quantidade de sinistros CASCO no semestre (todas as causas somadas).</td><td class="src">AUTOSEG/SUSEP · contagem</td><td class="example">1.112</td></tr>
+          <tr><td class="field">autoseg_indenizacoes_casco_semestre<span class="broadcast">↻ semestral</span></td><td><span class="tag metric">métrica</span></td><td class="miss">53%</td><td class="desc">Indenizações pagas de CASCO no semestre.</td><td class="src">AUTOSEG/SUSEP · R$ nominal</td><td class="example">7.261.227,00</td></tr>
+
+          <tr><td class="field">ibge_ano_ref<span class="broadcast">↻ anual</span></td><td><span class="tag meta">metadado</span></td><td class="miss">19%</td><td class="desc">Ano de referência de <code>populacao_ano</code>. IBGE não publicou estimativa para 2022&ndash;2023 (ano do Censo e seguinte).</td><td class="src">IBGE · inteiro</td><td class="example">2016</td></tr>
+          <tr><td class="field">populacao_ano<span class="broadcast">↻ anual</span></td><td><span class="tag metric">métrica</span></td><td class="miss">19%</td><td class="desc">População residente estimada (mesmo valor nos 12 meses do ano).</td><td class="src">IBGE SIDRA 6579 · habitantes</td><td class="example">816.687</td></tr>
+          <tr><td class="field">ibge_ano_ref_renda<span class="broadcast">↻ anual</span></td><td><span class="tag meta">metadado</span></td><td class="miss">5,5%</td><td class="desc">Ano de referência de <code>renda_real_per_capita_ano</code>. Série vai só até 2025 (2026 ainda não publicado).</td><td class="src">IBGE · inteiro</td><td class="example">2016</td></tr>
+          <tr><td class="field">renda_real_per_capita_ano<span class="broadcast">↻ anual</span></td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Rendimento médio mensal real domiciliar per capita, a preços médios do ano.</td><td class="src">IBGE PNAD Contínua 7532 · R$</td><td class="example">724,00</td></tr>
+          <tr><td class="field">ibge_trimestre_ref<span class="broadcast">↻ trimestral</span></td><td><span class="tag meta">metadado</span></td><td class="miss">0,8%</td><td class="desc">Trimestre de referência de <code>taxa_desocupacao_trimestre</code>.</td><td class="src">IBGE · texto</td><td class="example">2016T1</td></tr>
+          <tr><td class="field">taxa_desocupacao_trimestre<span class="broadcast">↻ trimestral</span></td><td><span class="tag metric">métrica</span></td><td class="miss">0,8%</td><td class="desc">Taxa de desocupação (mesmo valor nos 3 meses do trimestre).</td><td class="src">IBGE PNAD Contínua 4099 · %</td><td class="example">8,8</td></tr>
+          <tr><td class="field">ipca_numero_indice_nacional<span class="broadcast">↻ nacional</span></td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Número-índice IPCA nacional do mês (mesmo valor em todas as UF).</td><td class="src">IBGE SIDRA 1737 · índice</td><td class="example">4.550,23</td></tr>
+
+          <tr><td class="field">trends_nacional_seguro_auto<span class="broadcast">↻ nacional</span></td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Índice de interesse de busca pelo termo "seguro auto" no mês (Brasil, mesmo valor em todas as UF).</td><td class="src">Google Trends · 0&ndash;100 relativo</td><td class="example">10</td></tr>
+          <tr><td class="field">trends_nacional_seguro_de_carro<span class="broadcast">↻ nacional</span></td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Idem para "seguro de carro".</td><td class="src">Google Trends · 0&ndash;100 relativo</td><td class="example">6</td></tr>
+          <tr><td class="field">trends_nacional_cotação_seguro_auto<span class="broadcast">↻ nacional</span></td><td><span class="tag metric">métrica</span></td><td class="miss">53%</td><td class="desc">Idem para "cotação seguro auto" &mdash; termo de baixo volume; o Google não publica valor abaixo de um limiar (vazio real, não erro).</td><td class="src">Google Trends · 0&ndash;100 relativo</td><td class="example">1</td></tr>
+          <tr><td class="field">trends_nacional_corretora_de_seguros<span class="broadcast">↻ nacional</span></td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Idem para "corretora de seguros".</td><td class="src">Google Trends · 0&ndash;100 relativo</td><td class="example">7</td></tr>
+          <tr><td class="field">trends_nacional_seguros<span class="broadcast">↻ nacional</span></td><td><span class="tag metric">métrica</span></td><td class="miss">0%</td><td class="desc">Idem para "seguros" (termo dominante, guarda-chuva).</td><td class="src">Google Trends · 0&ndash;100 relativo</td><td class="example">89</td></tr>
+
+          <tr><td class="field">susep_sinistralidade</td><td><span class="tag derived">derivado</span></td><td class="miss">0%</td><td class="desc"><code>susep_sinistro_direto ÷ susep_premio_direto</code>, mesmo mês. Outliers extremos em UF/mês de baixo volume são reais (denominador pequeno), não erro.</td><td class="src">calculado · razão</td><td class="example">0,329</td></tr>
+          <tr><td class="field">autoseg_sinistralidade_casco</td><td><span class="tag derived">derivado</span></td><td class="miss">53%</td><td class="desc"><code>autoseg_indenizacoes_casco_semestre ÷ autoseg_premio_casco_semestre</code>, mesmo semestre.</td><td class="src">calculado · razão</td><td class="example">0,609</td></tr>
+          <tr><td class="field">autoseg_frequencia_sinistro_casco</td><td><span class="tag derived">derivado</span></td><td class="miss">53%</td><td class="desc"><code>autoseg_sinistros_casco_semestre ÷ autoseg_exposicao_casco_semestre</code>.</td><td class="src">calculado · razão</td><td class="example">0,172</td></tr>
+          <tr><td class="field">susep_premio_direto_real_201601</td><td><span class="tag derived">derivado</span></td><td class="miss">0%</td><td class="desc">Prêmio direto deflacionado a preços de jan/2016 (<code>valor × IPCA(jan/2016) ÷ IPCA(mês)</code>).</td><td class="src">calculado · R$ jan/2016</td><td class="example">3.718.489,55</td></tr>
+          <tr><td class="field">susep_sinistro_direto_real_201601</td><td><span class="tag derived">derivado</span></td><td class="miss">0%</td><td class="desc">Sinistro direto deflacionado, mesma base.</td><td class="src">calculado · R$ jan/2016</td><td class="example">1.223.584,78</td></tr>
+          <tr><td class="field">renda_real_per_capita_ano_deflacionada_201601</td><td><span class="tag derived">derivado</span></td><td class="miss">5,5%</td><td class="desc">Renda per capita anual deflacionada à mesma base jan/2016.</td><td class="src">calculado · R$ jan/2016</td><td class="example">724,00</td></tr>
+          <tr><td class="field">crescimento_frota_aa</td><td><span class="tag derived">derivado</span></td><td class="miss">9,4%</td><td class="desc">Variação da frota total contra o mesmo mês do ano anterior.</td><td class="src">calculado · fração</td><td class="example">0,0487</td></tr>
+          <tr><td class="field">sinesp_roubos_furtos_por_100mil_veiculos</td><td><span class="tag derived">derivado</span></td><td class="miss">34%</td><td class="desc">Roubo+furto × 100.000 ÷ frota_total, mesmo mês.</td><td class="src">calculado · taxa</td><td class="example">0,0</td></tr>
+          <tr><td class="field">prf_acidentes_por_100mil_veiculos</td><td><span class="tag derived">derivado</span></td><td class="miss">5,5%</td><td class="desc">Acidentes PRF × 100.000 ÷ frota_total, mesmo mês.</td><td class="src">calculado · taxa</td><td class="example">10,39</td></tr>
+          <tr><td class="field">renaest_sinistros_por_100mil_veiculos</td><td><span class="tag derived">derivado</span></td><td class="miss">30%</td><td class="desc">Sinistros RENAEST × 100.000 ÷ frota_total, mesmo mês.</td><td class="src">calculado · taxa</td><td class="example">108,25</td></tr>
+          <tr><td class="field">autoseg_exposicao_por_1000_veiculos</td><td><span class="tag derived">derivado</span></td><td class="miss">53%</td><td class="desc">Exposição CASCO (semestre) × 1.000 ÷ frota_automovel <i>do mês</i> (não a média do semestre, para não inventar agregação extra).</td><td class="src">calculado · taxa</td><td class="example">83,15</td></tr>
+          <tr><td class="field">consumidor_reclamacoes_por_1000_veiculos</td><td><span class="tag derived">derivado</span></td><td class="miss">36%</td><td class="desc">Reclamações × 1.000 ÷ frota_automovel &mdash; proxy aproximado, não é reclamação por apólice real.</td><td class="src">calculado · taxa</td><td class="example">0,0128</td></tr>
+          <tr><td class="field">autoseg_delta_exposicao_segurada_casco</td><td><span class="tag derived">derivado</span></td><td class="miss">58%</td><td class="desc">Exposição do semestre menos a do semestre imediatamente anterior. <b>Não significa "novas apólices"</b> &mdash; pode incluir novas contratações, cancelamentos, renovações e substituição de veículo.</td><td class="src">calculado · veículos-ano</td><td class="example">&minus;252,96</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <!-- ============ superbase_nacional_mes ============ -->
+    <section class="table-doc" id="nacional-mes">
+      <div class="table-head">
+        <div class="filename">SUPERBASE/superbase_nacional_mes.csv</div>
+        <h2>Série nacional × mês</h2>
+        <p>Fontes que só existem em nível Brasil, sem quebra por UF. Chave: <code>ano_mes</code>.</p>
+        <div class="meta-pills">
+          <span class="pill"><b>128</b> linhas</span>
+          <span class="pill"><b>14</b> colunas</span>
+          <span class="pill"><b>201601&ndash;202608</b></span>
+        </div>
+      </div>
+      <div class="callout"><b>Sem UF por desenho, não por descuido:</b> a Fenabrave não publica emplacamentos por estado gratuitamente (só nacional por categoria + % entre 5 macrorregiões, em <code>dim_uf_trends_regional.csv</code> não se aplica aqui &mdash; ver a tabela de emplacamentos regional-percentual nas bases granulares).</div>
+      <div class="table-scroll">
+      <table class="dict">
+        <thead><tr><th>Campo</th><th>Tipo</th><th>% ausente</th><th>Descrição</th><th>Fonte / unidade</th><th>Exemplo</th></tr></thead>
+        <tbody>
+          <tr><td class="field">ano_mes</td><td><span class="tag id">id</span></td><td class="miss">—</td><td class="desc">Ano e mês (AAAAMM).</td><td class="src">inteiro</td><td class="example">201601</td></tr>
+          <tr><td class="field">emplacamentos_novos_AUTOMOVEIS</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Emplacamentos novos de automóveis no mês. <b>Nunca chamado de "novos seguros"</b> &mdash; mede entrada de veículo novo no mercado, sem relação 1:1 com contratação de seguro.</td><td class="src">Fenabrave · veículos</td><td class="example">131.272</td></tr>
+          <tr><td class="field">emplacamentos_novos_COMERCIAIS_LEVES</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Emplacamentos de comerciais leves.</td><td class="src">Fenabrave · veículos</td><td class="example">18.427</td></tr>
+          <tr><td class="field">emplacamentos_novos_CAMINHOES</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Emplacamentos de caminhões.</td><td class="src">Fenabrave · veículos</td><td class="example">4.348</td></tr>
+          <tr><td class="field">emplacamentos_novos_ONIBUS</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Emplacamentos de ônibus.</td><td class="src">Fenabrave · veículos</td><td class="example">1.253</td></tr>
+          <tr><td class="field">emplacamentos_novos_MOTOCICLETAS</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Emplacamentos de motocicletas.</td><td class="src">Fenabrave · veículos</td><td class="example">96.243</td></tr>
+          <tr><td class="field">emplacamentos_novos_IMPLEMENTOS_RODOVIARIOS</td><td><span class="tag metric">métrica</span></td><td class="miss">5,5%</td><td class="desc">Emplacamentos de implementos rodoviários (reboques/semirreboques).</td><td class="src">Fenabrave · veículos</td><td class="example">1.719</td></tr>
+          <tr><td class="field">emplacamentos_novos_total</td><td><span class="tag derived">derivado</span></td><td class="miss">5,5%</td><td class="desc">Soma das 6 categorias acima.</td><td class="src">calculado · veículos</td><td class="example">253.262</td></tr>
+          <tr><td class="field">ipca_numero_indice_nacional</td><td><span class="tag metric">métrica</span></td><td class="miss">0,8%</td><td class="desc">Igual à coluna homônima do painel UF×mês, repetida aqui para quem só quer a série nacional.</td><td class="src">IBGE SIDRA 1737 · índice</td><td class="example">4.550,23</td></tr>
+          <tr><td class="field">trends_nacional_*</td><td><span class="tag metric">métrica</span></td><td class="miss">0&ndash;53%</td><td class="desc">5 colunas, uma por termo pesquisado &mdash; mesmas do painel UF×mês.</td><td class="src">Google Trends · 0&ndash;100</td><td class="example">10</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <!-- ============ superbase_empresa_mes ============ -->
+    <section class="table-doc" id="empresa-mes">
+      <div class="table-head">
+        <div class="filename">SUPERBASE/superbase_empresa_mes.csv</div>
+        <h2>Painel empresa × mês</h2>
+        <p>Desempenho de cada seguradora do ramo Automóvel, agregado <b>nacionalmente</b> (soma entre todas as UF). Chave: <code>empresa_id</code> + <code>ano_mes</code>. Diferente do painel UF×mês, <b>não é uma grade completa</b>: só existem linhas onde havia dado real em pelo menos uma fonte.</p>
+        <div class="meta-pills">
+          <span class="pill"><b>10.742</b> linhas</span>
+          <span class="pill"><b>18</b> colunas</span>
+          <span class="pill"><b>117</b> seguradoras</span>
+        </div>
+      </div>
+      <div class="table-scroll">
+      <table class="dict">
+        <thead><tr><th>Campo</th><th>Tipo</th><th>% ausente</th><th>Descrição</th><th>Fonte / unidade</th><th>Exemplo</th></tr></thead>
+        <tbody>
+          <tr><td class="field">empresa_id</td><td><span class="tag id">id</span></td><td class="miss">—</td><td class="desc">Chave interna da dimensão de empresa (junção com <code>dim_empresa.csv</code> e <code>dim_empresa_reclame_aqui_snapshot.csv</code>).</td><td class="src">inteiro</td><td class="example">80</td></tr>
+          <tr><td class="field">codigo_susep</td><td><span class="tag id">id</span></td><td class="miss">0%</td><td class="desc">Código de registro da seguradora na SUSEP. <b>Não é estável no tempo</b>: a mesma empresa real pode ter mais de um código ao longo dos anos por reformulação societária &mdash; ver <code>grupo_cnpj_id</code>.</td><td class="src">SUSEP · inteiro</td><td class="example">5886</td></tr>
+          <tr><td class="field">razao_social_susep</td><td><span class="tag dim">dimensão</span></td><td class="miss">0%</td><td class="desc">Razão social registrada na SUSEP.</td><td class="src">SUSEP · texto</td><td class="example">PORTO SEGURO COMPANHIA DE SEGUROS GERAIS</td></tr>
+          <tr><td class="field">cnpj</td><td><span class="tag dim">dimensão</span></td><td class="miss">4,5%</td><td class="desc">CNPJ confirmado via SUSEP (código exato) ou Reclame Aqui + validado na Receita Federal (BrasilAPI). 10 de 117 empresas sem CNPJ encontrado.</td><td class="src">SUSEP/Receita Federal · texto</td><td class="example">61.198.164/0001-60</td></tr>
+          <tr><td class="field">situacao_cadastral</td><td><span class="tag dim">dimensão</span></td><td class="miss">4,5%</td><td class="desc">Situação cadastral na Receita Federal.</td><td class="src">Receita Federal · texto</td><td class="example">ATIVA</td></tr>
+          <tr><td class="field">ano_mes</td><td><span class="tag id">id</span></td><td class="miss">0%</td><td class="desc">Ano e mês (AAAAMM).</td><td class="src">inteiro</td><td class="example">201601</td></tr>
+          <tr><td class="field">susep_premio_direto</td><td><span class="tag metric">métrica</span></td><td class="miss">14%</td><td class="desc">Prêmio direto da empresa, somado entre todas as UF.</td><td class="src">SUSEP SES · R$ nominal</td><td class="example">335.431.265,25</td></tr>
+          <tr><td class="field">susep_premio_retido</td><td><span class="tag metric">métrica</span></td><td class="miss">14%</td><td class="desc">Prêmio retido, somado entre UF.</td><td class="src">SUSEP SES · R$ nominal</td><td class="example">395.830.919,07</td></tr>
+          <tr><td class="field">susep_sinistro_direto</td><td><span class="tag metric">métrica</span></td><td class="miss">14%</td><td class="desc">Sinistro direto, somado entre UF.</td><td class="src">SUSEP SES · R$ nominal</td><td class="example">234.057.186,58</td></tr>
+          <tr><td class="field">susep_premio_retido_liquido</td><td><span class="tag metric">métrica</span></td><td class="miss">14%</td><td class="desc">Prêmio retido líquido, somado entre UF.</td><td class="src">SUSEP SES · R$ nominal</td><td class="example">395.830.919,07</td></tr>
+          <tr><td class="field">susep_n_uf_atuacao</td><td><span class="tag metric">métrica</span></td><td class="miss">14%</td><td class="desc">Quantidade de UF distintas em que a empresa reportou operação no mês.</td><td class="src">SUSEP SES · contagem</td><td class="example">26</td></tr>
+          <tr><td class="field">susep_sinistralidade</td><td><span class="tag derived">derivado</span></td><td class="miss">59%</td><td class="desc"><code>susep_sinistro_direto ÷ susep_premio_direto</code>.</td><td class="src">calculado · razão</td><td class="example">0,698</td></tr>
+          <tr><td class="field">consumidor_n_reclamacoes</td><td><span class="tag metric">métrica</span></td><td class="miss">62%</td><td class="desc">Reclamações no mês, somadas entre UF (candidato por nome, não confirmado por CNPJ).</td><td class="src">Consumidor.gov.br · contagem</td><td class="example">42</td></tr>
+          <tr><td class="field">consumidor_pct_respondida</td><td><span class="tag derived">derivado</span></td><td class="miss">62%</td><td class="desc">Fração respondida no mês.</td><td class="src">Consumidor.gov.br · 0&ndash;1</td><td class="example">0,952</td></tr>
+          <tr><td class="field">consumidor_pct_resolvida</td><td><span class="tag derived">derivado</span></td><td class="miss">62%</td><td class="desc">Fração avaliada como "Resolvida".</td><td class="src">Consumidor.gov.br · 0&ndash;1</td><td class="example">0,143</td></tr>
+          <tr><td class="field">consumidor_reclamacoes_por_milhao_premio</td><td><span class="tag derived">derivado</span></td><td class="miss">85%</td><td class="desc">Reclamações × 1.000.000 ÷ prêmio direto do mês &mdash; normaliza por porte da seguradora.</td><td class="src">calculado · taxa</td><td class="example">2,540</td></tr>
+          <tr><td class="field">mapping_status</td><td><span class="tag meta">metadado</span></td><td class="miss">0%</td><td class="desc">Como o CNPJ foi confirmado: <code>confirmado_cnpj_receita</code> (Reclame Aqui + Receita), <code>confirmado_codigo_susep</code> (código exato SUSEP) ou <code>pendente</code>.</td><td class="src">texto</td><td class="example">confirmado_cnpj_receita</td></tr>
+          <tr><td class="field">grupo_cnpj_id</td><td><span class="tag meta">metadado</span></td><td class="miss">78%</td><td class="desc">Preenchido quando este <code>codigo_susep</code> compartilha CNPJ com outro(s) &mdash; 9 grupos identificados (ex.: Allianz, HDI, Bradesco) onde a mesma empresa real tem mais de um código histórico.</td><td class="src">texto</td><td class="example">G04</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <!-- ============ RA snapshot ============ -->
+    <section class="table-doc" id="ra-snapshot">
+      <div class="table-head">
+        <div class="filename">SUPERBASE/dim_empresa_reclame_aqui_snapshot.csv</div>
+        <h2>Reclame Aqui &mdash; instantâneo</h2>
+        <p>Cópia de referência de <code>PROCESSED/ra_metricas_periodo.csv</code>. <b>Não é série mensal</b>: são janelas móveis (6 meses, 12 meses, ano civil 2025, ano civil 2024, últimos 3 anos) coletadas num único instante. Cada linha carrega seu próprio período real.</p>
+        <div class="meta-pills">
+          <span class="pill"><b>410</b> linhas</span>
+          <span class="pill"><b>25</b> colunas</span>
+          <span class="pill"><b>81</b> empresas</span>
+          <span class="pill">coletado em <b>2026-09-22T03:22:44Z</b></span>
+        </div>
+      </div>
+      <div class="table-scroll">
+      <table class="dict">
+        <thead><tr><th>Campo</th><th>Tipo</th><th>Descrição</th><th>Exemplo</th></tr></thead>
+        <tbody>
+          <tr><td class="field">empresa_id</td><td><span class="tag id">id</span></td><td class="desc">Junção com as demais tabelas.</td><td class="example">1</td></tr>
+          <tr><td class="field">ra_id / ra_shortname / ra_url</td><td><span class="tag dim">dimensão</span></td><td class="desc">Identificador, slug e URL do perfil público no Reclame Aqui.</td><td class="example">sabemi-seguradora</td></tr>
+          <tr><td class="field">cnpj_ra</td><td><span class="tag dim">dimensão</span></td><td class="desc">CNPJ exibido na página do RA &mdash; usado para popular <code>dim_empresa.cnpj</code>.</td><td class="example">87163234000138</td></tr>
+          <tr><td class="field">match_score</td><td><span class="tag meta">metadado</span></td><td class="desc">Confiança do casamento nome-empresa (1,0 = correspondência exata de marca).</td><td class="example">1,0</td></tr>
+          <tr><td class="field">tipo_periodo / tipo_periodo_label</td><td><span class="tag id">id</span></td><td class="desc">Qual janela esta linha representa.</td><td class="example">SIX_MONTHS / Últimos 6 meses</td></tr>
+          <tr><td class="field">periodo_inicio / periodo_fim</td><td><span class="tag meta">metadado</span></td><td class="desc">Datas reais cobertas por esta janela específica (varia por empresa e tipo_periodo).</td><td class="example">2026-03-01 / 2026-08-31</td></tr>
+          <tr><td class="field">reputacao_status / reputacao_label</td><td><span class="tag dim">dimensão</span></td><td class="desc">Classificação de reputação do Reclame Aqui (dicionário oficial extraído da própria página).</td><td class="example">REGULAR / Regular</td></tr>
+          <tr><td class="field">nota_reputacao</td><td><span class="tag metric">métrica</span></td><td class="desc">Nota de 0 a 10.</td><td class="example">6,2</td></tr>
+          <tr><td class="field">reclamacoes_recebidas / respondidas / avaliadas</td><td><span class="tag metric">métrica</span></td><td class="desc">Contagens no período da janela.</td><td class="example">466 / 465 / 204</td></tr>
+          <tr><td class="field">reclamacoes_respondidas_pct / resolvidas_pct</td><td><span class="tag derived">derivado</span></td><td class="desc">Percentuais publicados pelo RA.</td><td class="example">99,8 / 65,5</td></tr>
+          <tr><td class="field">voltariam_a_fazer_negocio_pct</td><td><span class="tag metric">métrica</span></td><td class="desc">% dos avaliadores que voltariam a fazer negócio com a empresa.</td><td class="example">40,9</td></tr>
+          <tr><td class="field">nota_media_consumidor</td><td><span class="tag metric">métrica</span></td><td class="desc">Nota média (0&ndash;5) das avaliações de atendimento.</td><td class="example">4,81</td></tr>
+          <tr><td class="field">tempo_medio_resposta_segundos / _legivel</td><td><span class="tag metric">métrica</span></td><td class="desc">Tempo médio de resposta da empresa.</td><td class="example">11 dias e 6 horas</td></tr>
+          <tr><td class="field">data_coleta</td><td><span class="tag meta">metadado</span></td><td class="desc">Timestamp único da coleta &mdash; idêntico em todas as linhas.</td><td class="example">2026-09-22T03:22:44+00:00</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <!-- ============ Trends regional ============ -->
+    <section class="table-doc" id="trends-regional">
+      <div class="table-head">
+        <div class="filename">SUPERBASE/dim_uf_trends_regional.csv</div>
+        <h2>Google Trends &mdash; regional</h2>
+        <p>Índice de interesse por UF para um <b>único período agregado de consulta</b> (01/01/2016 a 31/08/2026) &mdash; não varia mês a mês, por isso fica fora do painel principal.</p>
+        <div class="meta-pills">
+          <span class="pill"><b>135</b> linhas</span>
+          <span class="pill"><b>4</b> colunas</span>
+          <span class="pill">27 UF × 5 termos</span>
+        </div>
+      </div>
+      <div class="table-scroll">
+      <table class="dict">
+        <thead><tr><th>Campo</th><th>Tipo</th><th>% ausente</th><th>Descrição</th><th>Exemplo</th></tr></thead>
+        <tbody>
+          <tr><td class="field">uf</td><td><span class="tag id">id</span></td><td class="miss">—</td><td class="desc">Sigla da UF.</td><td class="example">DF</td></tr>
+          <tr><td class="field">termo</td><td><span class="tag id">id</span></td><td class="miss">—</td><td class="desc">Um dos 5 termos fixos de busca.</td><td class="example">seguro auto</td></tr>
+          <tr><td class="field">indice_regional</td><td><span class="tag metric">métrica</span></td><td class="miss">2,2%</td><td class="desc">Índice relativo 0&ndash;100 (a UF com maior interesse no termo recebe 100). <b>Índice relativo</b>, não é proporcional a volume absoluto de buscas.</td><td class="example">100</td></tr>
+          <tr><td class="field">periodo_consulta</td><td><span class="tag meta">metadado</span></td><td class="miss">—</td><td class="desc">Janela agregada usada na consulta (mesma para todas as linhas).</td><td class="example">2016-01-01 a 2026-08-31</td></tr>
+        </tbody>
+      </table>
+      </div>
+    </section>
+
+    <section class="glossary" id="glossario">
+      <h2 style="font-size:22px; margin-bottom:16px;">Glossário</h2>
+      <dl>
+        <dt>Broadcast (↻)</dt><dd>Repetir o mesmo valor de um período mais longo (semestre, trimestre, ano) em cada mês que ele cobre. Feito só quando a coluna de referência ao lado deixa claro de onde veio o valor &mdash; nunca para esconder a granularidade real da fonte.</dd>
+        <dt>uf_aproximada</dt><dd>UF derivada da sigla que a própria SUSEP escreve no início da descrição textual de cada "região de circulação" do AUTOSEG (ex.: "RS &ndash; Met. Porto Alegre..."). Não é uma partição exata de UF.</dd>
+        <dt>Candidato (matching)</dt><dd>Vínculo empresa↔registro decidido por normalização de nome de marca, não confirmado por CNPJ contra uma segunda fonte independente. Usado no Consumidor.gov.br.</dd>
+        <dt>grupo_cnpj_id</dt><dd>Marca códigos SUSEP diferentes que, na verdade, são a mesma pessoa jurídica (mesmo CNPJ) &mdash; descoberto porque <code>codigo_susep</code> muda quando a empresa se reformula/renomeia.</dd>
+        <dt>gracodigo = 05</dt><dd>Código oficial SUSEP para o grupo "Automóvel", usado para filtrar todas as tabelas SUSEP deste projeto. Inclui DPVAT (classificado pela própria SUSEP dentro deste grupo).</dd>
+      </dl>
+    </section>
+
+    <section class="limits" id="limitacoes">
+      <h2 style="font-size:22px; margin-bottom:16px;">Limitações herdadas das fontes</h2>
+      <ul>
+        <li><b>SINESP</b> para em 2022-12 &mdash; fonte primária (dados.mj.gov.br) com falha total de DNS; obtida via Internet Archive; a versão mais atual (2015&ndash;2026) está indisponível, sem snapshot arquivado.</li>
+        <li><b>AUTOSEG</b> não tem banco de dados oficial para download a partir de 2021 &mdash; só painel interativo, que o plano de coleta determina não usar.</li>
+        <li><b>RENAEST</b> tem cobertura estadual desigual: algumas UF têm 1 mês de dado, outras têm os 100 meses completos.</li>
+        <li><b>Emplacamentos (Fenabrave)</b> não têm UF &mdash; só nacional por categoria + participação percentual entre 5 macrorregiões (fora desta SUPERBASE).</li>
+        <li><b>Consumidor.gov.br → empresa</b> é candidato por nome, não confirmado por CNPJ: 105 de 211 nomes fantasia do setor de seguros continuam sem correspondência.</li>
+        <li><b>Sinistralidade</b> pode ter outliers extremos em células de baixo volume (denominador pequeno) &mdash; são valores reais, recomenda-se ponderar por prêmio em qualquer agregação nacional.</li>
+        <li>Nenhum valor ausente foi preenchido com zero; nenhum período foi interpolado; nenhuma superbase apaga ou substitui as tabelas granulares de origem.</li>
+      </ul>
+    </section>
+
+    <footer class="page-footer">
+      SUPERBASE &middot; Seguro Auto Brasil 2016&ndash;2026 &middot; Bases granulares originais em <code>PROCESSED/</code> e <code>dados_externos/*/processed/</code> &middot; Proveniência completa (URL, data/hora, SHA-256) em <code>QA/fontes.csv</code> e <code>dados_externos/99_qa/fontes.csv</code>
+    </footer>
+  </main>
+</div>
+
+<script>
+  const input = document.getElementById('filter-input');
+  const countEl = document.getElementById('match-count');
+  const rows = Array.from(document.querySelectorAll('table.dict tbody tr'));
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) {
+      rows.forEach(r => r.classList.remove('hide'));
+      countEl.textContent = '';
+      return;
+    }
+    let n = 0;
+    rows.forEach(r => {
+      const hit = r.textContent.toLowerCase().includes(q);
+      r.classList.toggle('hide', !hit);
+      if (hit) n++;
+    });
+    countEl.textContent = n + ' campo' + (n === 1 ? '' : 's') + ' encontrado' + (n === 1 ? '' : 's');
+  });
+</script>

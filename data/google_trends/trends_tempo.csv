@@ -1,0 +1,641 @@
+periodo,termo,indice_trends
+2016-01,seguro auto,10.0
+2016-01,seguro de carro,6.0
+2016-01,cotação seguro auto,1.0
+2016-01,corretora de seguros,7.0
+2016-01,seguros,89.0
+2016-02,seguro auto,9.0
+2016-02,seguro de carro,5.0
+2016-02,cotação seguro auto,1.0
+2016-02,corretora de seguros,7.0
+2016-02,seguros,90.0
+2016-03,seguro auto,8.0
+2016-03,seguro de carro,5.0
+2016-03,cotação seguro auto,1.0
+2016-03,corretora de seguros,7.0
+2016-03,seguros,86.0
+2016-04,seguro auto,9.0
+2016-04,seguro de carro,5.0
+2016-04,cotação seguro auto,1.0
+2016-04,corretora de seguros,7.0
+2016-04,seguros,86.0
+2016-05,seguro auto,9.0
+2016-05,seguro de carro,4.0
+2016-05,cotação seguro auto,1.0
+2016-05,corretora de seguros,8.0
+2016-05,seguros,83.0
+2016-06,seguro auto,8.0
+2016-06,seguro de carro,5.0
+2016-06,cotação seguro auto,1.0
+2016-06,corretora de seguros,8.0
+2016-06,seguros,86.0
+2016-07,seguro auto,8.0
+2016-07,seguro de carro,5.0
+2016-07,cotação seguro auto,1.0
+2016-07,corretora de seguros,7.0
+2016-07,seguros,84.0
+2016-08,seguro auto,9.0
+2016-08,seguro de carro,4.0
+2016-08,cotação seguro auto,
+2016-08,corretora de seguros,7.0
+2016-08,seguros,80.0
+2016-09,seguro auto,8.0
+2016-09,seguro de carro,5.0
+2016-09,cotação seguro auto,
+2016-09,corretora de seguros,7.0
+2016-09,seguros,85.0
+2016-10,seguro auto,10.0
+2016-10,seguro de carro,5.0
+2016-10,cotação seguro auto,
+2016-10,corretora de seguros,7.0
+2016-10,seguros,84.0
+2016-11,seguro auto,10.0
+2016-11,seguro de carro,5.0
+2016-11,cotação seguro auto,1.0
+2016-11,corretora de seguros,7.0
+2016-11,seguros,89.0
+2016-12,seguro auto,11.0
+2016-12,seguro de carro,6.0
+2016-12,cotação seguro auto,1.0
+2016-12,corretora de seguros,7.0
+2016-12,seguros,90.0
+2017-01,seguro auto,10.0
+2017-01,seguro de carro,7.0
+2017-01,cotação seguro auto,1.0
+2017-01,corretora de seguros,8.0
+2017-01,seguros,93.0
+2017-02,seguro auto,9.0
+2017-02,seguro de carro,6.0
+2017-02,cotação seguro auto,1.0
+2017-02,corretora de seguros,8.0
+2017-02,seguros,90.0
+2017-03,seguro auto,10.0
+2017-03,seguro de carro,6.0
+2017-03,cotação seguro auto,1.0
+2017-03,corretora de seguros,8.0
+2017-03,seguros,96.0
+2017-04,seguro auto,9.0
+2017-04,seguro de carro,5.0
+2017-04,cotação seguro auto,1.0
+2017-04,corretora de seguros,7.0
+2017-04,seguros,89.0
+2017-05,seguro auto,9.0
+2017-05,seguro de carro,6.0
+2017-05,cotação seguro auto,1.0
+2017-05,corretora de seguros,8.0
+2017-05,seguros,96.0
+2017-06,seguro auto,10.0
+2017-06,seguro de carro,5.0
+2017-06,cotação seguro auto,1.0
+2017-06,corretora de seguros,7.0
+2017-06,seguros,93.0
+2017-07,seguro auto,11.0
+2017-07,seguro de carro,6.0
+2017-07,cotação seguro auto,1.0
+2017-07,corretora de seguros,8.0
+2017-07,seguros,99.0
+2017-08,seguro auto,10.0
+2017-08,seguro de carro,5.0
+2017-08,cotação seguro auto,1.0
+2017-08,corretora de seguros,8.0
+2017-08,seguros,100.0
+2017-09,seguro auto,11.0
+2017-09,seguro de carro,6.0
+2017-09,cotação seguro auto,1.0
+2017-09,corretora de seguros,7.0
+2017-09,seguros,91.0
+2017-10,seguro auto,10.0
+2017-10,seguro de carro,5.0
+2017-10,cotação seguro auto,1.0
+2017-10,corretora de seguros,7.0
+2017-10,seguros,93.0
+2017-11,seguro auto,9.0
+2017-11,seguro de carro,6.0
+2017-11,cotação seguro auto,1.0
+2017-11,corretora de seguros,7.0
+2017-11,seguros,93.0
+2017-12,seguro auto,11.0
+2017-12,seguro de carro,6.0
+2017-12,cotação seguro auto,1.0
+2017-12,corretora de seguros,7.0
+2017-12,seguros,92.0
+2018-01,seguro auto,10.0
+2018-01,seguro de carro,7.0
+2018-01,cotação seguro auto,1.0
+2018-01,corretora de seguros,8.0
+2018-01,seguros,98.0
+2018-02,seguro auto,10.0
+2018-02,seguro de carro,6.0
+2018-02,cotação seguro auto,1.0
+2018-02,corretora de seguros,7.0
+2018-02,seguros,92.0
+2018-03,seguro auto,9.0
+2018-03,seguro de carro,6.0
+2018-03,cotação seguro auto,1.0
+2018-03,corretora de seguros,7.0
+2018-03,seguros,94.0
+2018-04,seguro auto,9.0
+2018-04,seguro de carro,6.0
+2018-04,cotação seguro auto,1.0
+2018-04,corretora de seguros,7.0
+2018-04,seguros,94.0
+2018-05,seguro auto,8.0
+2018-05,seguro de carro,5.0
+2018-05,cotação seguro auto,1.0
+2018-05,corretora de seguros,7.0
+2018-05,seguros,93.0
+2018-06,seguro auto,8.0
+2018-06,seguro de carro,5.0
+2018-06,cotação seguro auto,1.0
+2018-06,corretora de seguros,7.0
+2018-06,seguros,82.0
+2018-07,seguro auto,9.0
+2018-07,seguro de carro,6.0
+2018-07,cotação seguro auto,1.0
+2018-07,corretora de seguros,7.0
+2018-07,seguros,88.0
+2018-08,seguro auto,9.0
+2018-08,seguro de carro,6.0
+2018-08,cotação seguro auto,1.0
+2018-08,corretora de seguros,8.0
+2018-08,seguros,91.0
+2018-09,seguro auto,8.0
+2018-09,seguro de carro,5.0
+2018-09,cotação seguro auto,1.0
+2018-09,corretora de seguros,6.0
+2018-09,seguros,78.0
+2018-10,seguro auto,8.0
+2018-10,seguro de carro,5.0
+2018-10,cotação seguro auto,
+2018-10,corretora de seguros,7.0
+2018-10,seguros,83.0
+2018-11,seguro auto,10.0
+2018-11,seguro de carro,5.0
+2018-11,cotação seguro auto,1.0
+2018-11,corretora de seguros,6.0
+2018-11,seguros,86.0
+2018-12,seguro auto,11.0
+2018-12,seguro de carro,7.0
+2018-12,cotação seguro auto,1.0
+2018-12,corretora de seguros,7.0
+2018-12,seguros,86.0
+2019-01,seguro auto,10.0
+2019-01,seguro de carro,7.0
+2019-01,cotação seguro auto,1.0
+2019-01,corretora de seguros,7.0
+2019-01,seguros,94.0
+2019-02,seguro auto,9.0
+2019-02,seguro de carro,5.0
+2019-02,cotação seguro auto,1.0
+2019-02,corretora de seguros,7.0
+2019-02,seguros,91.0
+2019-03,seguro auto,9.0
+2019-03,seguro de carro,5.0
+2019-03,cotação seguro auto,1.0
+2019-03,corretora de seguros,7.0
+2019-03,seguros,84.0
+2019-04,seguro auto,9.0
+2019-04,seguro de carro,6.0
+2019-04,cotação seguro auto,1.0
+2019-04,corretora de seguros,8.0
+2019-04,seguros,90.0
+2019-05,seguro auto,9.0
+2019-05,seguro de carro,5.0
+2019-05,cotação seguro auto,1.0
+2019-05,corretora de seguros,7.0
+2019-05,seguros,90.0
+2019-06,seguro auto,9.0
+2019-06,seguro de carro,5.0
+2019-06,cotação seguro auto,1.0
+2019-06,corretora de seguros,7.0
+2019-06,seguros,88.0
+2019-07,seguro auto,9.0
+2019-07,seguro de carro,5.0
+2019-07,cotação seguro auto,1.0
+2019-07,corretora de seguros,7.0
+2019-07,seguros,93.0
+2019-08,seguro auto,8.0
+2019-08,seguro de carro,5.0
+2019-08,cotação seguro auto,1.0
+2019-08,corretora de seguros,7.0
+2019-08,seguros,91.0
+2019-09,seguro auto,8.0
+2019-09,seguro de carro,5.0
+2019-09,cotação seguro auto,1.0
+2019-09,corretora de seguros,8.0
+2019-09,seguros,92.0
+2019-10,seguro auto,8.0
+2019-10,seguro de carro,5.0
+2019-10,cotação seguro auto,1.0
+2019-10,corretora de seguros,7.0
+2019-10,seguros,92.0
+2019-11,seguro auto,8.0
+2019-11,seguro de carro,5.0
+2019-11,cotação seguro auto,
+2019-11,corretora de seguros,6.0
+2019-11,seguros,86.0
+2019-12,seguro auto,9.0
+2019-12,seguro de carro,6.0
+2019-12,cotação seguro auto,1.0
+2019-12,corretora de seguros,6.0
+2019-12,seguros,89.0
+2020-01,seguro auto,10.0
+2020-01,seguro de carro,7.0
+2020-01,cotação seguro auto,1.0
+2020-01,corretora de seguros,8.0
+2020-01,seguros,94.0
+2020-02,seguro auto,9.0
+2020-02,seguro de carro,6.0
+2020-02,cotação seguro auto,1.0
+2020-02,corretora de seguros,7.0
+2020-02,seguros,88.0
+2020-03,seguro auto,7.0
+2020-03,seguro de carro,4.0
+2020-03,cotação seguro auto,
+2020-03,corretora de seguros,6.0
+2020-03,seguros,83.0
+2020-04,seguro auto,5.0
+2020-04,seguro de carro,3.0
+2020-04,cotação seguro auto,
+2020-04,corretora de seguros,4.0
+2020-04,seguros,61.0
+2020-05,seguro auto,5.0
+2020-05,seguro de carro,4.0
+2020-05,cotação seguro auto,
+2020-05,corretora de seguros,5.0
+2020-05,seguros,66.0
+2020-06,seguro auto,6.0
+2020-06,seguro de carro,4.0
+2020-06,cotação seguro auto,
+2020-06,corretora de seguros,5.0
+2020-06,seguros,71.0
+2020-07,seguro auto,7.0
+2020-07,seguro de carro,5.0
+2020-07,cotação seguro auto,
+2020-07,corretora de seguros,6.0
+2020-07,seguros,82.0
+2020-08,seguro auto,7.0
+2020-08,seguro de carro,5.0
+2020-08,cotação seguro auto,
+2020-08,corretora de seguros,5.0
+2020-08,seguros,72.0
+2020-09,seguro auto,7.0
+2020-09,seguro de carro,5.0
+2020-09,cotação seguro auto,
+2020-09,corretora de seguros,5.0
+2020-09,seguros,75.0
+2020-10,seguro auto,8.0
+2020-10,seguro de carro,5.0
+2020-10,cotação seguro auto,
+2020-10,corretora de seguros,5.0
+2020-10,seguros,70.0
+2020-11,seguro auto,7.0
+2020-11,seguro de carro,5.0
+2020-11,cotação seguro auto,
+2020-11,corretora de seguros,5.0
+2020-11,seguros,69.0
+2020-12,seguro auto,7.0
+2020-12,seguro de carro,5.0
+2020-12,cotação seguro auto,
+2020-12,corretora de seguros,4.0
+2020-12,seguros,70.0
+2021-01,seguro auto,8.0
+2021-01,seguro de carro,6.0
+2021-01,cotação seguro auto,
+2021-01,corretora de seguros,5.0
+2021-01,seguros,72.0
+2021-02,seguro auto,7.0
+2021-02,seguro de carro,5.0
+2021-02,cotação seguro auto,
+2021-02,corretora de seguros,5.0
+2021-02,seguros,71.0
+2021-03,seguro auto,6.0
+2021-03,seguro de carro,4.0
+2021-03,cotação seguro auto,
+2021-03,corretora de seguros,5.0
+2021-03,seguros,69.0
+2021-04,seguro auto,6.0
+2021-04,seguro de carro,4.0
+2021-04,cotação seguro auto,
+2021-04,corretora de seguros,5.0
+2021-04,seguros,64.0
+2021-05,seguro auto,6.0
+2021-05,seguro de carro,4.0
+2021-05,cotação seguro auto,
+2021-05,corretora de seguros,5.0
+2021-05,seguros,67.0
+2021-06,seguro auto,7.0
+2021-06,seguro de carro,4.0
+2021-06,cotação seguro auto,
+2021-06,corretora de seguros,5.0
+2021-06,seguros,68.0
+2021-07,seguro auto,7.0
+2021-07,seguro de carro,5.0
+2021-07,cotação seguro auto,
+2021-07,corretora de seguros,5.0
+2021-07,seguros,68.0
+2021-08,seguro auto,6.0
+2021-08,seguro de carro,5.0
+2021-08,cotação seguro auto,
+2021-08,corretora de seguros,5.0
+2021-08,seguros,67.0
+2021-09,seguro auto,7.0
+2021-09,seguro de carro,5.0
+2021-09,cotação seguro auto,
+2021-09,corretora de seguros,5.0
+2021-09,seguros,73.0
+2021-10,seguro auto,6.0
+2021-10,seguro de carro,4.0
+2021-10,cotação seguro auto,
+2021-10,corretora de seguros,5.0
+2021-10,seguros,70.0
+2021-11,seguro auto,6.0
+2021-11,seguro de carro,5.0
+2021-11,cotação seguro auto,
+2021-11,corretora de seguros,5.0
+2021-11,seguros,66.0
+2021-12,seguro auto,7.0
+2021-12,seguro de carro,5.0
+2021-12,cotação seguro auto,
+2021-12,corretora de seguros,5.0
+2021-12,seguros,69.0
+2022-01,seguro auto,8.0
+2022-01,seguro de carro,6.0
+2022-01,cotação seguro auto,1.0
+2022-01,corretora de seguros,5.0
+2022-01,seguros,73.0
+2022-02,seguro auto,7.0
+2022-02,seguro de carro,5.0
+2022-02,cotação seguro auto,1.0
+2022-02,corretora de seguros,5.0
+2022-02,seguros,75.0
+2022-03,seguro auto,7.0
+2022-03,seguro de carro,5.0
+2022-03,cotação seguro auto,1.0
+2022-03,corretora de seguros,5.0
+2022-03,seguros,72.0
+2022-04,seguro auto,6.0
+2022-04,seguro de carro,5.0
+2022-04,cotação seguro auto,
+2022-04,corretora de seguros,5.0
+2022-04,seguros,67.0
+2022-05,seguro auto,6.0
+2022-05,seguro de carro,5.0
+2022-05,cotação seguro auto,1.0
+2022-05,corretora de seguros,5.0
+2022-05,seguros,74.0
+2022-06,seguro auto,7.0
+2022-06,seguro de carro,5.0
+2022-06,cotação seguro auto,1.0
+2022-06,corretora de seguros,5.0
+2022-06,seguros,73.0
+2022-07,seguro auto,7.0
+2022-07,seguro de carro,5.0
+2022-07,cotação seguro auto,1.0
+2022-07,corretora de seguros,6.0
+2022-07,seguros,70.0
+2022-08,seguro auto,6.0
+2022-08,seguro de carro,6.0
+2022-08,cotação seguro auto,1.0
+2022-08,corretora de seguros,6.0
+2022-08,seguros,70.0
+2022-09,seguro auto,6.0
+2022-09,seguro de carro,5.0
+2022-09,cotação seguro auto,1.0
+2022-09,corretora de seguros,5.0
+2022-09,seguros,73.0
+2022-10,seguro auto,6.0
+2022-10,seguro de carro,5.0
+2022-10,cotação seguro auto,1.0
+2022-10,corretora de seguros,5.0
+2022-10,seguros,64.0
+2022-11,seguro auto,6.0
+2022-11,seguro de carro,5.0
+2022-11,cotação seguro auto,1.0
+2022-11,corretora de seguros,5.0
+2022-11,seguros,64.0
+2022-12,seguro auto,7.0
+2022-12,seguro de carro,6.0
+2022-12,cotação seguro auto,1.0
+2022-12,corretora de seguros,5.0
+2022-12,seguros,68.0
+2023-01,seguro auto,8.0
+2023-01,seguro de carro,6.0
+2023-01,cotação seguro auto,1.0
+2023-01,corretora de seguros,6.0
+2023-01,seguros,76.0
+2023-02,seguro auto,7.0
+2023-02,seguro de carro,6.0
+2023-02,cotação seguro auto,1.0
+2023-02,corretora de seguros,6.0
+2023-02,seguros,74.0
+2023-03,seguro auto,6.0
+2023-03,seguro de carro,5.0
+2023-03,cotação seguro auto,1.0
+2023-03,corretora de seguros,6.0
+2023-03,seguros,79.0
+2023-04,seguro auto,7.0
+2023-04,seguro de carro,5.0
+2023-04,cotação seguro auto,
+2023-04,corretora de seguros,5.0
+2023-04,seguros,68.0
+2023-05,seguro auto,7.0
+2023-05,seguro de carro,5.0
+2023-05,cotação seguro auto,1.0
+2023-05,corretora de seguros,6.0
+2023-05,seguros,73.0
+2023-06,seguro auto,7.0
+2023-06,seguro de carro,6.0
+2023-06,cotação seguro auto,
+2023-06,corretora de seguros,6.0
+2023-06,seguros,71.0
+2023-07,seguro auto,6.0
+2023-07,seguro de carro,6.0
+2023-07,cotação seguro auto,
+2023-07,corretora de seguros,6.0
+2023-07,seguros,70.0
+2023-08,seguro auto,7.0
+2023-08,seguro de carro,6.0
+2023-08,cotação seguro auto,
+2023-08,corretora de seguros,6.0
+2023-08,seguros,69.0
+2023-09,seguro auto,6.0
+2023-09,seguro de carro,6.0
+2023-09,cotação seguro auto,
+2023-09,corretora de seguros,5.0
+2023-09,seguros,70.0
+2023-10,seguro auto,6.0
+2023-10,seguro de carro,6.0
+2023-10,cotação seguro auto,
+2023-10,corretora de seguros,6.0
+2023-10,seguros,66.0
+2023-11,seguro auto,6.0
+2023-11,seguro de carro,6.0
+2023-11,cotação seguro auto,
+2023-11,corretora de seguros,5.0
+2023-11,seguros,66.0
+2023-12,seguro auto,7.0
+2023-12,seguro de carro,8.0
+2023-12,cotação seguro auto,
+2023-12,corretora de seguros,5.0
+2023-12,seguros,70.0
+2024-01,seguro auto,7.0
+2024-01,seguro de carro,8.0
+2024-01,cotação seguro auto,
+2024-01,corretora de seguros,6.0
+2024-01,seguros,73.0
+2024-02,seguro auto,6.0
+2024-02,seguro de carro,7.0
+2024-02,cotação seguro auto,
+2024-02,corretora de seguros,6.0
+2024-02,seguros,74.0
+2024-03,seguro auto,6.0
+2024-03,seguro de carro,7.0
+2024-03,cotação seguro auto,
+2024-03,corretora de seguros,6.0
+2024-03,seguros,71.0
+2024-04,seguro auto,6.0
+2024-04,seguro de carro,7.0
+2024-04,cotação seguro auto,
+2024-04,corretora de seguros,6.0
+2024-04,seguros,77.0
+2024-05,seguro auto,6.0
+2024-05,seguro de carro,7.0
+2024-05,cotação seguro auto,
+2024-05,corretora de seguros,6.0
+2024-05,seguros,74.0
+2024-06,seguro auto,6.0
+2024-06,seguro de carro,7.0
+2024-06,cotação seguro auto,
+2024-06,corretora de seguros,7.0
+2024-06,seguros,73.0
+2024-07,seguro auto,6.0
+2024-07,seguro de carro,7.0
+2024-07,cotação seguro auto,
+2024-07,corretora de seguros,7.0
+2024-07,seguros,75.0
+2024-08,seguro auto,6.0
+2024-08,seguro de carro,7.0
+2024-08,cotação seguro auto,
+2024-08,corretora de seguros,6.0
+2024-08,seguros,72.0
+2024-09,seguro auto,5.0
+2024-09,seguro de carro,7.0
+2024-09,cotação seguro auto,
+2024-09,corretora de seguros,6.0
+2024-09,seguros,72.0
+2024-10,seguro auto,5.0
+2024-10,seguro de carro,7.0
+2024-10,cotação seguro auto,
+2024-10,corretora de seguros,6.0
+2024-10,seguros,73.0
+2024-11,seguro auto,5.0
+2024-11,seguro de carro,8.0
+2024-11,cotação seguro auto,
+2024-11,corretora de seguros,6.0
+2024-11,seguros,71.0
+2024-12,seguro auto,6.0
+2024-12,seguro de carro,9.0
+2024-12,cotação seguro auto,
+2024-12,corretora de seguros,5.0
+2024-12,seguros,69.0
+2025-01,seguro auto,6.0
+2025-01,seguro de carro,9.0
+2025-01,cotação seguro auto,
+2025-01,corretora de seguros,7.0
+2025-01,seguros,79.0
+2025-02,seguro auto,5.0
+2025-02,seguro de carro,8.0
+2025-02,cotação seguro auto,
+2025-02,corretora de seguros,7.0
+2025-02,seguros,74.0
+2025-03,seguro auto,5.0
+2025-03,seguro de carro,8.0
+2025-03,cotação seguro auto,
+2025-03,corretora de seguros,6.0
+2025-03,seguros,70.0
+2025-04,seguro auto,5.0
+2025-04,seguro de carro,8.0
+2025-04,cotação seguro auto,
+2025-04,corretora de seguros,6.0
+2025-04,seguros,71.0
+2025-05,seguro auto,5.0
+2025-05,seguro de carro,8.0
+2025-05,cotação seguro auto,
+2025-05,corretora de seguros,6.0
+2025-05,seguros,68.0
+2025-06,seguro auto,5.0
+2025-06,seguro de carro,8.0
+2025-06,cotação seguro auto,
+2025-06,corretora de seguros,6.0
+2025-06,seguros,69.0
+2025-07,seguro auto,5.0
+2025-07,seguro de carro,9.0
+2025-07,cotação seguro auto,
+2025-07,corretora de seguros,7.0
+2025-07,seguros,73.0
+2025-08,seguro auto,5.0
+2025-08,seguro de carro,9.0
+2025-08,cotação seguro auto,
+2025-08,corretora de seguros,6.0
+2025-08,seguros,72.0
+2025-09,seguro auto,6.0
+2025-09,seguro de carro,8.0
+2025-09,cotação seguro auto,
+2025-09,corretora de seguros,7.0
+2025-09,seguros,71.0
+2025-10,seguro auto,6.0
+2025-10,seguro de carro,9.0
+2025-10,cotação seguro auto,
+2025-10,corretora de seguros,7.0
+2025-10,seguros,74.0
+2025-11,seguro auto,5.0
+2025-11,seguro de carro,10.0
+2025-11,cotação seguro auto,
+2025-11,corretora de seguros,6.0
+2025-11,seguros,66.0
+2025-12,seguro auto,6.0
+2025-12,seguro de carro,10.0
+2025-12,cotação seguro auto,
+2025-12,corretora de seguros,6.0
+2025-12,seguros,67.0
+2026-01,seguro auto,6.0
+2026-01,seguro de carro,11.0
+2026-01,cotação seguro auto,
+2026-01,corretora de seguros,6.0
+2026-01,seguros,71.0
+2026-02,seguro auto,6.0
+2026-02,seguro de carro,10.0
+2026-02,cotação seguro auto,
+2026-02,corretora de seguros,6.0
+2026-02,seguros,70.0
+2026-03,seguro auto,7.0
+2026-03,seguro de carro,9.0
+2026-03,cotação seguro auto,
+2026-03,corretora de seguros,7.0
+2026-03,seguros,70.0
+2026-04,seguro auto,7.0
+2026-04,seguro de carro,10.0
+2026-04,cotação seguro auto,
+2026-04,corretora de seguros,6.0
+2026-04,seguros,68.0
+2026-05,seguro auto,7.0
+2026-05,seguro de carro,10.0
+2026-05,cotação seguro auto,
+2026-05,corretora de seguros,6.0
+2026-05,seguros,67.0
+2026-06,seguro auto,6.0
+2026-06,seguro de carro,10.0
+2026-06,cotação seguro auto,
+2026-06,corretora de seguros,7.0
+2026-06,seguros,71.0
+2026-07,seguro auto,6.0
+2026-07,seguro de carro,10.0
+2026-07,cotação seguro auto,
+2026-07,corretora de seguros,6.0
+2026-07,seguros,74.0
+2026-08,seguro auto,6.0
+2026-08,seguro de carro,11.0
+2026-08,cotação seguro auto,
+2026-08,corretora de seguros,6.0
+2026-08,seguros,71.0
